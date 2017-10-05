@@ -1,6 +1,5 @@
 #include "game.h"
 #include "splashScreen.h"
-#include <iostream>
 
 void Game::Start(void) {
     if (_gameState != Game::UNINITIALIZED)
@@ -28,14 +27,9 @@ void Game::GameLoop() {
         while(_mainWindow.pollEvent(event)) {
             if (event.type == sf::Event::Closed)
                 _gameState = Game::EXITING;
-            else if (_gameState == Game::SHOWING_SPLASH) {
-                if (event.type == sf::Event::MouseButtonPressed || event.type == sf::Event::KeyPressed) {
-                    std::cout << "Closing window";
-                    _mainWindow.clear(sf::Color::White);
-                }
-            }
             else if (_gameState == Game::PLAYING) {
-
+                pController.logic();
+                pController.handleEvents(event, _mainWindow);
             }
             else if (_gameState == Game::BATTLING) {
 
@@ -54,4 +48,4 @@ void Game::ShowSplash() {
 
 Game::GameState Game::_gameState = Game::UNINITIALIZED;
 sf::RenderWindow Game::_mainWindow;
-
+PlayController Game::pController = PlayController();

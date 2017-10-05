@@ -4,6 +4,7 @@
 #include <cassert>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
+#include "playing.h"
 
 class Game {
     private:
@@ -23,6 +24,8 @@ class Game {
 
         static GameState _gameState;
         static sf::RenderWindow _mainWindow;
+        static PlayController pController;
+
 
     public:
         static void Start();
