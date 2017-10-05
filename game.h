@@ -9,6 +9,7 @@ class Game {
     private:
         static bool IsExiting();
         static void GameLoop();
+        static void ShowSplash();
 
         enum GameState {
             UNINITIALIZED,

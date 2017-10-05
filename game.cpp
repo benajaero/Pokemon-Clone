@@ -1,10 +1,11 @@
 #include "game.h"
+#include "splashScreen.h"
 
 void Game::Start(void) {
     if (_gameState != Game::UNINITIALIZED)
         return;
     _mainWindow.create(sf::VideoMode(1920, 1080), "Pokemon: Thunder and Lightning");
-    _gameState = Game::PLAYING;
+    _gameState = Game::SHOWING_SPLASH;
 
     while(!IsExiting())
         GameLoop();
@@ -19,19 +20,30 @@ bool Game::IsExiting() {
 }
 
 void Game::GameLoop() {
-    sf::Event event;
-    while(_mainWindow.pollEvent(event)) {
-        if (event.type == sf::Event::Closed)
-            _gameState = Game::EXITING;
+    if (_gameState == Game::SHOWING_SPLASH) 
+        ShowSplash();
+    else {
+        sf::Event event;
+        while(_mainWindow.pollEvent(event)) {
+            if (event.type == sf::Event::Closed)
+                _gameState = Game::EXITING;
 
-        else if (_gameState == Game::PLAYING) {
+            else if (_gameState == Game::PLAYING) {
+
+            }
+            else if (_gameState == Game::BATTLING) {
+
+            }
 
         }
-        else if (_gameState == Game::BATTLING) {
-
-        }
-        
     }
+
+}
+
+void Game::ShowSplash() {
+    SplashScreen splash;
+    splash.Show(_mainWindow);
+    _gameState = Game::PLAYING;
 }
 
 Game::GameState Game::_gameState = Game::UNINITIALIZED;
