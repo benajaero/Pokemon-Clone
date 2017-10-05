@@ -8,7 +8,8 @@ void SplashScreen::Show(sf::RenderWindow& window) {
     sf::Texture texture;
     
     assert(texture.loadFromFile("./assets/Title Screen.png"));
-
+    std::cout << std::endl;
+    std::cout << "Setting sprite";
     sf::Sprite sprite;
     sprite.setTexture(texture);
     window.clear(sf::Color::White);
@@ -16,13 +17,17 @@ void SplashScreen::Show(sf::RenderWindow& window) {
     window.display();
 
     sf::Event event;
-    bool condition = true;
-    while (window.pollEvent(event) && condition) {
-        if (event.type == sf::Event::MouseButtonPressed || event.type == sf::Event::KeyPressed) {
-            std::cout << "Closing window";
-            window.clear(sf::Color::White);
-            condition = false;
+    while (true) {
+        while (window.pollEvent(event)) {
+            if (event.type == sf::Event::MouseButtonPressed) {
+                std::cout << "Closing window";
+                window.clear(sf::Color::White);
+                window.display();
+                return;
+            }
+
         }
     }
-        
+
+
 }
