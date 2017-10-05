@@ -7,3 +7,4 @@ all:
 	g++ -g --std=c++11 *.cpp -framework sfml-graphics -framework sfml-window -framework sfml-system -o main.o -Wall -Werror
 clean:
 	rm *.o
+	rm *.swp
