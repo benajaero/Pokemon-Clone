@@ -33,7 +33,7 @@ class PhysicalEntity {
     {}
 };
 
-class Person : private PhysicalEntity {
+class Person : public PhysicalEntity {
     private:
 
     public:
