@@ -5,6 +5,7 @@ void Game::Start(void) {
     if (_gameState != Game::UNINITIALIZED)
         return;
     _mainWindow.create(sf::VideoMode(1920, 1080), "Pokemon: Thunder and Lightning");
+    pController.loadTextures();
     _gameState = Game::SHOWING_SPLASH;
 
     while(!IsExiting())

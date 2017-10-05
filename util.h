@@ -26,11 +26,9 @@ class PhysicalEntity {
         double z;
         double xvel;
         double yvel;
-        int layer;
         Orientation direction;
-        PhysicalEntity(double px, double py, double pz, double pxvel, double pyvel, Orientation dir, int layerr) : x(px), y(py), z(pz),
-        direction(dir), layer(layerr), xvel(pxvel), yvel(pyvel)
-    {}
+        int layer;
+        PhysicalEntity(double px, double py, double pz, double pxvel, double pyvel, Orientation dir, int layerr) : x(px), y(py), z(pz), xvel(pxvel), yvel(pyvel), direction(dir), layer(layerr) {}
 };
 
 class Person : public PhysicalEntity {

@@ -4,6 +4,7 @@
 
 class PlayController {
     private:
+        sf::Texture playerTexture;
 
     public:
         void logic();
