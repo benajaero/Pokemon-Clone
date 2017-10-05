@@ -1,0 +1,4 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="Lucario-Title Screen.jpg" x="0" y="737" width="1024" height="768"/>
+	<SubTexture name="Pokemon Logo.png" x="0" y="0" width="2000" height="735"/>
+</TextureAtlas>
