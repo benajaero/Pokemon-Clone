@@ -8,7 +8,7 @@ void Game::Start(void) {
     if (_gameState != Game::UNINITIALIZED)
         return;
     _mainWindow.create(sf::VideoMode(1920, 1080), "Pokemon: Thunder and Lightning");
-    pController.setup();
+    pController.setup(_mainWindow);
     pController.loadTextures();
     _gameState = Game::SHOWING_SPLASH;
 
@@ -25,7 +25,6 @@ bool Game::IsExiting() {
 }
 
 void Game::GameLoop() {
-    frameTime = frameClock.restart();
     if (_gameState == Game::SHOWING_SPLASH) 
         ShowSplash();
     else {
@@ -35,7 +34,7 @@ void Game::GameLoop() {
                 _gameState = Game::EXITING;
             else if (_gameState == Game::PLAYING) {
                 pController.logic(frameTime);
-                pController.handleEvents(event, _mainWindow, frameTime);
+                pController.handleEvents(event, _mainWindow, frameTime, frameClock);
             }
             else if (_gameState == Game::BATTLING) {
 

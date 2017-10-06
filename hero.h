@@ -20,7 +20,7 @@ class Hero : public Person {
 
         void changeOrientation(Orientation newDir);
         void moveForward(double movementDamper, sf::View& view, sf::Time frameTime);
-        void setupAnimations(sf::Texture texture);
+        void setupAnimations(sf::Texture& texture);
 };
 
 #endif
