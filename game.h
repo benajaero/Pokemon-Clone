@@ -6,6 +6,7 @@
 #include <SFML/Graphics.hpp>
 #include "playing.h"
 
+
 class Game {
     private:
         static bool IsExiting();

@@ -10,9 +10,9 @@ class PlayController {
         Hero hero;
     public:
         sf::View view;
-        void logic();
-        void handleEvents(sf::Event& event, sf::RenderWindow& window);
-        void draw(sf::RenderWindow& window);
+        void logic(sf::Time frameTime);
+        void handleEvents(sf::Event& event, sf::RenderWindow& window, sf::Time frameTime);
+        void draw(sf::RenderWindow& window, sf::Time frameTime);
         void loadTextures();
         void setup();
         PlayController() : hero("Adam", 0, 0, 0, 0, 0, EAST, 1){}

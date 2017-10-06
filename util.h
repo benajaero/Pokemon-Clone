@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include "pokemon.h"
+#include "AnimatedSprite.hpp"
 
 //clockwise
 enum Orientation {
@@ -12,6 +13,13 @@ enum Orientation {
     WEST
 };
 
+class AnimationSet {
+    public:
+        Animation up;
+        Animation right;
+        Animation left;
+        Animation down;
+};
 class Item {
     private:
 

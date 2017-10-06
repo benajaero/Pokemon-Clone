@@ -2,6 +2,7 @@
 #define HERO_H
 
 #include "util.h"
+#include "AnimatedSprite.hpp"
 #include "SFML/Graphics.hpp"
 
 class Hero : public Person {
@@ -10,11 +11,16 @@ class Hero : public Person {
     public:
         bool upgraded;
         bool isMoving;
+        AnimationSet idle;
+        AnimationSet walk;
+        AnimationSet run;
+        AnimationSet bicycle;
 
         Hero(std::string pname, double px, double py, double pz, double pxvel, double pyvel, Orientation dir, int layerr) : Person(pname, px, py, pz, pxvel, pyvel, dir, layerr) {}
 
         void changeOrientation(Orientation newDir);
-        void moveForward(double movementDamper, sf::View& view);
+        void moveForward(double movementDamper, sf::View& view, sf::Time frameTime);
+        void setupAnimations(sf::Texture texture);
 };
 
 #endif

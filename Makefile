@@ -1,3 +1,6 @@
+CXX = g++
+CXXFLAGS = --std=c++11 -framework sfml-graphics -framework sfml-window -framework sfml-system -Wall -Werror
+
 game:
 	g++ -g --std=c++11 game.cpp -framework sfml-graphics -framework sfml-window -framework sfml-system -o game.o -Wall -Werror
 mac:
