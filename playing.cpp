@@ -1,39 +1,41 @@
 #include "playing.h"
 #include <cassert>
+
 #include "AnimatedSprite.hpp"
 #include "util.h"
+#include "game.h"
 
 //const int tileHeight = 24;
 const int scale = 5;
 
 void PlayController::logic(sf::Time frameTime) {
-    hero.moveForward(0.75, view, frameTime);
+    Game::hero.moveForward(0.75, view, frameTime);
     if(!sf::Event::KeyPressed)
-        hero.isMoving = false;
+        Game::hero.isMoving = false;
 }
 
 //reminder check for collisons, for water contact, for slowing down
 void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window, sf::Time frameTime, sf::Clock frameClock) {
     if (event.type == sf::Event::KeyPressed) {
         if (event.key.code == sf::Keyboard::D || event.key.code == sf::Keyboard::Right) {
-            hero.isMoving = true;
-            hero.xvel = 10;
-            hero.changeOrientation(EAST);
+            Game::hero.isMoving = true;
+            Game::hero.xvel = 10;
+            Game::hero.changeOrientation(EAST);
         }
         else if (event.key.code == sf::Keyboard::A || event.key.code == sf::Keyboard::Left) {
-            hero.isMoving = true;
-            hero.xvel += 10;
-            hero.changeOrientation(WEST);
+            Game::hero.isMoving = true;
+            Game::hero.xvel = -10;
+            Game::hero.changeOrientation(WEST);
         }
         else if (event.key.code == sf::Keyboard::W || event.key.code == sf::Keyboard::Up) {
-            hero.isMoving = true;
-            hero.yvel += 10;
-            hero.changeOrientation(NORTH);
+            Game::hero.isMoving = true;
+            Game::hero.yvel = +10;
+            Game::hero.changeOrientation(NORTH);
         }
         else if (event.key.code == sf::Keyboard::S || event.key.code == sf::Keyboard::Down) {
-            hero.isMoving = true;
-            hero.yvel -= 10;
-            hero.changeOrientation(SOUTH);
+            Game::hero.isMoving = true;
+            Game::hero.yvel = -10;
+            Game::hero.changeOrientation(SOUTH);
         } 
     }
     frameTime = frameClock.restart();
@@ -42,33 +44,33 @@ void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window, sf
 
 void PlayController::draw(sf::RenderWindow& window, sf::Time frameTime, sf::Clock frameClock) {
 
-    Animation& currentAnimation = hero.idle.down;
+    Animation& currentAnimation = Game::hero.idle.down;
 
-    if (hero.direction == NORTH) {
-        if (hero.isMoving)
-            currentAnimation = hero.walk.up;
+    if (Game::hero.direction == NORTH) {
+        if (Game::hero.isMoving)
+            currentAnimation = Game::hero.walk.up;
         else
-            currentAnimation = hero.idle.up;
+            currentAnimation = Game::hero.idle.up;
     }
-    else if (hero.direction == EAST) {
-        if (hero.isMoving)
-            currentAnimation = hero.walk.right;
+    else if (Game::hero.direction == EAST) {
+        if (Game::hero.isMoving)
+            currentAnimation = Game::hero.walk.right;
         else
-            currentAnimation = hero.idle.right;
-    }
-
-    else if (hero.direction == WEST) {
-        if (hero.isMoving)
-            currentAnimation = hero.walk.left;
-        else
-            currentAnimation = hero.idle.left;
+            currentAnimation = Game::hero.idle.right;
     }
 
-    else if (hero.direction == SOUTH) {
-        if (hero.isMoving)
-            currentAnimation = hero.walk.down;
+    else if (Game::hero.direction == WEST) {
+        if (Game::hero.isMoving)
+            currentAnimation = Game::hero.walk.left;
         else
-            currentAnimation = hero.idle.down;
+            currentAnimation = Game::hero.idle.left;
+    }
+
+    else if (Game::hero.direction == SOUTH) {
+        if (Game::hero.isMoving)
+            currentAnimation = Game::hero.walk.down;
+        else
+            currentAnimation = Game::hero.idle.down;
     }
     
     sprite.play(currentAnimation);
@@ -89,7 +91,7 @@ void PlayController::draw(sf::RenderWindow& window, sf::Time frameTime, sf::Cloc
 void PlayController::loadTextures() {
     assert(playerTexture.loadFromFile("./assets/NewHero.png"));
     playerTexture.setSmooth(false);
-    hero.setupAnimations(playerTexture);
+    Game::hero.setupAnimations(playerTexture);
     sprite.setLooped(false);
     sprite.pause();
 }

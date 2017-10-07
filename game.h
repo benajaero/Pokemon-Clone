@@ -5,6 +5,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include "playing.h"
+#include "hero.h"
 
 
 class Game {
@@ -23,13 +24,14 @@ class Game {
             EXITING
         };
 
-        static GameState _gameState;
-        static sf::RenderWindow _mainWindow;
-        static PlayController pController;
 
 
     public:
         static void Start();
+        static Hero hero;
+        static PlayController pController;
+        static GameState _gameState;
+        static sf::RenderWindow _mainWindow;
 
 };
 

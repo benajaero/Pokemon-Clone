@@ -48,9 +48,11 @@ void Game::GameLoop() {
 void Game::ShowSplash() {
     SplashScreen splash;
     splash.Show(_mainWindow);
+    //splash.chooseGender(_mainWindow);
     _gameState = Game::PLAYING;
 }
 
 Game::GameState Game::_gameState = Game::UNINITIALIZED;
 sf::RenderWindow Game::_mainWindow;
+Hero Game::hero("Adam", 0, 0, 0, 0, 0, EAST, 1);
 PlayController Game::pController = PlayController();

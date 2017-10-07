@@ -3,6 +3,7 @@
 #include <iostream>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
+#include "util.h"
 
 void SplashScreen::Show(sf::RenderWindow& window) {
     sf::Texture texture;
@@ -30,4 +31,25 @@ void SplashScreen::Show(sf::RenderWindow& window) {
     }
 
 
+}
+
+void SplashScreen::chooseGender(sf::RenderWindow& window) {
+    sf::Texture texture;
+    
+    assert(texture.loadFromFile("./assets/titlescreen-back.png"));
+    sf::Sprite sprite;
+
+    sprite.setTexture(texture);
+
+    window.clear(sf::Color::Black);
+    window.draw(sprite);
+    window.display();
+    
+
+    sf::Event event;
+    while (true) {
+        while (window.pollEvent(event)) {
+            
+        }
+    }
 }

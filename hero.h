@@ -15,6 +15,7 @@ class Hero : public Person {
         AnimationSet walk;
         AnimationSet run;
         AnimationSet bicycle;
+        Gender gender;
 
         Hero(std::string pname, double px, double py, double pz, double pxvel, double pyvel, Orientation dir, int layerr) : Person(pname, px, py, pz, pxvel, pyvel, dir, layerr) {}
 

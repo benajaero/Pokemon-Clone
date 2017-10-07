@@ -8,6 +8,7 @@ class SplashScreen {
 
     public:
         void Show(sf::RenderWindow& window);
+        void chooseGender(sf::RenderWindow& window);
 };
 
 #endif

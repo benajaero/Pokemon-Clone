@@ -31,7 +31,7 @@ void Hero::setupAnimations(sf::Texture& texture) {
 
     walk.right.setSpriteSheet(texture);
     walk.right.addFrame(sf::IntRect(131, 37, 17, 23));
-    walk.right.addFrame(sf::IntRect(165, 36, 17, 24));
+    walk.right.addFrame(sf::IntRect(165, 36, 17, 25));
     walk.right.addFrame(sf::IntRect(200, 36, 17, 25));
 
     walk.down.setSpriteSheet(texture);

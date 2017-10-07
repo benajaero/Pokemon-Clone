@@ -10,8 +10,8 @@
 class PlayController {
     private:
         sf::Texture playerTexture;
-        Hero hero;
         AnimatedSprite sprite;
+        //Hero hero;
     public:
         sf::View view;
         void logic(sf::Time frameTime);
@@ -19,7 +19,8 @@ class PlayController {
         void draw(sf::RenderWindow& window, sf::Time frameTime, sf::Clock frameClock);
         void loadTextures();
         void setup(sf::RenderWindow& window);
-        PlayController() : hero("Adam", 0, 0, 0, 0, 0, EAST, 1){}
+        //PlayController() : hero("Adam", 0, 0, 0, 0, 0, EAST, 1) {}
+    
 };
 
 #endif
