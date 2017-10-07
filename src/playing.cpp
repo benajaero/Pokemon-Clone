@@ -8,14 +8,14 @@
 //const int tileHeight = 24;
 const int scale = 5;
 
-void PlayController::logic(sf::Time frameTime) {
-    Game::hero.moveForward(0.75, view, frameTime);
+void PlayController::logic() {
+    Game::hero.moveForward(0.75, view, Game::frameTime);
     if(!sf::Event::KeyPressed)
         Game::hero.isMoving = false;
 }
 
 //reminder check for collisons, for water contact, for slowing down
-void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window, sf::Time frameTime, sf::Clock frameClock) {
+void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window) {
     if (event.type == sf::Event::KeyPressed) {
         if (event.key.code == sf::Keyboard::D || event.key.code == sf::Keyboard::Right) {
             Game::hero.isMoving = true;
@@ -38,11 +38,10 @@ void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window, sf
             Game::hero.changeOrientation(SOUTH);
         } 
     }
-    frameTime = frameClock.restart();
-    draw(window, frameTime, frameClock);
+    draw(window);
 }
 
-void PlayController::draw(sf::RenderWindow& window, sf::Time frameTime, sf::Clock frameClock) {
+void PlayController::draw(sf::RenderWindow& window) {
 
     Animation& currentAnimation = Game::hero.idle.down;
 
@@ -73,18 +72,18 @@ void PlayController::draw(sf::RenderWindow& window, sf::Time frameTime, sf::Cloc
             currentAnimation = Game::hero.idle.down;
     }
     
-    sprite.play(currentAnimation);
-    sprite.setScale(scale, scale);
+    Game::hero.sprite.play(currentAnimation);
+    Game::hero.sprite.setScale(scale, scale);
 
-    sprite.setPosition(1920/2, 1080/2);
+    Game::hero.sprite.setPosition(1920/2, 1080/2);
 
     //sf::CircleShape circle(50);
     //circle.setPosition(0, 0);
     //circle.setFillColor(sf::Color::Black);
     
-    sprite.update(frameTime);
+    Game::hero.sprite.update(Game::frameTime);
     window.clear(sf::Color::White);
-    window.draw(sprite);
+    window.draw(Game::hero.sprite);
     window.display();
 }
 
@@ -92,8 +91,8 @@ void PlayController::loadTextures() {
     assert(playerTexture.loadFromFile("./assets/NewHero.png"));
     playerTexture.setSmooth(false);
     Game::hero.setupAnimations(playerTexture);
-    sprite.setLooped(false);
-    sprite.pause();
+    Game::hero.sprite.setLooped(false);
+    Game::hero.sprite.pause();
 }
 
 void PlayController::setup(sf::RenderWindow& window) {

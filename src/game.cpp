@@ -1,8 +1,6 @@
 #include "game.h"
 #include "splashScreen.h"
 
-sf::Clock frameClock;
-sf::Time frameTime;
 
 void Game::Start(void) {
     if (_gameState != Game::UNINITIALIZED)
@@ -30,11 +28,12 @@ void Game::GameLoop() {
     else {
         sf::Event event;
         while(_mainWindow.pollEvent(event)) {
+            Game::frameTime = Game::frameClock.restart();
             if (event.type == sf::Event::Closed)
                 _gameState = Game::EXITING;
             else if (_gameState == Game::PLAYING) {
-                pController.logic(frameTime);
-                pController.handleEvents(event, _mainWindow, frameTime, frameClock);
+                pController.logic();
+                pController.handleEvents(event, _mainWindow);
             }
             else if (_gameState == Game::BATTLING) {
 
@@ -54,5 +53,7 @@ void Game::ShowSplash() {
 
 Game::GameState Game::_gameState = Game::UNINITIALIZED;
 sf::RenderWindow Game::_mainWindow;
+sf::Time Game::frameTime;
+sf::Clock Game::frameClock;
 Hero Game::hero("Adam", 0, 0, 0, 0, 0, EAST, 1);
 PlayController Game::pController = PlayController();
