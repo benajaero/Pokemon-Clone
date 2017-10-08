@@ -1,0 +1,9 @@
+/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/install/local.dir
+/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/list_install_components.dir
+/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/package_source.dir
+/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/rebuild_cache.dir
+/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/edit_cache.dir
+/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/package.dir
+/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/install/strip.dir
+/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/install.dir
+/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir
