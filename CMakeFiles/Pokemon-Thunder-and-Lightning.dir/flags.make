@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/StoneofHelp/Programming/Pokemon-Clone/./bin -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include -F/Library/Frameworks 
+CXX_INCLUDES = -I/Users/StoneofHelp/Programming/Pokemon-Clone/./bin -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include -I/usr/local/include -F/Library/Frameworks 
 

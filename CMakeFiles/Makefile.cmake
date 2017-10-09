@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.9.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.0/CMakeSystem.cmake"
   "CMakeLists.txt"
+  "cmake_modules/FindSFGUI.cmake"
   "cmake_modules/FindSFML.cmake"
   "config.h.in"
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeCInformation.cmake"

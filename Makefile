@@ -245,6 +245,60 @@ src/Animation.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.s
 .PHONY : src/Animation.cpp.s
 
+src/battle.o: src/battle.cpp.o
+
+.PHONY : src/battle.o
+
+# target to build an object file
+src/battle.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o
+.PHONY : src/battle.cpp.o
+
+src/battle.i: src/battle.cpp.i
+
+.PHONY : src/battle.i
+
+# target to preprocess a source file
+src/battle.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.i
+.PHONY : src/battle.cpp.i
+
+src/battle.s: src/battle.cpp.s
+
+.PHONY : src/battle.s
+
+# target to generate assembly for a file
+src/battle.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.s
+.PHONY : src/battle.cpp.s
+
+src/file.o: src/file.cpp.o
+
+.PHONY : src/file.o
+
+# target to build an object file
+src/file.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o
+.PHONY : src/file.cpp.o
+
+src/file.i: src/file.cpp.i
+
+.PHONY : src/file.i
+
+# target to preprocess a source file
+src/file.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.i
+.PHONY : src/file.cpp.i
+
+src/file.s: src/file.cpp.s
+
+.PHONY : src/file.s
+
+# target to generate assembly for a file
+src/file.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.s
+.PHONY : src/file.cpp.s
+
 src/game.o: src/game.cpp.o
 
 .PHONY : src/game.o
@@ -455,6 +509,12 @@ help:
 	@echo "... src/Animation.o"
 	@echo "... src/Animation.i"
 	@echo "... src/Animation.s"
+	@echo "... src/battle.o"
+	@echo "... src/battle.i"
+	@echo "... src/battle.s"
+	@echo "... src/file.o"
+	@echo "... src/file.i"
+	@echo "... src/file.s"
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"

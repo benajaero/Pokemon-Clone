@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/AnimatedSprite.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o"
