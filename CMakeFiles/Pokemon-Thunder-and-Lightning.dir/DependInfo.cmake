@@ -22,7 +22,6 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "./bin"
   "./include"
-  "/usr/local/include"
   "/Library/Frameworks/SFML.framework"
   )
 

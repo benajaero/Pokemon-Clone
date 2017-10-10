@@ -4,6 +4,8 @@ project(Pokemon_Thunder_Lightning)
 set(myproject_VERSION_MAJOR 1)
 set(myproject_VERSION_MINOR 0)
 set(PROJECT_BINARY_DIR "./bin")
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
 configure_file(
     "${PROJECT_SOURCE_DIR}/config.h.in"
     "${PROJECT_BINARY_DIR}/config.h"
