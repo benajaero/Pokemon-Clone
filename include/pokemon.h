@@ -18,7 +18,7 @@ typedef struct GenderRatio {
     float female;
 } GenderRatio;
 
-class EffortValues {
+typedef struct EffortValues {
     public:
         float maxHP;
         float attackStat;
@@ -26,8 +26,7 @@ class EffortValues {
         float speedStat;
         float specialAttackStat;
         float specialDefenseStat; 
-
-};
+} EffortValues;
 
 typedef struct PokemonMetaData {
     float height;
@@ -53,7 +52,7 @@ class Pokemon {
         std::vector<std::string> types;
         std::string ability;
 
-        float effortValues;
+        EffortValues effortValues;
         float expPoints;
 
         int pokemonNumber;
