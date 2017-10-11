@@ -50,6 +50,7 @@ typedef struct PokemonType {
     std::vector<std::string> notEffective;
 } PokemonType;
 
+
 // ---------------------------------- CLASSES ---------------------------------
 
 class Pokemon {
@@ -62,7 +63,6 @@ class Pokemon {
         PokemonValues baseValues;
         PokemonValues effortValues;
         PokemonValues individualValues;
-
         PokemonValues currentValues;
         
         float expPoints;
@@ -76,6 +76,9 @@ class Pokemon {
         std::string nextEvolution;
         unsigned int evolutionLevel;
 
+        float battleAccuracy, evasionRate;
+
+        //function declarations
         void generateIVs();
         void generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon);
         void generateStats();

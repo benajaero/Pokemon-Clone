@@ -58,13 +58,6 @@ class EllipseShape : public sf::Shape {
 
 };
 
-//clockwise
-enum Orientation {
-    NORTH,
-    EAST,
-    SOUTH,
-    WEST
-};
 
 class AnimationSet {
     public:

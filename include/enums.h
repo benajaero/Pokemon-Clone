@@ -6,4 +6,12 @@ enum Gender {
     FEMALE
 };
 
+//clockwise
+enum Orientation {
+    NORTH,
+    EAST,
+    SOUTH,
+    WEST
+};
+
 #endif
