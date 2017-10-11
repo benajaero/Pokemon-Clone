@@ -1,18 +1,11 @@
 # Pokemon-Clone
 
-IF YOU ARE ON MAC
+### Development Instructions
 
-clone the github link above
-cd into the directory with terminal
+First fork the repository then clone it (but with your own repository) 
+    git clone https://github.com/Blaze349/Pokemon-Clone.git
 
-``` bash
-brew install sfml
-brew install wget
-https://www.sfml-dev.org/files/SFML-2.4.2-osx-clang.tar.gz
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-do this before the rest
-tar -xvzf ~/Downloads/SFML-2:4.2-osx-clang
-sudo cp ~/Downloads/SFML-2:4.2-osx-clang/extlibs /Library/Frameworks/
-sudo cp ~/Downloads/SFML-2:4.2-osx-clang/Frameworks /Library/Frameworks/
-make all
-```
+Enter the repo directory then build the cmake build files for your operating system
+    cmake .
+Then depending on your operating system, type the following command to compile the files
+    make
