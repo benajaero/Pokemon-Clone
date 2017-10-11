@@ -1,6 +1,7 @@
 #ifndef POKEMON_H
 #define POKEMON_H
 
+#include "enums.h"
 #include <string>
 #include <vector>
 
@@ -8,12 +9,6 @@
  * Note: types will be in lower case
  */
 
-// ----------------------------------- ENUMS ----------------------------------
-
-enum Gender {
-    MALE,
-    FEMALE
-};
 
 // ---------------------------------- STRUCTS ---------------------------------
 

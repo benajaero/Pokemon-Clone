@@ -30,6 +30,8 @@ SFML/Graphics/Texture.hpp
 
 ./include/battle.h
 
+./include/enums.h
+
 ./include/file.h
 json.hpp
 ./include/json.hpp
@@ -125,23 +127,31 @@ AnimatedSprite.hpp
 ./include/AnimatedSprite.hpp
 
 ./include/pokemon.h
+enums.h
+./include/enums.h
+string
+-
+vector
+-
 
 ./include/splashScreen.h
 SFML/Graphics.hpp
 -
 
 ./include/util.h
+pokemon.h
+./include/pokemon.h
+enums.h
+./include/enums.h
+AnimatedSprite.hpp
+./include/AnimatedSprite.hpp
+SFML/Graphics.hpp
+-
 string
 -
 vector
 -
 cmath
--
-pokemon.h
-./include/pokemon.h
-AnimatedSprite.hpp
-./include/AnimatedSprite.hpp
-SFML/Graphics.hpp
 -
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/AnimatedSprite.cpp
@@ -193,6 +203,12 @@ game.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.h
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/pokemon.cpp
+pokemon.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/pokemon.h
+random
+-
+cmath
+-
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.cpp
 splashScreen.h

@@ -1,16 +1,15 @@
 #ifndef UTILITY_H
 #define UTILITY_H
-#include <string>
-#include <vector>
-#include <cmath>
+
 #include "pokemon.h"
+#include "enums.h"
 #include "AnimatedSprite.hpp"
 #include <SFML/Graphics.hpp>
 
-enum Gender {
-    BOY,
-    GIRL
-};
+#include <string>
+#include <vector>
+#include <cmath>
+
 
 class EllipseShape : public sf::Shape {
     public :
