@@ -5,6 +5,7 @@
 #include "AnimatedSprite.hpp"
 #include "SFML/Graphics.hpp"
 
+
 class Hero : public Person {
     private:
 
