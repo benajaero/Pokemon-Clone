@@ -17,7 +17,7 @@ void Pokemon::generateIVs() {
 
 }              
 
-void Pokemon::generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon) {
+static void Pokemon::generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon) {
 
     winningPokemon.effortValues.healthPoints += faintedPokemon.baseValues.healthPoints;
     winningPokemon.effortValues.specialStat += faintedPokemon.baseValues.specialStat;

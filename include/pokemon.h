@@ -73,7 +73,7 @@ class Pokemon {
 
         //function declarations
         void generateIVs();
-        void generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon);
+        static void generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon);
         void generateStats();
 
 };
