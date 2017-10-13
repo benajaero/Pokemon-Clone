@@ -17,7 +17,7 @@ void Pokemon::generateIVs() {
 
 }              
 
-static void Pokemon::generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon) {
+void Pokemon::generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon) {
 
     winningPokemon.effortValues.healthPoints += faintedPokemon.baseValues.healthPoints;
     winningPokemon.effortValues.specialStat += faintedPokemon.baseValues.specialStat;
@@ -25,7 +25,7 @@ static void Pokemon::generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon)
     winningPokemon.effortValues.defenseStat += faintedPokemon.baseValues.defenseStat;
     winningPokemon.effortValues.speedStat += faintedPokemon.baseValues.speedStat;
 
-    generateStats();
+    winningPokemon.generateStats();
 }
 
 void generalStatCalculator(unsigned int& stat, unsigned int baseVal, unsigned int level, unsigned int evVal, unsigned int ivVal) {
