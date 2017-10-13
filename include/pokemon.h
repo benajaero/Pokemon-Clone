@@ -2,6 +2,7 @@
 #define POKEMON_H
 
 #include "enums.h"
+#include "move.h"
 #include <string>
 #include <vector>
 
@@ -25,14 +26,6 @@ typedef struct PokemonValues {
     unsigned int specialStat;
 } PokemonValues;
 
-//individual values range from 0x0 to 0xF
-typedef struct IndividualValues {
-    unsigned char healthPoints;
-    unsigned char attackStat;
-    unsigned char defenseStat;
-    unsigned char speedStat;
-    unsigned char specialStat;
-} IndividualValues;
 
 typedef struct PokemonMetaData {
     float height;

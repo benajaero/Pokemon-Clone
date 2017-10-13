@@ -114,6 +114,8 @@ valarray
 vector
 -
 
+./include/move.h
+
 ./include/playing.h
 SFML/Graphics.hpp
 -
@@ -129,6 +131,8 @@ AnimatedSprite.hpp
 ./include/pokemon.h
 enums.h
 ./include/enums.h
+move.h
+./include/move.h
 string
 -
 vector

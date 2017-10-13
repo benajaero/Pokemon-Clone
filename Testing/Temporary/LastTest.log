@@ -1,0 +1,19 @@
+Start testing: Oct 12 10:10 ACDT
+----------------------------------------------------------
+Unable to find executable: /Users/StoneofHelp/Programming/Pokemon-Clone/my_test
+1/1 Testing: MyAwesomeTest
+1/1 Test: MyAwesomeTest
+Command: ""
+Directory: /Users/StoneofHelp/Programming/Pokemon-Clone
+"MyAwesomeTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyAwesomeTest" end time: Oct 12 10:10 ACDT
+"MyAwesomeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 12 10:10 ACDT

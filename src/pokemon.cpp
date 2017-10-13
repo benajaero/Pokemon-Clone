@@ -6,14 +6,14 @@
 void Pokemon::generateIVs() {
     std::random_device rd;
     std::default_random_engine rng;
-    std::uniform_int_distribution<int> distribution(0x0, 0xF);
+    std::uniform_int_distribution<int> distribution(0, 31);
 
     individualValues.attackStat = distribution(rng);
     individualValues.defenseStat = distribution(rng);
     individualValues.speedStat = distribution(rng);
     individualValues.specialStat = distribution(rng);
-    
-    individualValues.healthPoints = ((individualValues.attackStat & 0x1) << 3) + ((individualValues.defenseStat & 0x1) << 2) + ((individualValues.speedStat & 0x1) << 1) + (individualValues.specialStat & 0x1);
+    individualValues.healthPoints = distribution(rng); 
+    //individualValues.healthPoints = ((individualValues.attackStat & 0x1) << 3) + ((individualValues.defenseStat & 0x1) << 2) + ((individualValues.speedStat & 0x1) << 1) + (individualValues.specialStat & 0x1);
 
 }              
 
