@@ -12,7 +12,8 @@ void Pokemon::generateIVs() {
     individualValues.attackStat = distribution(rng);
     individualValues.defenseStat = distribution(rng);
     individualValues.speedStat = distribution(rng);
-    individualValues.specialStat = distribution(rng);
+    individualValues.specialAttackStat = distribution(rng);
+    individualValues.specialDefenseStat = distribution(rng);
     individualValues.healthPoints = distribution(rng); 
     //individualValues.healthPoints = ((individualValues.attackStat & 0x1) << 3) + ((individualValues.defenseStat & 0x1) << 2) + ((individualValues.speedStat & 0x1) << 1) + (individualValues.specialStat & 0x1);
 
@@ -21,7 +22,8 @@ void Pokemon::generateIVs() {
 void Pokemon::generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon) {
 
     winningPokemon.effortValues.healthPoints += faintedPokemon.baseValues.healthPoints;
-    winningPokemon.effortValues.specialStat += faintedPokemon.baseValues.specialStat;
+    winningPokemon.effortValues.specialAttackStat += faintedPokemon.baseValues.specialAttackStat;
+    winningPokemon.effortValues.specialDefenseStat += faintedPokemon.baseValues.specialDefenseStat;
     winningPokemon.effortValues.attackStat += faintedPokemon.baseValues.attackStat;
     winningPokemon.effortValues.defenseStat += faintedPokemon.baseValues.defenseStat;
     winningPokemon.effortValues.speedStat += faintedPokemon.baseValues.speedStat;
@@ -43,7 +45,8 @@ void Pokemon::generateStats() {
     generalStatCalculator(currentValues.attackStat, baseValues.attackStat, level, effortValues.attackStat, individualValues.attackStat, "attack", _nature);
     generalStatCalculator(currentValues.defenseStat, baseValues.defenseStat, level, effortValues.defenseStat, individualValues.defenseStat, "defense", _nature);
     generalStatCalculator(currentValues.speedStat, baseValues.speedStat, level, effortValues.speedStat, individualValues.speedStat, "speed", _nature);
-    generalStatCalculator(currentValues.specialStat, baseValues.specialStat, level, effortValues.specialStat, individualValues.specialStat, "special", _nature);
+    generalStatCalculator(currentValues.specialAttackStat, baseValues.specialAttackStat, level, effortValues.specialAttackStat, individualValues.specialAttackStat, "special", _nature);
+    generalStatCalculator(currentValues.specialDefenseStat, baseValues.specialDefenseStat, level, effortValues.specialDefenseStat, individualValues.specialDefenseStat, "special", _nature);
 
     currentValues.healthPoints = (((baseValues.healthPoints * 2) + individualValues.healthPoints + ((effortValues.healthPoints == 0 ? 0 : effortValues.healthPoints / 4)) * level)) / 100 + level + 10;     
 }

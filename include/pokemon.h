@@ -23,7 +23,8 @@ typedef struct PokemonValues {
     unsigned int attackStat;
     unsigned int defenseStat;
     unsigned int speedStat;
-    unsigned int specialStat;
+    unsigned int specialAttackStat;
+    unsigned int specialDefenseStat;
 } PokemonValues;
 
 typedef struct PokemonNature {
