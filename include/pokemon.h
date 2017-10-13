@@ -26,6 +26,12 @@ typedef struct PokemonValues {
     unsigned int specialStat;
 } PokemonValues;
 
+typedef struct PokemonNature {
+    std::string name;
+    std::string increases;
+    std::string decreases;
+} PokemonNature;
+
 
 typedef struct PokemonMetaData {
     float height;
@@ -58,6 +64,7 @@ class Pokemon {
         PokemonValues individualValues;
         PokemonValues currentValues;
         
+        PokemonNature _nature;
         float expPoints;
         unsigned int level;
 
