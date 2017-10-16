@@ -8,7 +8,14 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/AnimatedSprite.cpp.o: src/Anima
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.o: src/Animation.cpp
 
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/AnimatedSprite.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/battle.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/enums.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/hero.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/move.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/pokemon.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: src/battle.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o: ./include/file.h
@@ -47,6 +54,11 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/playing.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/pokemon.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: src/main.cpp
+
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: ./include/enums.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: ./include/move.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: ./include/pokemon.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: src/move.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/Animation.hpp

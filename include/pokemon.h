@@ -64,10 +64,16 @@ class Pokemon {
         PokemonValues effortValues;
         PokemonValues individualValues;
         PokemonValues currentValues;
+        PokemonValues battleValues;
         
         PokemonNature _nature;
         float expPoints;
         unsigned int level;
+
+        //setup moves 
+        BattleMove possibleMoves[4];
+        std::vector<BattleMove> moveQueue;
+        BattleMove struggle;
 
         unsigned int pokemonNumber;
         std::string name;
@@ -85,5 +91,6 @@ class Pokemon {
         void generateStats();
 
 };
+
 
 #endif

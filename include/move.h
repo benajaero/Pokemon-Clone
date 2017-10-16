@@ -1,10 +1,12 @@
 #ifndef MOVE_H
 #define MOVE_H
 
+#include <functional>
 #include <vector>
 #include <string>
 //forward declaration
 class Pokemon;
+
 
 class BattleMove {
     private:
@@ -12,12 +14,16 @@ class BattleMove {
     public: 
         std::string name;
         float accuracy; // from 0 - 1
-        float recoil;
         unsigned int power;
-         
         unsigned int powerPointsTotal, powerPointsLeft;
-
-        void execute(Pokemon& attacker, std::vector<Pokemon>& targets);
+        
+        std::function<void(Pokemon, Pokemon, BattleMove)> execute;
 };
+
+// --------------------------- FUNCTION DECLARATIONS --------------------------
+
+unsigned int calculateDamage(Pokemon attacker, Pokemon target, BattleMove move);
+void deductDamage(Pokemon attacker, Pokemon target, BattleMove move, unsigned int damage);
+
 
 #endif

@@ -14,4 +14,10 @@ enum Orientation {
     WEST
 };
 
+enum BattleType {
+    WILD,
+    TRAINER,
+    COMPETITION
+};
+
 #endif

@@ -29,6 +29,18 @@ SFML/Graphics/Texture.hpp
 -
 
 ./include/battle.h
+enums.h
+./include/enums.h
+pokemon.h
+./include/pokemon.h
+hero.h
+./include/hero.h
+util.h
+./include/util.h
+SFML/Graphics.hpp
+-
+vector
+-
 
 ./include/enums.h
 
@@ -115,6 +127,12 @@ vector
 -
 
 ./include/move.h
+functional
+-
+vector
+-
+string
+-
 
 ./include/playing.h
 SFML/Graphics.hpp
@@ -194,6 +212,14 @@ gui-components.h
 SFML/Graphics.hpp
 -
 
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/move.cpp
+pokemon.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/pokemon.h
+move.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/move.h
+iostream
+-
+
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.cpp
 playing.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.h
@@ -209,6 +235,8 @@ game.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/pokemon.cpp
 pokemon.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/pokemon.h
+string
+-
 random
 -
 cmath

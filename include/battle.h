@@ -1,6 +1,12 @@
 #ifndef BATTLE_H
 #define BATTLE_H
 
+#include "enums.h"
+#include "pokemon.h"
+#include "hero.h"
+#include "util.h"
+#include <SFML/Graphics.hpp>
+#include <vector>
 /* This will be almost like a standalone game
  * It will take in a set of options, data from playing controller or another controller
  * It will play then report data back after playing
@@ -17,10 +23,47 @@
  * End Turn
  */
 
+/* IDEA: POKEMON SHOULD BE ABLE TO APPLY POISON TO OTHER POKEMON */
+// Should there be a generic battle controller for all types of battles or a separate battle controller for doubles singles and so on;
+
 class BattleController {
     private:
+        sf::Time frameTime;
+        sf::Clock frameClock; 
+        BattleType battleType;
+        Pokemon _wildPokemon;
+        bool isExiting = false;
+        Hero* _hero = NULL;
+        Person* _person = NULL;
 
+        
     public:
+        BattleController(Hero* hero, Person* person) {
+            _hero = hero; 
+            _person = person;
+            battleType = TRAINER;
+        }
+
+        BattleController(Hero* hero, Person* person, BattleType type) {
+            _hero = hero; 
+            _person = person;
+            battleType = type;
+        }
+
+        BattleController(Hero* hero, Pokemon wildPokemon) {
+            _hero = hero;
+            _wildPokemon = wildPokemon;
+            battleType = WILD;
+        }
+
+        void preturn();
+        void turn();
+        void sort();
+        void loop();
+        void draw();
+        void drawOverlay();
+        void drawBackGround();
+        void drawPokemon();
 };
 
 #endif

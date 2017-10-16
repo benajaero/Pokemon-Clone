@@ -380,6 +380,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/move.o: src/move.cpp.o
+
+.PHONY : src/move.o
+
+# target to build an object file
+src/move.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o
+.PHONY : src/move.cpp.o
+
+src/move.i: src/move.cpp.i
+
+.PHONY : src/move.i
+
+# target to preprocess a source file
+src/move.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.i
+.PHONY : src/move.cpp.i
+
+src/move.s: src/move.cpp.s
+
+.PHONY : src/move.s
+
+# target to generate assembly for a file
+src/move.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.s
+.PHONY : src/move.cpp.s
+
 src/playing.o: src/playing.cpp.o
 
 .PHONY : src/playing.o
@@ -524,6 +551,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/move.o"
+	@echo "... src/move.i"
+	@echo "... src/move.s"
 	@echo "... src/playing.o"
 	@echo "... src/playing.i"
 	@echo "... src/playing.s"

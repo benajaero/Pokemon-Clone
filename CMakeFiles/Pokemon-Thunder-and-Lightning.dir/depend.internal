@@ -9,7 +9,14 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.o
  ./include/Animation.hpp
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/Animation.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o
+ ./include/AnimatedSprite.hpp
+ ./include/Animation.hpp
  ./include/battle.h
+ ./include/enums.h
+ ./include/hero.h
+ ./include/move.h
+ ./include/pokemon.h
+ ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/battle.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o
  ./include/file.h
@@ -48,6 +55,11 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o
  ./include/pokemon.h
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/main.cpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o
+ ./include/enums.h
+ ./include/move.h
+ ./include/pokemon.h
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/move.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
