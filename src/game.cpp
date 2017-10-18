@@ -15,12 +15,7 @@ void Game::Start(void) {
     _mainWindow.close();
 }
 
-bool Game::IsExiting() {
-    if (_gameState == Game::EXITING)
-        return true;
-    else
-        return false;
-}
+bool Game::IsExiting() { return (_gameState == Game::EXITING); }
 
 void Game::GameLoop() {
     if (_gameState == Game::SHOWING_SPLASH) 
