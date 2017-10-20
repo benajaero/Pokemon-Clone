@@ -14,6 +14,7 @@ class Game {
         static void GameLoop();
         static void ShowSplash();
 
+    public:
         enum GameState {
             UNINITIALIZED,
             SHOWING_SPLASH,
@@ -23,10 +24,6 @@ class Game {
             BATTLING,
             EXITING
         };
-
-
-
-    public:
         static void Start();
         static Hero hero;
         static sf::Time frameTime;

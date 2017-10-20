@@ -20,7 +20,11 @@ void SplashScreen::Show(sf::RenderWindow& window) {
     sf::Event event;
     while (true) {
         while (window.pollEvent(event)) {
-            if (event.type == sf::Event::MouseButtonPressed) {
+            if (event.type == sf::Event::Closed) {
+                Game::_gameState = Game::EXITING;
+                return;
+            }
+            else if (event.type == sf::Event::MouseButtonPressed) {
                 std::cout << "Closing window";
                 window.clear(sf::Color::White);
                 window.display();

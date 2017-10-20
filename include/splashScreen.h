@@ -1,7 +1,9 @@
 #ifndef SPLASH_SCREEN
 #define SPLASH_SCREEN
 
+#include "game.h"
 #include <SFML/Graphics.hpp>
+class Game;
 
 class SplashScreen {
     private: 
