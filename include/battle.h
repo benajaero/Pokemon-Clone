@@ -39,6 +39,10 @@ class BattleController {
 
         
     public:
+        enum BattleState {
+            PRETURN,
+            TURN
+        };
         BattleController(Hero* hero, Person* person) {
             _hero = hero; 
             _person = person;
