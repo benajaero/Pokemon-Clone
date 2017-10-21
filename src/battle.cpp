@@ -44,11 +44,12 @@ void BattleController::draw() {
 
 void BattleController::drawOverlay() {
     ImGui::SFML::Update(Game::_mainWindow, frameTime);
-    ImGui::Begin("BATTLE");
+    /*ImGui::Begin("BATTLE");
 
     if(ImGui::Button("Test Button"))
         ;
-    ImGui::End();
+    ImGui::End();*/
+    ImGui::ShowTestWindow();
 }
 
 void BattleController::drawBackground() {

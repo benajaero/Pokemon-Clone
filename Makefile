@@ -407,6 +407,33 @@ src/imgui.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.s
 .PHONY : src/imgui.cpp.s
 
+src/imgui_demo.o: src/imgui_demo.cpp.o
+
+.PHONY : src/imgui_demo.o
+
+# target to build an object file
+src/imgui_demo.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o
+.PHONY : src/imgui_demo.cpp.o
+
+src/imgui_demo.i: src/imgui_demo.cpp.i
+
+.PHONY : src/imgui_demo.i
+
+# target to preprocess a source file
+src/imgui_demo.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.i
+.PHONY : src/imgui_demo.cpp.i
+
+src/imgui_demo.s: src/imgui_demo.cpp.s
+
+.PHONY : src/imgui_demo.s
+
+# target to generate assembly for a file
+src/imgui_demo.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.s
+.PHONY : src/imgui_demo.cpp.s
+
 src/imgui_draw.o: src/imgui_draw.cpp.o
 
 .PHONY : src/imgui_draw.o
@@ -635,6 +662,9 @@ help:
 	@echo "... src/imgui.o"
 	@echo "... src/imgui.i"
 	@echo "... src/imgui.s"
+	@echo "... src/imgui_demo.o"
+	@echo "... src/imgui_demo.i"
+	@echo "... src/imgui_demo.s"
 	@echo "... src/imgui_draw.o"
 	@echo "... src/imgui_draw.i"
 	@echo "... src/imgui_draw.s"

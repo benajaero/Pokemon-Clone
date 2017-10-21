@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui-SFML.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_demo.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_draw.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/main.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/move.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o"

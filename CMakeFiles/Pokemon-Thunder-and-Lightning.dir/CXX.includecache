@@ -352,6 +352,22 @@ imm.h
 imgui_user.inl
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_user.inl
 
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_demo.cpp
+imgui.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui.h
+ctype.h
+-
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+stdint.h
+-
+
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_draw.cpp
 imgui.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui.h

@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o"

@@ -63,6 +63,10 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: ./include/imgui_in
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: ./include/stb_textedit.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: src/imgui.cpp
 
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o: ./include/imconfig.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o: ./include/imgui.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o: src/imgui_demo.cpp
+
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: ./include/imconfig.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: ./include/imgui.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: ./include/imgui_internal.h
