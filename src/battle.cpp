@@ -27,6 +27,8 @@ void BattleController::loop() {
             if (event.type == sf::Event::Closed)
                 Game::_mainWindow.close();
         }
+
+        frameTime = frameClock.restart();
         draw();
     } 
 }
@@ -36,11 +38,17 @@ void BattleController::draw() {
     drawPokemon();
     drawOverlay();
     Game::_mainWindow.clear(sf::Color::White);
+    ImGui::SFML::Render(Game::_mainWindow);
     Game::_mainWindow.display();
 }
 
 void BattleController::drawOverlay() {
+    ImGui::SFML::Update(Game::_mainWindow, frameTime);
+    ImGui::Begin("BATTLE");
 
+    if(ImGui::Button("Test Button"))
+        ;
+    ImGui::End();
 }
 
 void BattleController::drawBackground() {
