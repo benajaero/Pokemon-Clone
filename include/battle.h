@@ -63,7 +63,7 @@ class BattleController {
         void loop();
         void draw();
         void drawOverlay();
-        void drawBackGround();
+        void drawBackground();
         void drawPokemon();
 };
 

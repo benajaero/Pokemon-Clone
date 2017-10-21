@@ -90,6 +90,7 @@ class Pokemon {
         static void generateEVs(Pokemon faintedPokemon, Pokemon winningPokemon);
         void generateStats();
 
+
 };
 
 

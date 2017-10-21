@@ -22,8 +22,10 @@ class Game {
             SHOWING_MENU,
             PLAYING,
             BATTLING,
-            EXITING
+            EXITING,
+            LOADING
         };
+
         static void Start();
         static Hero hero;
         static sf::Time frameTime;
