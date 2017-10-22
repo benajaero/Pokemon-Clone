@@ -1,11 +1,11 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include "playing.h"
+#include "hero.h"
 #include <cassert>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
-#include "playing.h"
-#include "hero.h"
 
 
 class Game {
