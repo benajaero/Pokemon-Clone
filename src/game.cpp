@@ -2,8 +2,6 @@
 #include "splashScreen.h"
 #include "battle.h"
 
-#include "imgui.h"
-#include "imgui-SFML.h"
 
 
 void Game::Start(void) {
@@ -11,7 +9,6 @@ void Game::Start(void) {
         return;
     _mainWindow.create(sf::VideoMode(1920, 1080), "Pokemon: Thunder and Lightning");
     _mainWindow.setVerticalSyncEnabled(true);
-    ImGui::SFML::Init(_mainWindow);
      
     pController.setup(_mainWindow);
     pController.loadTextures();

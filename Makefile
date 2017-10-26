@@ -353,114 +353,6 @@ src/hero.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.s
 .PHONY : src/hero.cpp.s
 
-src/imgui-SFML.o: src/imgui-SFML.cpp.o
-
-.PHONY : src/imgui-SFML.o
-
-# target to build an object file
-src/imgui-SFML.cpp.o:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o
-.PHONY : src/imgui-SFML.cpp.o
-
-src/imgui-SFML.i: src/imgui-SFML.cpp.i
-
-.PHONY : src/imgui-SFML.i
-
-# target to preprocess a source file
-src/imgui-SFML.cpp.i:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.i
-.PHONY : src/imgui-SFML.cpp.i
-
-src/imgui-SFML.s: src/imgui-SFML.cpp.s
-
-.PHONY : src/imgui-SFML.s
-
-# target to generate assembly for a file
-src/imgui-SFML.cpp.s:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.s
-.PHONY : src/imgui-SFML.cpp.s
-
-src/imgui.o: src/imgui.cpp.o
-
-.PHONY : src/imgui.o
-
-# target to build an object file
-src/imgui.cpp.o:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o
-.PHONY : src/imgui.cpp.o
-
-src/imgui.i: src/imgui.cpp.i
-
-.PHONY : src/imgui.i
-
-# target to preprocess a source file
-src/imgui.cpp.i:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.i
-.PHONY : src/imgui.cpp.i
-
-src/imgui.s: src/imgui.cpp.s
-
-.PHONY : src/imgui.s
-
-# target to generate assembly for a file
-src/imgui.cpp.s:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.s
-.PHONY : src/imgui.cpp.s
-
-src/imgui_demo.o: src/imgui_demo.cpp.o
-
-.PHONY : src/imgui_demo.o
-
-# target to build an object file
-src/imgui_demo.cpp.o:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o
-.PHONY : src/imgui_demo.cpp.o
-
-src/imgui_demo.i: src/imgui_demo.cpp.i
-
-.PHONY : src/imgui_demo.i
-
-# target to preprocess a source file
-src/imgui_demo.cpp.i:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.i
-.PHONY : src/imgui_demo.cpp.i
-
-src/imgui_demo.s: src/imgui_demo.cpp.s
-
-.PHONY : src/imgui_demo.s
-
-# target to generate assembly for a file
-src/imgui_demo.cpp.s:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.s
-.PHONY : src/imgui_demo.cpp.s
-
-src/imgui_draw.o: src/imgui_draw.cpp.o
-
-.PHONY : src/imgui_draw.o
-
-# target to build an object file
-src/imgui_draw.cpp.o:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o
-.PHONY : src/imgui_draw.cpp.o
-
-src/imgui_draw.i: src/imgui_draw.cpp.i
-
-.PHONY : src/imgui_draw.i
-
-# target to preprocess a source file
-src/imgui_draw.cpp.i:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.i
-.PHONY : src/imgui_draw.cpp.i
-
-src/imgui_draw.s: src/imgui_draw.cpp.s
-
-.PHONY : src/imgui_draw.s
-
-# target to generate assembly for a file
-src/imgui_draw.cpp.s:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.s
-.PHONY : src/imgui_draw.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -656,18 +548,6 @@ help:
 	@echo "... src/hero.o"
 	@echo "... src/hero.i"
 	@echo "... src/hero.s"
-	@echo "... src/imgui-SFML.o"
-	@echo "... src/imgui-SFML.i"
-	@echo "... src/imgui-SFML.s"
-	@echo "... src/imgui.o"
-	@echo "... src/imgui.i"
-	@echo "... src/imgui.s"
-	@echo "... src/imgui_demo.o"
-	@echo "... src/imgui_demo.i"
-	@echo "... src/imgui_demo.s"
-	@echo "... src/imgui_draw.o"
-	@echo "... src/imgui_draw.i"
-	@echo "... src/imgui_draw.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

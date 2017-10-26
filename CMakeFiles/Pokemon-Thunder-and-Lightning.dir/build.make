@@ -201,105 +201,9 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o.provides: CMakeFiles
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o.provides.build: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o
 
 
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o: src/imgui-SFML.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui-SFML.cpp
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui-SFML.cpp > CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.i
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui-SFML.cpp -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.s
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o.requires:
-
-.PHONY : CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o.requires
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o.provides: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o.provides.build
-.PHONY : CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o.provides
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o.provides.build: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o
-
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: src/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui.cpp
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui.cpp > CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.i
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui.cpp -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.s
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o.requires:
-
-.PHONY : CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o.requires
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o.provides: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o.provides.build
-.PHONY : CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o.provides
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o.provides.build: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o
-
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o: src/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_demo.cpp
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_demo.cpp > CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.i
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_demo.cpp -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.s
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o.requires:
-
-.PHONY : CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o.requires
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o.provides: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o.provides.build
-.PHONY : CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o.provides
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o.provides.build: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o
-
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: src/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_draw.cpp
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_draw.cpp > CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.i
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_draw.cpp -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.s
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o.requires:
-
-.PHONY : CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o.requires
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o.provides: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o.provides.build
-.PHONY : CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o.provides
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o.provides.build: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o
-
-
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/main.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.i: cmake_force
@@ -323,7 +227,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o.provides.build: CMak
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: src/move.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/move.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.i: cmake_force
@@ -347,7 +251,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o.provides.build: CMak
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: src/playing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.i: cmake_force
@@ -371,7 +275,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o.provides.build: C
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o: src/pokemon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/pokemon.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.i: cmake_force
@@ -395,7 +299,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o.provides.build: C
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: src/splashScreen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.i: cmake_force
@@ -419,7 +323,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o.provides.bui
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/flags.make
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o: src/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o -c /Users/StoneofHelp/Programming/Pokemon-Clone/src/util.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.i: cmake_force
@@ -449,10 +353,6 @@ Pokemon__Thunder__and__Lightning_OBJECTS = \
 "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o" \
 "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o" \
 "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o" \
-"CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o" \
-"CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o" \
-"CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o" \
-"CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o" \
 "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o" \
 "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o" \
 "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o" \
@@ -469,10 +369,6 @@ Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o
-Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o
-Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o
-Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o
-Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
@@ -481,7 +377,7 @@ Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Pokemon-Thunder-and-Lightning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Pokemon-Thunder-and-Lightning"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Pokemon-Thunder-and-Lightning.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -495,10 +391,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunde
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o.requires
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o.requires
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o.requires
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o.requires
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o.requires
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o.requires
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o.requires
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o.requires
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o.requires
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/requires: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o.requires

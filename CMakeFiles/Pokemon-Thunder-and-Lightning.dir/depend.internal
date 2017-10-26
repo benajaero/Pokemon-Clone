@@ -15,9 +15,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o
  ./include/enums.h
  ./include/game.h
  ./include/hero.h
- ./include/imconfig.h
- ./include/imgui-SFML.h
- ./include/imgui.h
  ./include/move.h
  ./include/playing.h
  ./include/pokemon.h
@@ -34,9 +31,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o
  ./include/enums.h
  ./include/game.h
  ./include/hero.h
- ./include/imconfig.h
- ./include/imgui-SFML.h
- ./include/imgui.h
  ./include/move.h
  ./include/playing.h
  ./include/pokemon.h
@@ -52,29 +46,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o
  ./include/pokemon.h
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.cpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o
- ./include/imconfig.h
- ./include/imgui-SFML.h
- ./include/imgui.h
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui-SFML.cpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o
- ./include/imconfig.h
- ./include/imgui.h
- ./include/imgui_internal.h
- ./include/stb_textedit.h
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui.cpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o
- ./include/imconfig.h
- ./include/imgui.h
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_demo.cpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o
- ./include/imconfig.h
- ./include/imgui.h
- ./include/imgui_internal.h
- ./include/stb_rect_pack.h
- ./include/stb_textedit.h
- ./include/stb_truetype.h
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/imgui_draw.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp

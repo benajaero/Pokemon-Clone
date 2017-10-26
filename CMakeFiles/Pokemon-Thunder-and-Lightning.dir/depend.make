@@ -14,9 +14,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/battle.
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/hero.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/imconfig.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/imgui-SFML.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/imgui.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/move.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/playing.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/pokemon.h
@@ -33,9 +30,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/battle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/hero.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/imconfig.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/imgui-SFML.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/imgui.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/move.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/playing.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/pokemon.h
@@ -51,29 +45,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: ./include/move.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: ./include/pokemon.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: src/hero.cpp
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o: ./include/imconfig.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o: ./include/imgui-SFML.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o: ./include/imgui.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui-SFML.cpp.o: src/imgui-SFML.cpp
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: ./include/imconfig.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: ./include/imgui.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: ./include/imgui_internal.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: ./include/stb_textedit.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui.cpp.o: src/imgui.cpp
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o: ./include/imconfig.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o: ./include/imgui.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_demo.cpp.o: src/imgui_demo.cpp
-
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: ./include/imconfig.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: ./include/imgui.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: ./include/imgui_internal.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: ./include/stb_rect_pack.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: ./include/stb_textedit.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: ./include/stb_truetype.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/imgui_draw.cpp.o: src/imgui_draw.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/Animation.hpp
