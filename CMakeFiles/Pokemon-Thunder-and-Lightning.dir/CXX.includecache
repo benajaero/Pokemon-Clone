@@ -42,6 +42,8 @@ SFML/Graphics.hpp
 vector
 -
 
+./include/definitions.h
+
 ./include/enums.h
 
 ./include/file.h
@@ -61,6 +63,8 @@ SFML/Graphics.hpp
 -
 
 ./include/gui-components.h
+TGUI/TGUI.hpp
+-
 
 ./include/hero.h
 util.h
@@ -205,6 +209,8 @@ splashScreen.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.h
 battle.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/battle.h
+definitions.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/definitions.h
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.cpp
 hero.h

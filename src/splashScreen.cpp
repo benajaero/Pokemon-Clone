@@ -1,24 +1,30 @@
+#include "util.h"
+#include "definitions.h"
 #include "splashScreen.h"
 #include <cassert>
 #include <iostream>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
-#include "util.h"
 
 void SplashScreen::Show(sf::RenderWindow& window) {
-    sf::Texture texture;
+    sf::Texture raindiraTexture;
+    sf::Texture phoboltTexture; 
+    assert(raindiraTexture.loadFromFile("./assets/raindiraPaintedTransparent.png"));
+    assert(phoboltTexture.loadFromFile("./assets/PhoboltTransparent.png"));
     
-    assert(texture.loadFromFile("./assets/Title Screen.png"));
-    std::cout << std::endl;
-    std::cout << "Setting sprite";
-    sf::Sprite sprite;
-    sprite.setTexture(texture);
-    window.clear(sf::Color::White);
-    window.draw(sprite);
-    window.display();
+    sf::Sprite raindiraSprite;
+    sf::Sprite phoboltSprite;
+    raindiraSprite.setTexture(raindiraTexture);
+    phoboltSprite.setTexture(phoboltTexture);
 
+
+    
     sf::Event event;
     while (true) {
+        window.clear(sf::Color::White);
+        window.draw(raindiraSprite);
+        window.draw(phoboltSprite);
+        window.display();
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed) {
                 Game::_gameState = Game::EXITING;

@@ -1,13 +1,12 @@
 #include "game.h"
 #include "splashScreen.h"
 #include "battle.h"
-
-
+#include "definitions.h"
 
 void Game::Start(void) {
     if (_gameState != Game::UNINITIALIZED)
         return;
-    _mainWindow.create(sf::VideoMode(1920, 1080), "Pokemon: Thunder and Lightning");
+    _mainWindow.create(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Pokemon: Thunder and Lightning", sf::Style::Fullscreen);
     _mainWindow.setVerticalSyncEnabled(true);
      
     pController.setup(_mainWindow);

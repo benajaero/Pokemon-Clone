@@ -28,6 +28,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
  ./include/battle.h
+ ./include/definitions.h
  ./include/enums.h
  ./include/game.h
  ./include/hero.h

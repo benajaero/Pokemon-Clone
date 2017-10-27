@@ -27,6 +27,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o: src/file.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/battle.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/hero.h
