@@ -257,6 +257,10 @@ cmath
 -
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.cpp
+util.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/util.h
+definitions.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/definitions.h
 splashScreen.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.h
 cassert
@@ -267,8 +271,6 @@ SFML/Window.hpp
 -
 SFML/Graphics.hpp
 -
-util.h
-/Users/StoneofHelp/Programming/Pokemon-Clone/src/util.h
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/util.cpp
 util.h

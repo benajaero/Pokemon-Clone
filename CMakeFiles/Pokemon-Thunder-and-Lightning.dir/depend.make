@@ -82,6 +82,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o: src/pokemon.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/Animation.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/hero.h

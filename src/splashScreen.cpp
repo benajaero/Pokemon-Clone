@@ -17,8 +17,12 @@ void SplashScreen::Show(sf::RenderWindow& window) {
     raindiraSprite.setTexture(raindiraTexture);
     phoboltSprite.setTexture(phoboltTexture);
 
+    raindiraSprite.setPosition(WINDOW_WIDTH / 2 - 100 , WINDOW_HEIGHT / 2);
+    phoboltSprite.setPosition(WINDOW_WIDTH / 2 + 100, WINDOW_HEIGHT / 2);
 
-    
+    raindiraSprite.setScale(0.5, 0.5);
+    phoboltSprite.setScale(0.5, 0.5);
+
     sf::Event event;
     while (true) {
         window.clear(sf::Color::White);
