@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/pokemon.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/util.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o"
   )

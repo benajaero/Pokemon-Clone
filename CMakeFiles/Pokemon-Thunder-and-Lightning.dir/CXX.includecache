@@ -166,6 +166,14 @@ game.h
 SFML/Graphics.hpp
 -
 
+./include/spritemanager.h
+SFML/Graphics.hpp
+-
+string
+-
+map
+-
+
 ./include/texturemanager.h
 SFML/Graphics.hpp
 -
@@ -288,6 +296,16 @@ thread
 SFML/Window.hpp
 -
 SFML/Graphics.hpp
+-
+
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.cpp
+spritemanager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.h
+SFML/Graphics.hpp
+-
+map
+-
+string
 -
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.cpp

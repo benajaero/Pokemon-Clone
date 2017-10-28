@@ -9,7 +9,7 @@ void Game::Start(void) {
     if (_gameState != Game::UNINITIALIZED)
         return;
 
-    _mainWindow.create(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Pokemon: Thunder and Lightning", sf::Style::Fullscreen);
+    _mainWindow.create(sf::VideoMode(WINDOW_WIDTH,WINDOW_HEIGHT), "Pokemon: Thunder and Lightning", sf::Style::Default);
     _mainWindow.setVerticalSyncEnabled(true);
      
     //load initial textures
@@ -59,7 +59,8 @@ void Game::Menu() {
 void Game::ShowSplash() {
     SplashScreen splash;
     splash.Show(_mainWindow);
-    _gameState = Game::SHOWING_MENU;
+    TextureManager::deleteTexture("splashScreenBackground");
+    _gameState = Game::PLAYING;
 }
 
 Game::GameState Game::_gameState = Game::UNINITIALIZED;

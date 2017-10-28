@@ -12,9 +12,8 @@
 bool SplashScreen::loading = true;
 
 void Load() {
-    while (true) {}
+    Game::_gameState = Game::PLAYING;
     SplashScreen::loading = false;
-    Game::_gameState = Game::SHOWING_MENU;
 }
 
 void SplashScreen::Show(sf::RenderWindow& window) {
@@ -28,8 +27,7 @@ void SplashScreen::Show(sf::RenderWindow& window) {
     std::thread loadingThread(Load);
     loadingThread.detach();
 
-    while (loading) {
-        
+    do {
         window.clear(sf::Color::White);
         window.draw(splashScreenSprite);
         window.display();
@@ -40,7 +38,7 @@ void SplashScreen::Show(sf::RenderWindow& window) {
                 return;
             }
         }
-    }
+    } while (loading && window.isOpen());
 
 
 }

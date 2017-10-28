@@ -488,6 +488,33 @@ src/splashScreen.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.s
 .PHONY : src/splashScreen.cpp.s
 
+src/spritemanager.o: src/spritemanager.cpp.o
+
+.PHONY : src/spritemanager.o
+
+# target to build an object file
+src/spritemanager.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o
+.PHONY : src/spritemanager.cpp.o
+
+src/spritemanager.i: src/spritemanager.cpp.i
+
+.PHONY : src/spritemanager.i
+
+# target to preprocess a source file
+src/spritemanager.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.i
+.PHONY : src/spritemanager.cpp.i
+
+src/spritemanager.s: src/spritemanager.cpp.s
+
+.PHONY : src/spritemanager.s
+
+# target to generate assembly for a file
+src/spritemanager.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.s
+.PHONY : src/spritemanager.cpp.s
+
 src/texturemanager.o: src/texturemanager.cpp.o
 
 .PHONY : src/texturemanager.o
@@ -590,6 +617,9 @@ help:
 	@echo "... src/splashScreen.o"
 	@echo "... src/splashScreen.i"
 	@echo "... src/splashScreen.s"
+	@echo "... src/spritemanager.o"
+	@echo "... src/spritemanager.i"
+	@echo "... src/spritemanager.s"
 	@echo "... src/texturemanager.o"
 	@echo "... src/texturemanager.i"
 	@echo "... src/texturemanager.s"
