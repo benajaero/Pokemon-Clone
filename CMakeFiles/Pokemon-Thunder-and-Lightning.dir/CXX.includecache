@@ -166,6 +166,14 @@ game.h
 SFML/Graphics.hpp
 -
 
+./include/texturemanager.h
+SFML/Graphics.hpp
+-
+string
+-
+map
+-
+
 ./include/util.h
 pokemon.h
 ./include/pokemon.h
@@ -211,6 +219,8 @@ battle.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/battle.h
 definitions.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/definitions.h
+cassert
+-
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.cpp
 hero.h
@@ -270,6 +280,16 @@ iostream
 SFML/Window.hpp
 -
 SFML/Graphics.hpp
+-
+
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.cpp
+texturemanager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.h
+SFML/Graphics.hpp
+-
+map
+-
+string
 -
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/util.cpp

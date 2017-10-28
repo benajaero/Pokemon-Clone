@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o"
   "Pokemon-Thunder-and-Lightning.pdb"
   "Pokemon-Thunder-and-Lightning"

@@ -93,6 +93,9 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/s
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: src/splashScreen.cpp
 
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o: ./include/texturemanager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o: src/texturemanager.cpp
+
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o: ./include/enums.h

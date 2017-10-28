@@ -13,6 +13,7 @@ class Game {
         static bool IsExiting();
         static void GameLoop();
         static void ShowSplash();
+        static void Menu();
 
     public:
         enum GameState {
@@ -23,7 +24,6 @@ class Game {
             PLAYING,
             BATTLING,
             EXITING,
-            LOADING
         };
 
         static void Start();

@@ -2,10 +2,12 @@
 #include "splashScreen.h"
 #include "battle.h"
 #include "definitions.h"
+#include <cassert>
 
 void Game::Start(void) {
     if (_gameState != Game::UNINITIALIZED)
         return;
+
     _mainWindow.create(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Pokemon: Thunder and Lightning", sf::Style::Fullscreen);
     _mainWindow.setVerticalSyncEnabled(true);
      
@@ -23,6 +25,8 @@ bool Game::IsExiting() { return (_gameState == Game::EXITING); }
 void Game::GameLoop() {
     if (_gameState == Game::SHOWING_SPLASH) 
         ShowSplash();
+    else if (_gameState == Game::SHOWING_MENU)
+        Menu();
     else if (_gameState == Game::BATTLING) {
         Pokemon pokemon;
         BattleController bController(&hero, pokemon);
@@ -42,6 +46,10 @@ void Game::GameLoop() {
 
         }
     }
+
+}
+
+void Game::Menu() {
 
 }
 
