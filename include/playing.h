@@ -1,11 +1,10 @@
 #ifndef PLAYING_H
-
 #define PLAYING_H
-#include <SFML/Graphics.hpp>
-#include <SFML/Main.hpp>
-#include <SFML/Window.hpp>
+
 #include "hero.h"
 #include "AnimatedSprite.hpp"
+#include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
 
 class PlayController {
     private:

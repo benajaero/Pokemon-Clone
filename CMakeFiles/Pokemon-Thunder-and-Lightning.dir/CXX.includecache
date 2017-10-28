@@ -139,16 +139,14 @@ string
 -
 
 ./include/playing.h
-SFML/Graphics.hpp
--
-SFML/Main.hpp
--
-SFML/Window.hpp
--
 hero.h
 ./include/hero.h
 AnimatedSprite.hpp
 ./include/AnimatedSprite.hpp
+SFML/Graphics.hpp
+-
+SFML/Window.hpp
+-
 
 ./include/pokemon.h
 enums.h
@@ -259,6 +257,8 @@ iostream
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.cpp
 playing.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.h
+definitions.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/definitions.h
 cassert
 -
 AnimatedSprite.hpp

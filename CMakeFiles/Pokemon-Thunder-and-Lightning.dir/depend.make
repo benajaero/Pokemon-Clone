@@ -67,6 +67,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: src/move.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/Animation.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/hero.h

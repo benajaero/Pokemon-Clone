@@ -1,4 +1,5 @@
 #include "playing.h"
+#include "definitions.h"
 #include <cassert>
 
 #include "AnimatedSprite.hpp"
@@ -75,7 +76,7 @@ void PlayController::draw(sf::RenderWindow& window) {
     Game::hero.sprite.play(currentAnimation);
     Game::hero.sprite.setScale(scale, scale);
 
-    Game::hero.sprite.setPosition(1920/2, 1080/2);
+    Game::hero.sprite.setPosition(window.getView().getCenter());
 
     //sf::CircleShape circle(50);
     //circle.setPosition(0, 0);
@@ -96,7 +97,7 @@ void PlayController::loadTextures() {
 }
 
 void PlayController::setup(sf::RenderWindow& window) {
-    view.setSize(1920, 1080);
-    view.setCenter(1920/2, 1080/2);
+    view.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+    view.setCenter(WINDOW_WIDTH/2, WINDOW_HEIGHT/2);
     window.setView(view);
 }
