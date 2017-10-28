@@ -11,6 +11,7 @@ void Game::Start(void) {
     _mainWindow.create(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Pokemon: Thunder and Lightning", sf::Style::Fullscreen);
     _mainWindow.setVerticalSyncEnabled(true);
      
+    //load initial textures
     pController.setup(_mainWindow);
     pController.loadTextures();
     _gameState = Game::SHOWING_SPLASH;
