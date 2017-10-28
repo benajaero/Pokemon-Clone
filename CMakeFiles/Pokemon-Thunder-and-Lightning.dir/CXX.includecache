@@ -169,6 +169,8 @@ SFML/Graphics.hpp
 ./include/spritemanager.h
 SFML/Graphics.hpp
 -
+AnimatedSprite.hpp
+./include/AnimatedSprite.hpp
 string
 -
 map
@@ -303,6 +305,8 @@ spritemanager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.h
 SFML/Graphics.hpp
 -
+AnimatedSprite.hpp
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/AnimatedSprite.hpp
 map
 -
 string

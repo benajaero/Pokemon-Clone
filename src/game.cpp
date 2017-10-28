@@ -13,7 +13,7 @@ void Game::Start(void) {
     _mainWindow.setVerticalSyncEnabled(true);
      
     //load initial textures
-    TextureManager::loadTexture("splashScreenBackground", "./assets/SplashScreen.png");
+    TextureManager::loadTexture("splashScreenBackground", "assets/SplashScreen.png");
     pController.setup(_mainWindow);
     pController.loadTextures();
     _gameState = Game::SHOWING_SPLASH;

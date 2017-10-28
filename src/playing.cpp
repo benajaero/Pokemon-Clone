@@ -88,7 +88,7 @@ void PlayController::draw(sf::RenderWindow& window) {
 }
 
 void PlayController::loadTextures() {
-    assert(playerTexture.loadFromFile("./assets/NewHero.png"));
+    assert(playerTexture.loadFromFile("assets/NewHero.png"));
     playerTexture.setSmooth(false);
     Game::hero.setupAnimations(playerTexture);
     Game::hero.sprite.setLooped(false);
