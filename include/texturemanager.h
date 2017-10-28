@@ -13,7 +13,11 @@ class TextureManager {
 
         //string to texture ref
         sf::Texture& getRef(const std::string& texture);
+            
+        void deleteTexture(const std::string& texture);
 
+        //without deleting texture manager
+        void deleteAll();
         TextureManager() {}
 
 };
