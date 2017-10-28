@@ -7,8 +7,8 @@ class Game;
 
 class SplashScreen {
     private: 
-        
     public:
+        static bool loading;        
         void Show(sf::RenderWindow& window);
 };
 
