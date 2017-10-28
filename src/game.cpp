@@ -1,4 +1,5 @@
 #include "game.h"
+#include "texturemanager.h"
 #include "splashScreen.h"
 #include "battle.h"
 #include "definitions.h"
@@ -12,6 +13,7 @@ void Game::Start(void) {
     _mainWindow.setVerticalSyncEnabled(true);
      
     //load initial textures
+    TextureManager::loadTexture("splashScreenBackground", "./assets/SplashScreen.png");
     pController.setup(_mainWindow);
     pController.loadTextures();
     _gameState = Game::SHOWING_SPLASH;
@@ -57,8 +59,7 @@ void Game::Menu() {
 void Game::ShowSplash() {
     SplashScreen splash;
     splash.Show(_mainWindow);
-    //splash.chooseGender(_mainWindow);
-    _gameState = Game::BATTLING;
+    _gameState = Game::SHOWING_MENU;
 }
 
 Game::GameState Game::_gameState = Game::UNINITIALIZED;

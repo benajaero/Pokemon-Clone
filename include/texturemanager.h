@@ -9,12 +9,12 @@ class TextureManager {
     private:
         static std::map<std::string, sf::Texture> _textures;
     public:
-        static void loadTexture(const std::string& name, const std::string& filename);
+        static void loadTexture(std::string name, std::string filename);
 
         //string to texture ref
-        static sf::Texture& getRef(const std::string& texture);
+        static sf::Texture& getRef(std::string texture);
             
-        static void deleteTexture(const std::string& texture);
+        static void deleteTexture(std::string texture);
 
         //without deleting texture manager
         static void deleteAll();

@@ -7,11 +7,9 @@ class Game;
 
 class SplashScreen {
     private: 
-
+        
     public:
         void Show(sf::RenderWindow& window);
-        void showMenu(sf::RenderWindow& window);
-        void chooseGender(sf::RenderWindow& window);
 };
 
 #endif
