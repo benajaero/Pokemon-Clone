@@ -77,6 +77,8 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/hero.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/move.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/playing.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/pokemon.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/spritemanager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/texturemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: src/playing.cpp
 
@@ -95,6 +97,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/m
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/playing.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/pokemon.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/splashScreen.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/spritemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/texturemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: src/splashScreen.cpp

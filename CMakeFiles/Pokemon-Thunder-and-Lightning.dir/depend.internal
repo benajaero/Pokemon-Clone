@@ -78,6 +78,8 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
  ./include/move.h
  ./include/playing.h
  ./include/pokemon.h
+ ./include/spritemanager.h
+ ./include/texturemanager.h
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o
@@ -96,6 +98,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o
  ./include/playing.h
  ./include/pokemon.h
  ./include/splashScreen.h
+ ./include/spritemanager.h
  ./include/texturemanager.h
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.cpp

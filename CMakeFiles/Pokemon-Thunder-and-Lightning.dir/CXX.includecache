@@ -291,14 +291,18 @@ playing.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.h
 definitions.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/definitions.h
-cassert
--
 AnimatedSprite.hpp
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/AnimatedSprite.hpp
 util.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/util.h
 game.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.h
+texturemanager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.h
+spritemanager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.h
+cassert
+-
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/pokemon.cpp
 pokemon.h
@@ -319,6 +323,8 @@ definitions.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/definitions.h
 texturemanager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.h
+spritemanager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.h
 game.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.h
 cassert

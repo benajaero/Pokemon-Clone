@@ -32,6 +32,9 @@ void loadAnimations() {
 }
 
 void Load() {
+    loadTextures();
+    loadSprites();
+    loadAnimations();
     Game::_gameState = Game::PLAYING;
     SplashScreen::loading = false;
 }

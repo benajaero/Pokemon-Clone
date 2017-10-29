@@ -1,6 +1,5 @@
 #include "hero.h"
 
-
 void Hero::changeOrientation(Orientation newDir) {
     direction = newDir;
 }
