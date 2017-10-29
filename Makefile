@@ -272,6 +272,33 @@ src/battle.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.s
 .PHONY : src/battle.cpp.s
 
+src/fader.o: src/fader.cpp.o
+
+.PHONY : src/fader.o
+
+# target to build an object file
+src/fader.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o
+.PHONY : src/fader.cpp.o
+
+src/fader.i: src/fader.cpp.i
+
+.PHONY : src/fader.i
+
+# target to preprocess a source file
+src/fader.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.i
+.PHONY : src/fader.cpp.i
+
+src/fader.s: src/fader.cpp.s
+
+.PHONY : src/fader.s
+
+# target to generate assembly for a file
+src/fader.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.s
+.PHONY : src/fader.cpp.s
+
 src/file.o: src/file.cpp.o
 
 .PHONY : src/file.o
@@ -515,6 +542,33 @@ src/spritemanager.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.s
 .PHONY : src/spritemanager.cpp.s
 
+src/statictilemap.o: src/statictilemap.cpp.o
+
+.PHONY : src/statictilemap.o
+
+# target to build an object file
+src/statictilemap.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.o
+.PHONY : src/statictilemap.cpp.o
+
+src/statictilemap.i: src/statictilemap.cpp.i
+
+.PHONY : src/statictilemap.i
+
+# target to preprocess a source file
+src/statictilemap.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.i
+.PHONY : src/statictilemap.cpp.i
+
+src/statictilemap.s: src/statictilemap.cpp.s
+
+.PHONY : src/statictilemap.s
+
+# target to generate assembly for a file
+src/statictilemap.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.s
+.PHONY : src/statictilemap.cpp.s
+
 src/texturemanager.o: src/texturemanager.cpp.o
 
 .PHONY : src/texturemanager.o
@@ -593,6 +647,9 @@ help:
 	@echo "... src/battle.o"
 	@echo "... src/battle.i"
 	@echo "... src/battle.s"
+	@echo "... src/fader.o"
+	@echo "... src/fader.i"
+	@echo "... src/fader.s"
 	@echo "... src/file.o"
 	@echo "... src/file.i"
 	@echo "... src/file.s"
@@ -620,6 +677,9 @@ help:
 	@echo "... src/spritemanager.o"
 	@echo "... src/spritemanager.i"
 	@echo "... src/spritemanager.s"
+	@echo "... src/statictilemap.o"
+	@echo "... src/statictilemap.i"
+	@echo "... src/statictilemap.s"
 	@echo "... src/texturemanager.o"
 	@echo "... src/texturemanager.i"
 	@echo "... src/texturemanager.s"

@@ -20,6 +20,9 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o
  ./include/pokemon.h
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/battle.cpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o
+ ./include/fader.h
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/fader.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o
  ./include/file.h
  ./include/json.hpp
@@ -101,6 +104,10 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o
  ./include/Animation.hpp
  ./include/spritemanager.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.cpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.o
+ ./include/statictilemap.h
+ ./include/tileLoader.hpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/statictilemap.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o
  ./include/texturemanager.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.cpp

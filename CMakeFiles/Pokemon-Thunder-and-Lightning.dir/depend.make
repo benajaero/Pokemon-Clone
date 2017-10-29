@@ -20,6 +20,9 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/pokemon
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: src/battle.cpp
 
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o: ./include/fader.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o: src/fader.cpp
+
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o: ./include/file.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o: ./include/json.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o: src/file.cpp
@@ -100,6 +103,10 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o: ./include/
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o: ./include/spritemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o: src/spritemanager.cpp
+
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.o: ./include/statictilemap.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.o: ./include/tileLoader.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.o: src/statictilemap.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o: ./include/texturemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o: src/texturemanager.cpp

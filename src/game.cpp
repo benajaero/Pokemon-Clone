@@ -38,7 +38,7 @@ void Game::GameLoop() {
     else {
         sf::Event event;
         while(_mainWindow.pollEvent(event)) {
-            Game::frameTime = Game::frameClock.restart();
+            computeFrameTime();
             if (event.type == sf::Event::Closed)
                 _gameState = Game::EXITING;
             else if (_gameState == Game::PLAYING) {
@@ -50,6 +50,10 @@ void Game::GameLoop() {
         }
     }
 
+}
+
+void Game::computeFrameTime() {
+    Game::frameTime = Game::frameClock.restart();
 }
 
 void Game::Menu() {

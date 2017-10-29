@@ -46,6 +46,18 @@ vector
 
 ./include/enums.h
 
+./include/fader.h
+functional
+-
+SFML/Graphics/RenderWindow.hpp
+-
+SFML/Graphics/RectangleShape.hpp
+-
+SFML/Window/Event.hpp
+-
+SFML/System/Time.hpp
+-
+
 ./include/file.h
 json.hpp
 ./include/json.hpp
@@ -174,12 +186,28 @@ string
 map
 -
 
+./include/statictilemap.h
+SFML/Graphics/Drawable.hpp
+-
+SFML/Graphics/Texture.hpp
+-
+SFML/Graphics/VertexArray.hpp
+-
+vector
+-
+
 ./include/texturemanager.h
 SFML/Graphics.hpp
 -
 string
 -
 map
+-
+
+./include/tileLoader.hpp
+SFML/Graphics/VertexArray.hpp
+-
+string
 -
 
 ./include/util.h
@@ -213,6 +241,10 @@ game.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.h
 SFML/Graphics.hpp
 -
+
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/fader.cpp
+fader.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/fader.h
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/file.cpp
 file.h
@@ -310,6 +342,16 @@ AnimatedSprite.hpp
 map
 -
 string
+-
+
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/statictilemap.cpp
+statictilemap.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/statictilemap.h
+tileLoader.hpp
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/tileLoader.hpp
+SFML/Graphics/RenderTarget.hpp
+-
+SFML/System/Vector2.hpp
 -
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.cpp
