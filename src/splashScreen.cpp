@@ -21,6 +21,8 @@ void loadSprites() {
     AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
     heroSprite.setLooped(false);
     heroSprite.pause();
+    heroSprite.setScale(SCALE, SCALE);
+    heroSprite.setPosition(Game::_mainWindow.getView().getCenter());
 }
 
 void loadAnimations() {

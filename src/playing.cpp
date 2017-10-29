@@ -8,8 +8,6 @@
 #include "spritemanager.h"
 #include <cassert>
 
-//const int tileHeight = 24;
-const int scale = 5;
 
 void PlayController::logic() {
     Game::hero.moveForward(0.75, view, Game::frameTime);
@@ -75,18 +73,16 @@ void PlayController::draw(sf::RenderWindow& window) {
             currentAnimation = Game::hero.idle.down;
     }
     
-    Game::hero.sprite.play(currentAnimation);
-    Game::hero.sprite.setScale(scale, scale);
-
-    Game::hero.sprite.setPosition(window.getView().getCenter());
+    AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
+    heroSprite.play(currentAnimation);
 
     //sf::CircleShape circle(50);
     //circle.setPosition(0, 0);
     //circle.setFillColor(sf::Color::Black);
     
-    Game::hero.sprite.update(Game::frameTime);
+    heroSprite.update(Game::frameTime);
     window.clear(sf::Color::White);
-    window.draw(Game::hero.sprite);
+    window.draw(heroSprite);
     window.display();
 }
 
