@@ -15,7 +15,6 @@ void Game::Start(void) {
     //load initial textures
     TextureManager::loadTexture("splashScreenBackground", "assets/SplashScreen.png");
     pController.setup(_mainWindow);
-    pController.loadTextures();
     _gameState = Game::SHOWING_SPLASH;
 
     while(!IsExiting())

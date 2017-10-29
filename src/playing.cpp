@@ -1,10 +1,12 @@
 #include "playing.h"
 #include "definitions.h"
-#include <cassert>
 
 #include "AnimatedSprite.hpp"
 #include "util.h"
 #include "game.h"
+#include "texturemanager.h"
+#include "spritemanager.h"
+#include <cassert>
 
 //const int tileHeight = 24;
 const int scale = 5;
@@ -86,14 +88,6 @@ void PlayController::draw(sf::RenderWindow& window) {
     window.clear(sf::Color::White);
     window.draw(Game::hero.sprite);
     window.display();
-}
-
-void PlayController::loadTextures() {
-    assert(playerTexture.loadFromFile("assets/NewHero.png"));
-    playerTexture.setSmooth(false);
-    Game::hero.setupAnimations(playerTexture);
-    Game::hero.sprite.setLooped(false);
-    Game::hero.sprite.pause();
 }
 
 void PlayController::setup(sf::RenderWindow& window) {

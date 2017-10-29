@@ -15,7 +15,6 @@ class PlayController {
         void logic();
         void handleEvents(sf::Event& event, sf::RenderWindow& window);
         void draw(sf::RenderWindow& window);
-        void loadTextures();
         void setup(sf::RenderWindow& window);
         //PlayController() : hero("Adam", 0, 0, 0, 0, 0, EAST, 1) {}
     

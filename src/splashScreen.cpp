@@ -2,6 +2,7 @@
 #include "util.h"
 #include "definitions.h"
 #include "texturemanager.h"
+#include "spritemanager.h"
 #include "game.h"
 #include <cassert>
 #include <iostream>
@@ -12,14 +13,19 @@
 bool SplashScreen::loading = true;
 
 void loadTextures() {
-
+    TextureManager::loadTexture("heroTexture", "assets/NewHero.png");
 }
 
 void loadSprites() {
-
+    SpriteManager::newAnimatedSprite("hero");
+    AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
+    heroSprite.setLooped(false);
+    heroSprite.pause();
 }
 
 void loadAnimations() {
+    Game::hero.setupAnimations(TextureManager::getRef("heroTexture"));
+    TextureManager::getRef("heroTexture").setSmooth(false);
 
 }
 
