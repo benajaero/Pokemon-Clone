@@ -11,8 +11,7 @@
 
 void PlayController::logic() {
     Game::hero.moveForward(0.75, view, Game::frameTime);
-    if(!sf::Event::KeyPressed)
-        Game::hero.isMoving = false;
+    //if(!sf::Event::KeyPressed)
 }
 
 //reminder check for collisons, for water contact, for slowing down
@@ -38,14 +37,21 @@ void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window) {
             Game::hero.yvel = -10;
             Game::hero.changeOrientation(SOUTH);
         } 
+        else {
+            Game::hero.isMoving = false;
+        }
     }
     draw(window);
 }
 
 void PlayController::draw(sf::RenderWindow& window) {
 
+    AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
     Animation& currentAnimation = Game::hero.idle.down;
 
+    if (!Game::hero.isMoving) {
+        heroSprite.stop();
+    }
     if (Game::hero.direction == NORTH) {
         if (Game::hero.isMoving)
             currentAnimation = Game::hero.walk.up;
@@ -73,7 +79,6 @@ void PlayController::draw(sf::RenderWindow& window) {
             currentAnimation = Game::hero.idle.down;
     }
     
-    AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
     heroSprite.play(currentAnimation);
 
     //sf::CircleShape circle(50);

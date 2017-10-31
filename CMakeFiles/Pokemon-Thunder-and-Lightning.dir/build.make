@@ -480,7 +480,6 @@ Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make
-Pokemon-Thunder-and-Lightning: /usr/local/lib/libtgui.dylib
 Pokemon-Thunder-and-Lightning: CMakeFiles/Pokemon-Thunder-and-Lightning.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Pokemon-Thunder-and-Lightning"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Pokemon-Thunder-and-Lightning.dir/link.txt --verbose=$(VERBOSE)
