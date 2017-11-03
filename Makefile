@@ -353,6 +353,33 @@ src/game.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
 
+src/gui-components.o: src/gui-components.cpp.o
+
+.PHONY : src/gui-components.o
+
+# target to build an object file
+src/gui-components.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o
+.PHONY : src/gui-components.cpp.o
+
+src/gui-components.i: src/gui-components.cpp.i
+
+.PHONY : src/gui-components.i
+
+# target to preprocess a source file
+src/gui-components.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.i
+.PHONY : src/gui-components.cpp.i
+
+src/gui-components.s: src/gui-components.cpp.s
+
+.PHONY : src/gui-components.s
+
+# target to generate assembly for a file
+src/gui-components.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.s
+.PHONY : src/gui-components.cpp.s
+
 src/hero.o: src/hero.cpp.o
 
 .PHONY : src/hero.o
@@ -487,6 +514,33 @@ src/pokemon.s: src/pokemon.cpp.s
 src/pokemon.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.s
 .PHONY : src/pokemon.cpp.s
+
+src/roundedRectangle.o: src/roundedRectangle.cpp.o
+
+.PHONY : src/roundedRectangle.o
+
+# target to build an object file
+src/roundedRectangle.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.o
+.PHONY : src/roundedRectangle.cpp.o
+
+src/roundedRectangle.i: src/roundedRectangle.cpp.i
+
+.PHONY : src/roundedRectangle.i
+
+# target to preprocess a source file
+src/roundedRectangle.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.i
+.PHONY : src/roundedRectangle.cpp.i
+
+src/roundedRectangle.s: src/roundedRectangle.cpp.s
+
+.PHONY : src/roundedRectangle.s
+
+# target to generate assembly for a file
+src/roundedRectangle.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.s
+.PHONY : src/roundedRectangle.cpp.s
 
 src/splashScreen.o: src/splashScreen.cpp.o
 
@@ -656,6 +710,9 @@ help:
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
+	@echo "... src/gui-components.o"
+	@echo "... src/gui-components.i"
+	@echo "... src/gui-components.s"
 	@echo "... src/hero.o"
 	@echo "... src/hero.i"
 	@echo "... src/hero.s"
@@ -671,6 +728,9 @@ help:
 	@echo "... src/pokemon.o"
 	@echo "... src/pokemon.i"
 	@echo "... src/pokemon.s"
+	@echo "... src/roundedRectangle.o"
+	@echo "... src/roundedRectangle.i"
+	@echo "... src/roundedRectangle.s"
 	@echo "... src/splashScreen.o"
 	@echo "... src/splashScreen.i"
 	@echo "... src/splashScreen.s"

@@ -75,7 +75,13 @@ SFML/Graphics.hpp
 -
 
 ./include/gui-components.h
-TGUI/TGUI.hpp
+SFML/Graphics.hpp
+-
+roundedRectangle.h
+./include/roundedRectangle.h
+functional
+-
+string
 -
 
 ./include/hero.h
@@ -168,6 +174,10 @@ move.h
 string
 -
 vector
+-
+
+./include/roundedRectangle.h
+SFML/Graphics/Shape.hpp
 -
 
 ./include/splashScreen.h
@@ -264,6 +274,10 @@ definitions.h
 cassert
 -
 
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/gui-components.cpp
+gui-components.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/gui-components.h
+
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.cpp
 hero.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.h
@@ -311,6 +325,12 @@ string
 -
 random
 -
+cmath
+-
+
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/roundedRectangle.cpp
+roundedRectangle.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/roundedRectangle.h
 cmath
 -
 

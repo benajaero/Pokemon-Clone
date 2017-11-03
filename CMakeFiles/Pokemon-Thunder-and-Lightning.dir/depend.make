@@ -42,6 +42,10 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/texturema
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: src/game.cpp
 
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/gui-components.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/roundedRectangle.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: src/gui-components.cpp
+
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: ./include/enums.h
@@ -60,6 +64,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/hero.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/move.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/playing.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/pokemon.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/roundedRectangle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: src/main.cpp
 
@@ -86,6 +91,9 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o: ./include/enums.
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o: ./include/move.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o: ./include/pokemon.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o: src/pokemon.cpp
+
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.o: ./include/roundedRectangle.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.o: src/roundedRectangle.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/Animation.hpp
