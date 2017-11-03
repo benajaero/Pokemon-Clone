@@ -27,7 +27,7 @@ bool Game::IsExiting() { return (_gameState == Game::EXITING); }
 void Game::GameLoop() {
     if (_gameState == Game::SHOWING_SPLASH) 
         ShowSplash();
-    else if (_gameState == Game::SHOWING_MENU)
+    if (_gameState == Game::SHOWING_MENU)
         Menu();
     else if (_gameState == Game::BATTLING) {
         Pokemon pokemon;
@@ -56,14 +56,16 @@ void Game::computeFrameTime() {
 }
 
 void Game::Menu() {
-
+    MainMenuController mainMenuController;
+    mainMenuController.loop(_mainWindow);    
+    _gameState = Game::PLAYING;
 }
 
 void Game::ShowSplash() {
     SplashScreen splash;
     splash.Show(_mainWindow);
     TextureManager::deleteTexture("splashScreenBackground");
-    _gameState = Game::PLAYING;
+    _gameState = Game::SHOWING_MENU;
 }
 
 Game::GameState Game::_gameState = Game::UNINITIALIZED;

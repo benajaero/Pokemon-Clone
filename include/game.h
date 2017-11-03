@@ -1,6 +1,7 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include "menu.h"
 #include "playing.h"
 #include "hero.h"
 #include <cassert>

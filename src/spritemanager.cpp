@@ -7,9 +7,10 @@
 std::map<std::string, sf::Sprite> SpriteManager::_sprites;
 std::map<std::string, AnimatedSprite> SpriteManager::_animatedSprites;
 
-void SpriteManager::newSprite(std::string name) {
+sf::Sprite& SpriteManager::newSprite(std::string name) {
     sf::Sprite sprite;
     SpriteManager::_sprites[name] = sprite;
+    return SpriteManager::_sprites.at(name);
 }
 
 sf::Sprite& SpriteManager::getRef(std::string sprite) {
@@ -25,9 +26,10 @@ void SpriteManager::deleteAll() {
    SpriteManager::_sprites.erase(SpriteManager::_sprites.begin(), SpriteManager::_sprites.end()); 
 }
 
-void SpriteManager::newAnimatedSprite(std::string name) {
+AnimatedSprite SpriteManager::newAnimatedSprite(std::string name) {
     AnimatedSprite sprite;
     SpriteManager::_animatedSprites[name] = sprite;
+    return SpriteManager::_animatedSprites.at(name);
 }
 
 AnimatedSprite& SpriteManager::getAnimRef(std::string animatedSprite) {

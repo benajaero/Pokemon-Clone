@@ -4,10 +4,11 @@
 #include <string>
 
 std::map<std::string, sf::Texture> TextureManager::_textures;
-void TextureManager::loadTexture(std::string name, std::string filename) {
+sf::Texture& TextureManager::loadTexture(std::string name, std::string filename) {
     sf::Texture texture;
     texture.loadFromFile(filename);
     TextureManager::_textures[name] = texture;
+    return TextureManager::_textures.at(name);
 }
 
 sf::Texture& TextureManager::getRef(std::string texture) {
