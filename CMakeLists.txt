@@ -4,7 +4,7 @@ project(Pokemon_Thunder_Lightning)
 set(myproject_VERSION_MAJOR 1)
 set(myproject_VERSION_MINOR 0)
 set(PROJECT_BINARY_DIR "./bin")
-set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 configure_file(
     "${PROJECT_SOURCE_DIR}/config.h.in"
@@ -13,10 +13,17 @@ configure_file(
 
 include_directories(${PROJECT_BINARY_DIR})
 include_directories("./include")
+include_directories("./include/tmxlite")
+include_directories("./include/tmxlite/detail")
 
 file(GLOB CMAKE_SRCS
     "./src/*.h"
     "./src/*.cpp"
+    "./src/tmxlite/*.h"
+    "./src/tmxlite/*.cpp"
+    "./src/tmxlite/detail/*.h"
+    "./src/tmxlite/detail/*.cpp"
+    "./src/*.c"
     )
 
 find_package(OpenGL)

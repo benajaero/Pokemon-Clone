@@ -380,6 +380,33 @@ src/game.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
 
+src/glad.o: src/glad.c.o
+
+.PHONY : src/glad.o
+
+# target to build an object file
+src/glad.c.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/glad.c.o
+.PHONY : src/glad.c.o
+
+src/glad.i: src/glad.c.i
+
+.PHONY : src/glad.i
+
+# target to preprocess a source file
+src/glad.c.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/glad.c.i
+.PHONY : src/glad.c.i
+
+src/glad.s: src/glad.c.s
+
+.PHONY : src/glad.s
+
+# target to generate assembly for a file
+src/glad.c.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/glad.c.s
+.PHONY : src/glad.c.s
+
 src/gui-components.o: src/gui-components.cpp.o
 
 .PHONY : src/gui-components.o
@@ -487,6 +514,33 @@ src/menu.s: src/menu.cpp.s
 src/menu.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.s
 .PHONY : src/menu.cpp.s
+
+src/miniz.o: src/miniz.c.o
+
+.PHONY : src/miniz.o
+
+# target to build an object file
+src/miniz.c.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/miniz.c.o
+.PHONY : src/miniz.c.o
+
+src/miniz.i: src/miniz.c.i
+
+.PHONY : src/miniz.i
+
+# target to preprocess a source file
+src/miniz.c.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/miniz.c.i
+.PHONY : src/miniz.c.i
+
+src/miniz.s: src/miniz.c.s
+
+.PHONY : src/miniz.s
+
+# target to generate assembly for a file
+src/miniz.c.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/miniz.c.s
+.PHONY : src/miniz.c.s
 
 src/move.o: src/move.cpp.o
 
@@ -650,33 +704,6 @@ src/spritemanager.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.s
 .PHONY : src/spritemanager.cpp.s
 
-src/statictilemap.o: src/statictilemap.cpp.o
-
-.PHONY : src/statictilemap.o
-
-# target to build an object file
-src/statictilemap.cpp.o:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.o
-.PHONY : src/statictilemap.cpp.o
-
-src/statictilemap.i: src/statictilemap.cpp.i
-
-.PHONY : src/statictilemap.i
-
-# target to preprocess a source file
-src/statictilemap.cpp.i:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.i
-.PHONY : src/statictilemap.cpp.i
-
-src/statictilemap.s: src/statictilemap.cpp.s
-
-.PHONY : src/statictilemap.s
-
-# target to generate assembly for a file
-src/statictilemap.cpp.s:
-	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.s
-.PHONY : src/statictilemap.cpp.s
-
 src/texturemanager.o: src/texturemanager.cpp.o
 
 .PHONY : src/texturemanager.o
@@ -703,6 +730,249 @@ src/texturemanager.s: src/texturemanager.cpp.s
 src/texturemanager.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.s
 .PHONY : src/texturemanager.cpp.s
+
+src/tmxlite/FreeFuncs.o: src/tmxlite/FreeFuncs.cpp.o
+
+.PHONY : src/tmxlite/FreeFuncs.o
+
+# target to build an object file
+src/tmxlite/FreeFuncs.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/FreeFuncs.cpp.o
+.PHONY : src/tmxlite/FreeFuncs.cpp.o
+
+src/tmxlite/FreeFuncs.i: src/tmxlite/FreeFuncs.cpp.i
+
+.PHONY : src/tmxlite/FreeFuncs.i
+
+# target to preprocess a source file
+src/tmxlite/FreeFuncs.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/FreeFuncs.cpp.i
+.PHONY : src/tmxlite/FreeFuncs.cpp.i
+
+src/tmxlite/FreeFuncs.s: src/tmxlite/FreeFuncs.cpp.s
+
+.PHONY : src/tmxlite/FreeFuncs.s
+
+# target to generate assembly for a file
+src/tmxlite/FreeFuncs.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/FreeFuncs.cpp.s
+.PHONY : src/tmxlite/FreeFuncs.cpp.s
+
+src/tmxlite/ImageLayer.o: src/tmxlite/ImageLayer.cpp.o
+
+.PHONY : src/tmxlite/ImageLayer.o
+
+# target to build an object file
+src/tmxlite/ImageLayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ImageLayer.cpp.o
+.PHONY : src/tmxlite/ImageLayer.cpp.o
+
+src/tmxlite/ImageLayer.i: src/tmxlite/ImageLayer.cpp.i
+
+.PHONY : src/tmxlite/ImageLayer.i
+
+# target to preprocess a source file
+src/tmxlite/ImageLayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ImageLayer.cpp.i
+.PHONY : src/tmxlite/ImageLayer.cpp.i
+
+src/tmxlite/ImageLayer.s: src/tmxlite/ImageLayer.cpp.s
+
+.PHONY : src/tmxlite/ImageLayer.s
+
+# target to generate assembly for a file
+src/tmxlite/ImageLayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ImageLayer.cpp.s
+.PHONY : src/tmxlite/ImageLayer.cpp.s
+
+src/tmxlite/Map.o: src/tmxlite/Map.cpp.o
+
+.PHONY : src/tmxlite/Map.o
+
+# target to build an object file
+src/tmxlite/Map.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Map.cpp.o
+.PHONY : src/tmxlite/Map.cpp.o
+
+src/tmxlite/Map.i: src/tmxlite/Map.cpp.i
+
+.PHONY : src/tmxlite/Map.i
+
+# target to preprocess a source file
+src/tmxlite/Map.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Map.cpp.i
+.PHONY : src/tmxlite/Map.cpp.i
+
+src/tmxlite/Map.s: src/tmxlite/Map.cpp.s
+
+.PHONY : src/tmxlite/Map.s
+
+# target to generate assembly for a file
+src/tmxlite/Map.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Map.cpp.s
+.PHONY : src/tmxlite/Map.cpp.s
+
+src/tmxlite/Object.o: src/tmxlite/Object.cpp.o
+
+.PHONY : src/tmxlite/Object.o
+
+# target to build an object file
+src/tmxlite/Object.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Object.cpp.o
+.PHONY : src/tmxlite/Object.cpp.o
+
+src/tmxlite/Object.i: src/tmxlite/Object.cpp.i
+
+.PHONY : src/tmxlite/Object.i
+
+# target to preprocess a source file
+src/tmxlite/Object.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Object.cpp.i
+.PHONY : src/tmxlite/Object.cpp.i
+
+src/tmxlite/Object.s: src/tmxlite/Object.cpp.s
+
+.PHONY : src/tmxlite/Object.s
+
+# target to generate assembly for a file
+src/tmxlite/Object.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Object.cpp.s
+.PHONY : src/tmxlite/Object.cpp.s
+
+src/tmxlite/ObjectGroup.o: src/tmxlite/ObjectGroup.cpp.o
+
+.PHONY : src/tmxlite/ObjectGroup.o
+
+# target to build an object file
+src/tmxlite/ObjectGroup.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ObjectGroup.cpp.o
+.PHONY : src/tmxlite/ObjectGroup.cpp.o
+
+src/tmxlite/ObjectGroup.i: src/tmxlite/ObjectGroup.cpp.i
+
+.PHONY : src/tmxlite/ObjectGroup.i
+
+# target to preprocess a source file
+src/tmxlite/ObjectGroup.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ObjectGroup.cpp.i
+.PHONY : src/tmxlite/ObjectGroup.cpp.i
+
+src/tmxlite/ObjectGroup.s: src/tmxlite/ObjectGroup.cpp.s
+
+.PHONY : src/tmxlite/ObjectGroup.s
+
+# target to generate assembly for a file
+src/tmxlite/ObjectGroup.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ObjectGroup.cpp.s
+.PHONY : src/tmxlite/ObjectGroup.cpp.s
+
+src/tmxlite/Property.o: src/tmxlite/Property.cpp.o
+
+.PHONY : src/tmxlite/Property.o
+
+# target to build an object file
+src/tmxlite/Property.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Property.cpp.o
+.PHONY : src/tmxlite/Property.cpp.o
+
+src/tmxlite/Property.i: src/tmxlite/Property.cpp.i
+
+.PHONY : src/tmxlite/Property.i
+
+# target to preprocess a source file
+src/tmxlite/Property.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Property.cpp.i
+.PHONY : src/tmxlite/Property.cpp.i
+
+src/tmxlite/Property.s: src/tmxlite/Property.cpp.s
+
+.PHONY : src/tmxlite/Property.s
+
+# target to generate assembly for a file
+src/tmxlite/Property.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Property.cpp.s
+.PHONY : src/tmxlite/Property.cpp.s
+
+src/tmxlite/TileLayer.o: src/tmxlite/TileLayer.cpp.o
+
+.PHONY : src/tmxlite/TileLayer.o
+
+# target to build an object file
+src/tmxlite/TileLayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/TileLayer.cpp.o
+.PHONY : src/tmxlite/TileLayer.cpp.o
+
+src/tmxlite/TileLayer.i: src/tmxlite/TileLayer.cpp.i
+
+.PHONY : src/tmxlite/TileLayer.i
+
+# target to preprocess a source file
+src/tmxlite/TileLayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/TileLayer.cpp.i
+.PHONY : src/tmxlite/TileLayer.cpp.i
+
+src/tmxlite/TileLayer.s: src/tmxlite/TileLayer.cpp.s
+
+.PHONY : src/tmxlite/TileLayer.s
+
+# target to generate assembly for a file
+src/tmxlite/TileLayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/TileLayer.cpp.s
+.PHONY : src/tmxlite/TileLayer.cpp.s
+
+src/tmxlite/Tileset.o: src/tmxlite/Tileset.cpp.o
+
+.PHONY : src/tmxlite/Tileset.o
+
+# target to build an object file
+src/tmxlite/Tileset.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Tileset.cpp.o
+.PHONY : src/tmxlite/Tileset.cpp.o
+
+src/tmxlite/Tileset.i: src/tmxlite/Tileset.cpp.i
+
+.PHONY : src/tmxlite/Tileset.i
+
+# target to preprocess a source file
+src/tmxlite/Tileset.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Tileset.cpp.i
+.PHONY : src/tmxlite/Tileset.cpp.i
+
+src/tmxlite/Tileset.s: src/tmxlite/Tileset.cpp.s
+
+.PHONY : src/tmxlite/Tileset.s
+
+# target to generate assembly for a file
+src/tmxlite/Tileset.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Tileset.cpp.s
+.PHONY : src/tmxlite/Tileset.cpp.s
+
+src/tmxlite/detail/pugixml.o: src/tmxlite/detail/pugixml.cpp.o
+
+.PHONY : src/tmxlite/detail/pugixml.o
+
+# target to build an object file
+src/tmxlite/detail/pugixml.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/detail/pugixml.cpp.o
+.PHONY : src/tmxlite/detail/pugixml.cpp.o
+
+src/tmxlite/detail/pugixml.i: src/tmxlite/detail/pugixml.cpp.i
+
+.PHONY : src/tmxlite/detail/pugixml.i
+
+# target to preprocess a source file
+src/tmxlite/detail/pugixml.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/detail/pugixml.cpp.i
+.PHONY : src/tmxlite/detail/pugixml.cpp.i
+
+src/tmxlite/detail/pugixml.s: src/tmxlite/detail/pugixml.cpp.s
+
+.PHONY : src/tmxlite/detail/pugixml.s
+
+# target to generate assembly for a file
+src/tmxlite/detail/pugixml.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/detail/pugixml.cpp.s
+.PHONY : src/tmxlite/detail/pugixml.cpp.s
 
 src/util.o: src/util.cpp.o
 
@@ -767,6 +1037,9 @@ help:
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
+	@echo "... src/glad.o"
+	@echo "... src/glad.i"
+	@echo "... src/glad.s"
 	@echo "... src/gui-components.o"
 	@echo "... src/gui-components.i"
 	@echo "... src/gui-components.s"
@@ -779,6 +1052,9 @@ help:
 	@echo "... src/menu.o"
 	@echo "... src/menu.i"
 	@echo "... src/menu.s"
+	@echo "... src/miniz.o"
+	@echo "... src/miniz.i"
+	@echo "... src/miniz.s"
 	@echo "... src/move.o"
 	@echo "... src/move.i"
 	@echo "... src/move.s"
@@ -797,12 +1073,36 @@ help:
 	@echo "... src/spritemanager.o"
 	@echo "... src/spritemanager.i"
 	@echo "... src/spritemanager.s"
-	@echo "... src/statictilemap.o"
-	@echo "... src/statictilemap.i"
-	@echo "... src/statictilemap.s"
 	@echo "... src/texturemanager.o"
 	@echo "... src/texturemanager.i"
 	@echo "... src/texturemanager.s"
+	@echo "... src/tmxlite/FreeFuncs.o"
+	@echo "... src/tmxlite/FreeFuncs.i"
+	@echo "... src/tmxlite/FreeFuncs.s"
+	@echo "... src/tmxlite/ImageLayer.o"
+	@echo "... src/tmxlite/ImageLayer.i"
+	@echo "... src/tmxlite/ImageLayer.s"
+	@echo "... src/tmxlite/Map.o"
+	@echo "... src/tmxlite/Map.i"
+	@echo "... src/tmxlite/Map.s"
+	@echo "... src/tmxlite/Object.o"
+	@echo "... src/tmxlite/Object.i"
+	@echo "... src/tmxlite/Object.s"
+	@echo "... src/tmxlite/ObjectGroup.o"
+	@echo "... src/tmxlite/ObjectGroup.i"
+	@echo "... src/tmxlite/ObjectGroup.s"
+	@echo "... src/tmxlite/Property.o"
+	@echo "... src/tmxlite/Property.i"
+	@echo "... src/tmxlite/Property.s"
+	@echo "... src/tmxlite/TileLayer.o"
+	@echo "... src/tmxlite/TileLayer.i"
+	@echo "... src/tmxlite/TileLayer.s"
+	@echo "... src/tmxlite/Tileset.o"
+	@echo "... src/tmxlite/Tileset.i"
+	@echo "... src/tmxlite/Tileset.s"
+	@echo "... src/tmxlite/detail/pugixml.o"
+	@echo "... src/tmxlite/detail/pugixml.i"
+	@echo "... src/tmxlite/detail/pugixml.s"
 	@echo "... src/util.o"
 	@echo "... src/util.i"
 	@echo "... src/util.s"

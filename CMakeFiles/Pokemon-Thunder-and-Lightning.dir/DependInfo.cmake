@@ -1,8 +1,23 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/glad.c" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/glad.c.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/miniz.c" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/miniz.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "Clang")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "./bin"
+  "./include"
+  "./include/tmxlite"
+  "./include/tmxlite/detail"
+  "/Library/Frameworks/SFML.framework"
+  )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/AnimatedSprite.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/AnimatedSprite.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/Animation.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.o"
@@ -21,8 +36,16 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/roundedRectangle.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/statictilemap.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/FreeFuncs.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/FreeFuncs.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/ImageLayer.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ImageLayer.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Map.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Map.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Object.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Object.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/ObjectGroup.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ObjectGroup.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Property.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Property.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/TileLayer.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/TileLayer.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Tileset.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Tileset.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/detail/pugixml.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/util.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
@@ -31,6 +54,8 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "./bin"
   "./include"
+  "./include/tmxlite"
+  "./include/tmxlite/detail"
   "/Library/Frameworks/SFML.framework"
   )
 

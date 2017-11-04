@@ -16,14 +16,24 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o"
-  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/statictilemap.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/FreeFuncs.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ImageLayer.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Map.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Object.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ObjectGroup.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Property.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/TileLayer.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Tileset.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/detail/pugixml.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/glad.c.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/miniz.c.o"
   "Pokemon-Thunder-and-Lightning.pdb"
   "Pokemon-Thunder-and-Lightning"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/Pokemon-Thunder-and-Lightning.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
