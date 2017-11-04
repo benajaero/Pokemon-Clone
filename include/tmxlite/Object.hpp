@@ -28,9 +28,9 @@ source distribution.
 #ifndef TMXLITE_OBJECT_HPP_
 #define TMXLITE_OBJECT_HPP_
 
-#include <tmxlite/Config.hpp>
-#include <tmxlite/Property.hpp>
-#include <tmxlite/Types.hpp>
+#include "Config.hpp"
+#include "Property.hpp"
+#include "Types.hpp"
 
 #include <string>
 #include <vector>

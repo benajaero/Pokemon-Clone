@@ -50,5 +50,4 @@ void Hero::setupAnimations(sf::Texture& texture) {
     idle.right.addFrame(sf::IntRect(131, 37, 17, 23));
     idle.left.addFrame(sf::IntRect(340, 37, 17, 23));
 
-
 }

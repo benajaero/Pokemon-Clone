@@ -28,9 +28,9 @@ source distribution.
 #ifndef TMXLITE_IMAGELAYER_HPP_
 #define TMXLITE_IMAGELAYER_HPP_
 
-#include <tmxlite/Config.hpp>
-#include <tmxlite/Layer.hpp>
-#include <tmxlite/Types.hpp>
+#include "tmxlite/Config.hpp"
+#include "tmxlite/Layer.hpp"
+#include "tmxlite/Types.hpp"
 
 namespace tmx
 {

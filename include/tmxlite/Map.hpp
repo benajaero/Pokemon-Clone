@@ -28,10 +28,10 @@ source distribution.
 #ifndef TMXLITE_MAP_HPP_
 #define TMXLITE_MAP_HPP_
 
-#include <tmxlite/Tileset.hpp>
-#include <tmxlite/Layer.hpp>
-#include <tmxlite/Property.hpp>
-#include <tmxlite/Types.hpp>
+#include "Tileset.hpp"
+#include "Layer.hpp"
+#include "Property.hpp"
+#include "Types.hpp"
 
 #include <string>
 #include <vector>

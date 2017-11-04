@@ -86,7 +86,7 @@ void MainMenuController::loop(sf::RenderWindow& window) {
                 return;
             }
             if (menuState == TO_PLAYING) {
-                Game::_gameState = Game::BATTLING;
+                Game::_gameState = Game::PLAYING;
                 return;
             }
             else if (menuState == TO_ORIENTATION) {

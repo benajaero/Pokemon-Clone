@@ -28,7 +28,7 @@ source distribution.
 #ifndef TMXLITE_TILELAYER_HPP_
 #define TMXLITE_TILELAYER_HPP_
 
-#include <tmxlite/Layer.hpp>
+#include "Layer.hpp"
 
 namespace tmx
 {

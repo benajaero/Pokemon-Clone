@@ -28,8 +28,8 @@ source distribution.
 #ifndef TMXLITE_PROPERTY_HPP_
 #define TMXLITE_PROPERTY_HPP_
 
-#include <tmxlite/Config.hpp>
-#include <tmxlite/Types.hpp>
+#include "Config.hpp"
+#include "Types.hpp"
 
 #include <string>
 #include <cassert>

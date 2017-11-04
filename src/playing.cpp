@@ -5,6 +5,8 @@
 #include "util.h"
 #include "game.h"
 #include "texturemanager.h"
+#include "tmxlite/Map.hpp" 
+#include "SFMLOrthogonalLayer.hpp"
 #include "spritemanager.h"
 #include <cassert>
 
@@ -39,6 +41,8 @@ void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window) {
         } 
         else {
             Game::hero.isMoving = false;
+            Game::hero.xvel = 0;
+            Game::hero.yvel = 0;
         }
     }
     draw(window);
@@ -80,13 +84,17 @@ void PlayController::draw(sf::RenderWindow& window) {
     }
     
     heroSprite.play(currentAnimation);
-
+    heroSprite.update(Game::frameTime);
     //sf::CircleShape circle(50);
     //circle.setPosition(0, 0);
     //circle.setFillColor(sf::Color::Black);
     
-    heroSprite.update(Game::frameTime);
+    tmx::Map _map;
+    assert(_map.load("assets/testmap.tmx"));
+    MapLayer layerZero(_map, 0);
+    
     window.clear(sf::Color::White);
+    window.draw(layerZero, sf::Transform().scale(SCALE, SCALE));
     window.draw(heroSprite);
     window.display();
 }

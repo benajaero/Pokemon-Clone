@@ -122,6 +122,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
+ ./include/SFMLOrthogonalLayer.hpp
  ./include/definitions.h
  ./include/enums.h
  ./include/game.h
@@ -134,6 +135,16 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
  ./include/roundedRectangle.h
  ./include/spritemanager.h
  ./include/texturemanager.h
+ ./include/tmxlite/Config.hpp
+ ./include/tmxlite/Layer.hpp
+ ./include/tmxlite/Map.hpp
+ ./include/tmxlite/Object.hpp
+ ./include/tmxlite/ObjectGroup.hpp
+ ./include/tmxlite/Property.hpp
+ ./include/tmxlite/TileLayer.hpp
+ ./include/tmxlite/Tileset.hpp
+ ./include/tmxlite/Types.hpp
+ ./include/tmxlite/Types.inl
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o

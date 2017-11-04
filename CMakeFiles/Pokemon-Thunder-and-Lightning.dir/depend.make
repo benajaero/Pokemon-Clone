@@ -121,6 +121,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: src/move.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/Animation.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/SFMLOrthogonalLayer.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/game.h
@@ -133,6 +134,16 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/pokemo
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/roundedRectangle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/spritemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/texturemanager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/Config.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/Layer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/Map.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/Object.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/ObjectGroup.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/Property.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/TileLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/Tileset.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/Types.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/tmxlite/Types.inl
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: src/playing.cpp
 

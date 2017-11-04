@@ -25,10 +25,10 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
-#include <tmxlite/FreeFuncs.hpp>
-#include <tmxlite/TileLayer.hpp>
+#include "tmxlite/FreeFuncs.hpp"
+#include "tmxlite/TileLayer.hpp"
 #include "detail/pugixml.hpp"
-#include <tmxlite/detail/Log.hpp>
+#include "tmxlite/detail/Log.hpp"
 
 #include <sstream>
 

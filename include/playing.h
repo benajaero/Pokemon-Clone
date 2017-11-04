@@ -8,7 +8,6 @@
 
 class PlayController {
     private:
-        sf::Texture playerTexture;
         //Hero hero;
     public:
         sf::View view;
