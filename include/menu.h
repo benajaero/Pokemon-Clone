@@ -10,9 +10,10 @@
 #include <functional>
 
 class Game;
+class MainMenuController;
 class OverviewMenu {
     private:
-        Button buttons[5];
+        GuiButton buttons[5];
     public:
         //init sprite creation and so forth
         OverviewMenu() {
@@ -29,7 +30,7 @@ class OverviewMenu {
         }
 
         void buttonSetup();
-        void handleEvents(sf::Event evt);
+        void handleEvents(sf::Event evt, sf::RenderWindow& win, MainMenuController& controller);
         void draw(sf::RenderWindow& window);
 };
 
@@ -45,7 +46,9 @@ class MainMenuController {
             OVERVIEW,
             NEW,
             LOAD,
-            OPTIONS
+            OPTIONS,
+            TO_PLAYING,
+            TO_ORIENTATION
         };
         MenuState prevState;
         MenuState menuState;
@@ -54,9 +57,10 @@ class MainMenuController {
             menuState = OVERVIEW;
         }
         MainMenuController(MenuState initialState) : menuState(initialState), prevState(initialState) {}
-        void handleEvents(sf::Event evt);
+        void handleEvents(sf::Event evt, sf::RenderWindow& win);
         void draw(sf::RenderWindow& window);
         void loop(sf::RenderWindow& window);
+        void changeState(MenuState state);
 };
 
 class ContextMenuController {

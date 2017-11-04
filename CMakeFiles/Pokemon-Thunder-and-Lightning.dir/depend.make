@@ -12,6 +12,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/Animate
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/battle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/enums.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/font_manager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/gui-components.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/hero.h
@@ -40,6 +41,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/Animation
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/battle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/enums.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/font_manager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/gui-components.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/hero.h
@@ -54,8 +56,13 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/texturema
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: src/game.cpp
 
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/AnimatedSprite.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/Animation.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/font_manager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/gui-components.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/roundedRectangle.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/spritemanager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/texturemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: src/gui-components.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: ./include/AnimatedSprite.hpp

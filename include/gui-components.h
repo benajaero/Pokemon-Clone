@@ -38,6 +38,21 @@ class Button {
         }
 };
 
+class GuiButton {
+    private:
+        std::function<void()> _callback;
+        bool _isClicked;
+    public:
+        std::string buttonSpriteName;
+        void textureInit();
+        void newSprite(std::string textureName);
+        bool isClicked() { return _isClicked; };
+        void setClicked(sf::Vector2i mousePos);
+        sf::Sprite& getSprite();
+        void draw(sf::RenderWindow& win);
+
+};
+
 class MainMenu {
     private:
 

@@ -13,6 +13,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o
  ./include/Animation.hpp
  ./include/battle.h
  ./include/enums.h
+ ./include/font_manager.h
  ./include/game.h
  ./include/gui-components.h
  ./include/hero.h
@@ -41,6 +42,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o
  ./include/battle.h
  ./include/definitions.h
  ./include/enums.h
+ ./include/font_manager.h
  ./include/game.h
  ./include/gui-components.h
  ./include/hero.h
@@ -55,8 +57,13 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o
+ ./include/AnimatedSprite.hpp
+ ./include/Animation.hpp
+ ./include/font_manager.h
  ./include/gui-components.h
  ./include/roundedRectangle.h
+ ./include/spritemanager.h
+ ./include/texturemanager.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/gui-components.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o
  ./include/AnimatedSprite.hpp

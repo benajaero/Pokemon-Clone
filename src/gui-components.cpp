@@ -1,4 +1,7 @@
 #include "gui-components.h"
+#include "font_manager.h"
+#include "spritemanager.h"
+#include "texturemanager.h"
 
 void Button::setBackgroundSize(sf::Vector2f dimensions) {
     _background.setSize(dimensions);
@@ -30,4 +33,28 @@ void Button::setClicked(sf::Vector2f mousePos) {
 void Button::draw(sf::RenderWindow& window) {
     window.draw(_background);
     window.draw(_text);
+}
+
+void GuiButton::textureInit() {
+    TextureManager::loadTexture("NewButton", "assets/NewButton.png");
+    TextureManager::loadTexture("LoadButton", "assets/LoadButton.png");
+    TextureManager::loadTexture("OptionsButton", "assets/OptionsButton.png");
+}
+
+void GuiButton::newSprite(std::string textureName) {
+    sf::Sprite& sprite = SpriteManager::newSprite(textureName);
+    sprite.setTexture(TextureManager::getRef(textureName));
+    buttonSpriteName = textureName; 
+}
+
+void GuiButton::setClicked(sf::Vector2i mousePos) {
+    _isClicked = SpriteManager::getRef(buttonSpriteName).getGlobalBounds().contains(sf::Vector2f(mousePos.x, mousePos.y));
+}
+
+sf::Sprite& GuiButton::getSprite() {
+    return SpriteManager::getRef(buttonSpriteName);
+}
+
+void GuiButton::draw(sf::RenderWindow& win) {
+    win.draw(SpriteManager::getRef(buttonSpriteName));
 }

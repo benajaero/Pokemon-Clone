@@ -5,6 +5,9 @@
 #include "pokemon.h"
 #include "hero.h"
 #include "util.h"
+#include "spritemanager.h"
+#include "texturemanager.h"
+#include "font_manager.h"
 #include <SFML/Graphics.hpp>
 #include <vector>
 
@@ -47,18 +50,26 @@ class BattleController {
             _hero = hero; 
             _person = person;
             battleType = TRAINER;
+            SpriteInit();
         }
 
         BattleController(Hero* hero, Person* person, BattleType type) {
             _hero = hero; 
             _person = person;
             battleType = type;
+            SpriteInit();
         }
 
         BattleController(Hero* hero, Pokemon wildPokemon) {
             _hero = hero;
             _wildPokemon = wildPokemon;
             battleType = WILD;
+            SpriteInit();
+        }
+
+        ~BattleController() {
+            //cleanup
+            SpriteManager::deleteSprite("battleBackground");
         }
 
         void preturn();
@@ -69,6 +80,7 @@ class BattleController {
         void drawOverlay();
         void drawBackground();
         void drawPokemon();
+        void SpriteInit();
 };
 
 #endif
