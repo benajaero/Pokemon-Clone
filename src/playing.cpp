@@ -21,22 +21,22 @@ void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window) {
     if (event.type == sf::Event::KeyPressed) {
         if (event.key.code == sf::Keyboard::D || event.key.code == sf::Keyboard::Right) {
             Game::hero.isMoving = true;
-            Game::hero.xvel = 10;
+            Game::hero.xvel = 50;
             Game::hero.changeOrientation(EAST);
         }
         else if (event.key.code == sf::Keyboard::A || event.key.code == sf::Keyboard::Left) {
             Game::hero.isMoving = true;
-            Game::hero.xvel = -10;
+            Game::hero.xvel = -50;
             Game::hero.changeOrientation(WEST);
         }
         else if (event.key.code == sf::Keyboard::W || event.key.code == sf::Keyboard::Up) {
             Game::hero.isMoving = true;
-            Game::hero.yvel = +10;
+            Game::hero.yvel = -50;
             Game::hero.changeOrientation(NORTH);
         }
         else if (event.key.code == sf::Keyboard::S || event.key.code == sf::Keyboard::Down) {
             Game::hero.isMoving = true;
-            Game::hero.yvel = -10;
+            Game::hero.yvel = 50;
             Game::hero.changeOrientation(SOUTH);
         } 
         else {
@@ -85,6 +85,7 @@ void PlayController::draw(sf::RenderWindow& window) {
     
     heroSprite.play(currentAnimation);
     heroSprite.update(Game::frameTime);
+    heroSprite.setPosition(view.getCenter());
     //sf::CircleShape circle(50);
     //circle.setPosition(0, 0);
     //circle.setFillColor(sf::Color::Black);
@@ -92,10 +93,18 @@ void PlayController::draw(sf::RenderWindow& window) {
     tmx::Map _map;
     assert(_map.load("assets/testmap.tmx"));
     MapLayer layerZero(_map, 0);
-    
+    sf::CircleShape shape(50);
+    shape.setFillColor(sf::Color(150, 50, 250));
+
+    // set a 10-pixel wide orange outline
+    shape.setOutlineThickness(10);
+    shape.setOutlineColor(sf::Color(250, 150, 100));
+
     window.clear(sf::Color::White);
+    window.setView(view);
     window.draw(layerZero, sf::Transform().scale(SCALE, SCALE));
     window.draw(heroSprite);
+    window.draw(shape);
     window.display();
 }
 
