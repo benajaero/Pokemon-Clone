@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/battle.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/fader.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/file.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/font_manager.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/game.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/gui-components.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o"

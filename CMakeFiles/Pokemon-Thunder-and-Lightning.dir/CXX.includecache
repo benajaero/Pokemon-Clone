@@ -62,6 +62,14 @@ SFML/System/Time.hpp
 json.hpp
 ./include/json.hpp
 
+./include/font_manager.h
+SFML/Graphics.hpp
+-
+map
+-
+string
+-
+
 ./include/game.h
 menu.h
 ./include/menu.h
@@ -278,6 +286,12 @@ fader.h
 file.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/file.h
 
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/font_manager.cpp
+font_manager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/font_manager.h
+cassert
+-
+
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.cpp
 game.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.h
@@ -313,6 +327,8 @@ SFML/Graphics.hpp
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/menu.cpp
 menu.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/menu.h
+font_manager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/font_manager.h
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/move.cpp
 pokemon.h
@@ -367,6 +383,8 @@ texturemanager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.h
 spritemanager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.h
+font_manager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/font_manager.h
 game.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.h
 cassert

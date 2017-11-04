@@ -15,7 +15,7 @@ void Button::setRadius(float radius) {
 sf::Vector2f Button::getBackgroundSize(sf::Vector2f size) {
     return _background.getSize();
 }
-void Button::setPostition(sf::Vector2f pos) {
+void Button::setPosition(sf::Vector2f pos) {
     _background.setPosition(pos);
     sf::Vector2f size = _background.getSize();
     _text.setPosition(pos.x + size.x / 2, pos.y + size.y / 2);
@@ -25,4 +25,9 @@ void Button::setTextSize(int size) {
 } 
 void Button::setClicked(sf::Vector2f mousePos) {
     _isClicked = _background.getGlobalBounds().contains(mousePos);
+}
+
+void Button::draw(sf::RenderWindow& window) {
+    window.draw(_background);
+    window.draw(_text); 
 }

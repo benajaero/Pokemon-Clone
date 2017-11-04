@@ -8,9 +8,9 @@
 //TODO CONVERT TO CLASS TEMPLATES
 class FontManager {
     private:
-        std::map<std::string, sf::Font> _fonts;
+        static std::map<std::string, sf::Font> _fonts;
     public:
-        static void loadFont(std::string name, std::string filePath);
+        static sf::Font& loadFont(std::string name, std::string filePath);
         static sf::Font& getFont(std::string fontIdentifier);
         static void deleteFont(std::string fontIdentifier);
         static void deleteAll();

@@ -3,6 +3,7 @@
 #include "definitions.h"
 #include "texturemanager.h"
 #include "spritemanager.h"
+#include "font_manager.h"
 #include "game.h"
 #include <cassert>
 #include <iostream>
@@ -11,6 +12,13 @@
 #include <SFML/Graphics.hpp>
 
 bool SplashScreen::loading = true;
+
+void loadFonts() {
+    FontManager::loadFont("Generica", "assets/fonts/Generica.otf");
+    FontManager::loadFont("GenericaBold", "assets/fonts/Generica Bold.otf");
+    FontManager::loadFont("Bauhaus", "assets/fonts/Bauhaus.ttf");
+    FontManager::loadFont("BauhausOutline", "assets/fonts/BauhausOutline.ttf");
+}
 
 void loadTextures() {
     TextureManager::loadTexture("heroTexture", "assets/NewHero.png");
@@ -32,6 +40,7 @@ void loadAnimations() {
 }
 
 void Load() {
+    loadFonts();
     loadTextures();
     loadSprites();
     loadAnimations();

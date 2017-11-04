@@ -12,7 +12,7 @@
 class Game;
 class OverviewMenu {
     private:
-
+        Button buttons[5];
     public:
         //init sprite creation and so forth
         OverviewMenu() {
@@ -20,6 +20,7 @@ class OverviewMenu {
             sf::Sprite& sprite = SpriteManager::newSprite("overviewBackground");
             sprite.setTexture(texture);
             sprite.setPosition(0, 0);
+            buttonSetup();
         }
         //sprite deletion
         ~OverviewMenu() {

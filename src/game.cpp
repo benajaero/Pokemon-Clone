@@ -58,7 +58,6 @@ void Game::computeFrameTime() {
 void Game::Menu() {
     MainMenuController mainMenuController;
     mainMenuController.loop(_mainWindow);    
-    _gameState = Game::PLAYING;
 }
 
 void Game::ShowSplash() {

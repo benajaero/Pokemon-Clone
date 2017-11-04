@@ -326,6 +326,33 @@ src/file.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.s
 .PHONY : src/file.cpp.s
 
+src/font_manager.o: src/font_manager.cpp.o
+
+.PHONY : src/font_manager.o
+
+# target to build an object file
+src/font_manager.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.o
+.PHONY : src/font_manager.cpp.o
+
+src/font_manager.i: src/font_manager.cpp.i
+
+.PHONY : src/font_manager.i
+
+# target to preprocess a source file
+src/font_manager.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.i
+.PHONY : src/font_manager.cpp.i
+
+src/font_manager.s: src/font_manager.cpp.s
+
+.PHONY : src/font_manager.s
+
+# target to generate assembly for a file
+src/font_manager.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.s
+.PHONY : src/font_manager.cpp.s
+
 src/game.o: src/game.cpp.o
 
 .PHONY : src/game.o
@@ -734,6 +761,9 @@ help:
 	@echo "... src/file.o"
 	@echo "... src/file.i"
 	@echo "... src/file.s"
+	@echo "... src/font_manager.o"
+	@echo "... src/font_manager.i"
+	@echo "... src/font_manager.s"
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"

@@ -32,6 +32,9 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o: ./include/file.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o: ./include/json.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o: src/file.cpp
 
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.o: ./include/font_manager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.o: src/font_manager.cpp
+
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/battle.h
@@ -83,6 +86,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/enums.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/font_manager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/gui-components.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/hero.h
@@ -130,6 +134,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/A
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/enums.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/font_manager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/gui-components.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/hero.h

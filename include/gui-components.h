@@ -9,8 +9,6 @@
 
 class Button {
     private:
-        sf::RoundedRectangleShape _background;
-        sf::Text _text;      
         std::function<void()> _callback;
         bool _isClicked;
     public:
@@ -19,15 +17,25 @@ class Button {
         void setButtonFont(sf::Font font);
         void setText(std::string text);
         void setRadius(float radius);
-        void setPostition(sf::Vector2f pos);
+        void setPosition(sf::Vector2f pos);
         sf::Vector2f getBackgroundSize(sf::Vector2f size);
         void setTextSize(int size);
 
+        sf::RoundedRectangleShape _background;
+        sf::Text _text;      
         
         sf::RoundedRectangleShape& getBackground() { return _background; };
+        sf::RoundedRectangleShape getBackgroundCopy() { return _background; }
         sf::Text& getText() { return _text; };
+        sf::Text getTextCopy() { return _text; }
         bool isClicked() { return _isClicked; };
         void setClicked(sf::Vector2f mousePos);
+        void draw(sf::RenderWindow& window);
+
+        Button() {
+            _background = sf::RoundedRectangleShape();
+            _text = sf::Text();
+        }
 };
 
 class MainMenu {

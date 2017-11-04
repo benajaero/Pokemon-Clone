@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o"
