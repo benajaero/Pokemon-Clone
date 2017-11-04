@@ -4,7 +4,7 @@
 std::map<std::string, sf::Font> FontManager::_fonts;
 sf::Font& FontManager::loadFont(std::string name, std::string filePath) {
     sf::Font font;
-    assert(font.loadFromFile(filePath));
+    font.loadFromFile(filePath);
     FontManager::_fonts[name] = font;
     return FontManager::_fonts.at(name);
 }

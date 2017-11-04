@@ -1,5 +1,6 @@
 #include "menu.h"
 #include "font_manager.h"
+#include <iostream>
 
 void MainMenuController::handleEvents(sf::Event evt) {
     if (menuState == OVERVIEW) overviewMenu.handleEvents(evt);
@@ -16,7 +17,10 @@ void OverviewMenu::handleEvents(sf::Event evt) {
 void OverviewMenu::draw(sf::RenderWindow& window) {
    window.clear(sf::Color::White);
    window.draw(SpriteManager::getRef("overviewBackground"));
-   //buttons[0].draw(window);
+   
+   for (int i = 0; i < 3; i++) {
+       buttons[i].draw(window);
+   }
    window.display();
 }
 
@@ -28,7 +32,9 @@ void OverviewMenu::buttonSetup() {
         buttons[i].setTextSize(64);
         buttons[i].setRadius(27);
         sf::RoundedRectangleShape& background = buttons[i].getBackground(); 
-        background.setFillColor(sf::Color(46, 111, 182));
+        //background.setFillColor(sf::Color(46, 111, 182));
+        background.setFillColor(sf::Color::Black);
+        std::cout << "set color";
         background.setOutlineThickness(5);
         background.setOutlineColor(sf::Color(33, 56, 112));
 

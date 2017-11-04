@@ -14,7 +14,7 @@ class Button {
     public:
         //just helpful functions its probably easier just to get the objects for other functions
         void setBackgroundSize(sf::Vector2f dimensions);
-        void setButtonFont(sf::Font font);
+        void setButtonFont(sf::Font& font);
         void setText(std::string text);
         void setRadius(float radius);
         void setPosition(sf::Vector2f pos);

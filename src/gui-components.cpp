@@ -3,7 +3,7 @@
 void Button::setBackgroundSize(sf::Vector2f dimensions) {
     _background.setSize(dimensions);
 }
-void Button::setButtonFont(sf::Font font) {
+void Button::setButtonFont(sf::Font& font) {
    _text.setFont(font); 
 }
 void Button::setText(std::string text) {
@@ -29,5 +29,5 @@ void Button::setClicked(sf::Vector2f mousePos) {
 
 void Button::draw(sf::RenderWindow& window) {
     window.draw(_background);
-    window.draw(_text); 
+    window.draw(_text);
 }

@@ -329,6 +329,8 @@ menu.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/menu.h
 font_manager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/font_manager.h
+iostream
+-
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/move.cpp
 pokemon.h
