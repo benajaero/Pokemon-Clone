@@ -49,7 +49,24 @@ void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window) {
             Game::hero.yvel = 0;
         }
     }
-
+    if (event.type == sf::Event::KeyReleased) {
+        if (event.key.code == sf::Keyboard::D || event.key.code == sf::Keyboard::Right) {
+            Game::hero.isMoving = false;
+            Game::hero.xvel = 0;
+        }
+        else if (event.key.code == sf::Keyboard::A || event.key.code == sf::Keyboard::Left) {
+            Game::hero.isMoving = false;
+            Game::hero.xvel = 0;
+        }
+        else if (event.key.code == sf::Keyboard::W || event.key.code == sf::Keyboard::Up) {
+            Game::hero.isMoving = false;
+            Game::hero.yvel = 0;
+        }
+        else if (event.key.code == sf::Keyboard::S || event.key.code == sf::Keyboard::Down) {
+            Game::hero.isMoving = false;
+            Game::hero.yvel = 0;
+        } 
+    }
 }
 
 void PlayController::draw(sf::RenderWindow& window) {
