@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o"
+  "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o"
   "CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o"

@@ -202,6 +202,20 @@ valarray
 vector
 -
 
+./include/mapManager.h
+tmxlite/Map.hpp
+./include/tmxlite/Map.hpp
+SFMLOrthogonalLayer.hpp
+./include/SFMLOrthogonalLayer.hpp
+SFML/Graphics.hpp
+-
+string
+-
+map
+-
+vector
+-
+
 ./include/menu.h
 gui-components.h
 ./include/gui-components.h
@@ -500,6 +514,12 @@ iostream
 gui-components.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/gui-components.h
 SFML/Graphics.hpp
+-
+
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/mapManager.cpp
+mapManager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/mapManager.h
+cassert
 -
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/menu.cpp

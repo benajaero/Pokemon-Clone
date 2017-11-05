@@ -132,6 +132,21 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o
  ./include/tmxlite/Types.inl
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/main.cpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o
+ ./include/SFMLOrthogonalLayer.hpp
+ ./include/definitions.h
+ ./include/mapManager.h
+ ./include/tmxlite/Config.hpp
+ ./include/tmxlite/Layer.hpp
+ ./include/tmxlite/Map.hpp
+ ./include/tmxlite/Object.hpp
+ ./include/tmxlite/ObjectGroup.hpp
+ ./include/tmxlite/Property.hpp
+ ./include/tmxlite/TileLayer.hpp
+ ./include/tmxlite/Tileset.hpp
+ ./include/tmxlite/Types.hpp
+ ./include/tmxlite/Types.inl
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/mapManager.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp

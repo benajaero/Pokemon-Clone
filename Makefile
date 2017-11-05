@@ -488,6 +488,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mapManager.o: src/mapManager.cpp.o
+
+.PHONY : src/mapManager.o
+
+# target to build an object file
+src/mapManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o
+.PHONY : src/mapManager.cpp.o
+
+src/mapManager.i: src/mapManager.cpp.i
+
+.PHONY : src/mapManager.i
+
+# target to preprocess a source file
+src/mapManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.i
+.PHONY : src/mapManager.cpp.i
+
+src/mapManager.s: src/mapManager.cpp.s
+
+.PHONY : src/mapManager.s
+
+# target to generate assembly for a file
+src/mapManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.s
+.PHONY : src/mapManager.cpp.s
+
 src/menu.o: src/menu.cpp.o
 
 .PHONY : src/menu.o
@@ -1049,6 +1076,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mapManager.o"
+	@echo "... src/mapManager.i"
+	@echo "... src/mapManager.s"
 	@echo "... src/menu.o"
 	@echo "... src/menu.i"
 	@echo "... src/menu.s"

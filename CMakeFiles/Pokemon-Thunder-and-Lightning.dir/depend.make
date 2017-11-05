@@ -132,6 +132,21 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/T
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: src/main.cpp
 
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/SFMLOrthogonalLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/definitions.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/mapManager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/Config.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/Layer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/Map.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/Object.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/ObjectGroup.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/Property.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/TileLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/Tileset.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/Types.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: ./include/tmxlite/Types.inl
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o: src/mapManager.cpp
+
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/Animation.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/SFMLOrthogonalLayer.hpp
