@@ -21,22 +21,26 @@ void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window) {
     if (event.type == sf::Event::KeyPressed) {
         if (event.key.code == sf::Keyboard::D || event.key.code == sf::Keyboard::Right) {
             Game::hero.isMoving = true;
-            Game::hero.xvel = 50;
+            Game::hero.xvel = MOVE_VAL;
+            Game::hero.yvel = 0;
             Game::hero.changeOrientation(EAST);
         }
         else if (event.key.code == sf::Keyboard::A || event.key.code == sf::Keyboard::Left) {
             Game::hero.isMoving = true;
-            Game::hero.xvel = -50;
+            Game::hero.xvel = -MOVE_VAL;
+            Game::hero.yvel = 0;
             Game::hero.changeOrientation(WEST);
         }
         else if (event.key.code == sf::Keyboard::W || event.key.code == sf::Keyboard::Up) {
             Game::hero.isMoving = true;
-            Game::hero.yvel = -50;
+            Game::hero.yvel = -MOVE_VAL;
+            Game::hero.xvel = 0;
             Game::hero.changeOrientation(NORTH);
         }
         else if (event.key.code == sf::Keyboard::S || event.key.code == sf::Keyboard::Down) {
             Game::hero.isMoving = true;
-            Game::hero.yvel = 50;
+            Game::hero.yvel = MOVE_VAL;
+            Game::hero.xvel = 0;
             Game::hero.changeOrientation(SOUTH);
         } 
         else {
@@ -45,7 +49,7 @@ void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window) {
             Game::hero.yvel = 0;
         }
     }
-    draw(window);
+
 }
 
 void PlayController::draw(sf::RenderWindow& window) {
@@ -93,6 +97,7 @@ void PlayController::draw(sf::RenderWindow& window) {
     tmx::Map _map;
     assert(_map.load("assets/testmap.tmx"));
     MapLayer layerZero(_map, 0);
+    MapLayer layerOne(_map, 1);
     sf::CircleShape shape(50);
     shape.setFillColor(sf::Color(150, 50, 250));
 
@@ -103,6 +108,7 @@ void PlayController::draw(sf::RenderWindow& window) {
     window.clear(sf::Color::White);
     window.setView(view);
     window.draw(layerZero, sf::Transform().scale(SCALE, SCALE));
+    window.draw(layerOne, sf::Transform().scale(SCALE, SCALE));
     window.draw(heroSprite);
     window.draw(shape);
     window.display();
@@ -111,5 +117,4 @@ void PlayController::draw(sf::RenderWindow& window) {
 void PlayController::setup(sf::RenderWindow& window) {
     view.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
     view.setCenter(WINDOW_WIDTH/2, WINDOW_HEIGHT/2);
-    window.setView(view);
 }

@@ -19,24 +19,28 @@ void Hero::setupAnimations(sf::Texture& texture) {
 // ------------------------------ WALK ANIMATIONS -----------------------------
 
     walk.up.setSpriteSheet(texture);
-    walk.up.addFrame(sf::IntRect(235, 37, 17, 23));
-    walk.up.addFrame(sf::IntRect(270, 36, 17, 25));
-    walk.up.addFrame(sf::IntRect(305, 36, 17, 25));
+    walk.up.addFrame(sf::IntRect(16, 407, 17, 26));
+    walk.up.addFrame(sf::IntRect(36, 407, 17, 23));
+    walk.up.addFrame(sf::IntRect(56, 407, 17, 26));
+    walk.up.addFrame(sf::IntRect(36, 407, 17, 23));
 
     walk.left.setSpriteSheet(texture);
-    walk.left.addFrame(sf::IntRect(340, 37, 17, 23));
-    walk.left.addFrame(sf::IntRect(375, 36, 17, 24));
-    walk.left.addFrame(sf::IntRect(410, 36, 17, 23));
+    walk.left.addFrame(sf::IntRect(11, 378, 20, 24));
+    walk.left.addFrame(sf::IntRect(34, 378, 20, 24));
+    walk.left.addFrame(sf::IntRect(57, 378, 20, 25));
+    walk.left.addFrame(sf::IntRect(34, 378, 20, 24));
 
     walk.right.setSpriteSheet(texture);
-    walk.right.addFrame(sf::IntRect(131, 37, 17, 23));
-    walk.right.addFrame(sf::IntRect(165, 36, 17, 25));
-    walk.right.addFrame(sf::IntRect(200, 36, 17, 25));
+    walk.right.addFrame(sf::IntRect(57, 435, 20, 25));
+    walk.right.addFrame(sf::IntRect(34, 435, 20, 24));
+    walk.right.addFrame(sf::IntRect(11, 435, 20, 24));
+    walk.right.addFrame(sf::IntRect(34, 435, 20, 24));
 
     walk.down.setSpriteSheet(texture);
-    walk.down.addFrame(sf::IntRect(25, 37, 17, 23));
-    walk.down.addFrame(sf::IntRect(60, 36, 17, 25));
-    walk.down.addFrame(sf::IntRect(95, 36, 17, 25));
+    walk.down.addFrame(sf::IntRect(16, 350, 18, 26));
+    walk.down.addFrame(sf::IntRect(38, 350, 17, 24));
+    walk.down.addFrame(sf::IntRect(55, 350, 17, 26));
+    walk.down.addFrame(sf::IntRect(38, 350, 17, 24));
     
 // ------------------------------ IDLE ANIMATIONS -----------------------------
 
@@ -45,9 +49,9 @@ void Hero::setupAnimations(sf::Texture& texture) {
     idle.right.setSpriteSheet(texture);
     idle.left.setSpriteSheet(texture);
 
-    idle.up.addFrame(sf::IntRect(235, 37, 17, 23));
-    idle.down.addFrame(sf::IntRect(25, 37, 17, 23));
-    idle.right.addFrame(sf::IntRect(131, 37, 17, 23));
-    idle.left.addFrame(sf::IntRect(340, 37, 17, 23));
+    idle.up.addFrame(sf::IntRect(36, 407, 17, 23));
+    idle.down.addFrame(sf::IntRect(38, 350, 17, 24));
+    idle.right.addFrame(sf::IntRect(34, 435, 20, 24));
+    idle.left.addFrame(sf::IntRect(34, 378, 20, 24));
 
 }

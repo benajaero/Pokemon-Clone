@@ -231,6 +231,10 @@ hero.h
 ./include/hero.h
 AnimatedSprite.hpp
 ./include/AnimatedSprite.hpp
+tmxlite/Map.hpp
+./include/tmxlite/Map.hpp
+SFMLOrthogonalLayer.hpp
+./include/SFMLOrthogonalLayer.hpp
 SFML/Graphics.hpp
 -
 SFML/Window.hpp

@@ -3,6 +3,8 @@
 
 #include "hero.h"
 #include "AnimatedSprite.hpp"
+#include "tmxlite/Map.hpp"
+#include "SFMLOrthogonalLayer.hpp"
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 

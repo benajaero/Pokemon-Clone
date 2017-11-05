@@ -17,7 +17,9 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.o: src/Animation.
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/Animation.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/SFMLOrthogonalLayer.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/battle.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/font_manager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/game.h
@@ -30,6 +32,16 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/pokemon
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/roundedRectangle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/spritemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/texturemanager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/Config.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/Layer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/Map.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/Object.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/ObjectGroup.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/Property.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/TileLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/Tileset.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/Types.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/tmxlite/Types.inl
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: src/battle.cpp
 
@@ -45,6 +57,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.o: src/font_ma
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/Animation.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/SFMLOrthogonalLayer.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/battle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/enums.h
@@ -60,6 +73,16 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/roundedRe
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/splashScreen.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/spritemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/texturemanager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/Config.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/Layer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/Map.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/Object.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/ObjectGroup.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/Property.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/TileLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/Tileset.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/Types.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/tmxlite/Types.inl
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: src/game.cpp
 
@@ -83,6 +106,8 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: src/hero.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/Animation.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/SFMLOrthogonalLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/gui-components.h
@@ -94,11 +119,23 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/pokemon.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/roundedRectangle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/spritemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/texturemanager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/Config.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/Layer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/Map.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/Object.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/ObjectGroup.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/Property.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/TileLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/Tileset.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/Types.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/tmxlite/Types.inl
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: src/main.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/Animation.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/SFMLOrthogonalLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/font_manager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/game.h
@@ -111,6 +148,16 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/pokemon.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/roundedRectangle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/spritemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/texturemanager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/Config.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/Layer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/Map.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/Object.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/ObjectGroup.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/Property.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/TileLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/Tileset.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/Types.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/tmxlite/Types.inl
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: src/menu.cpp
 
@@ -157,6 +204,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.o: src/rou
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/Animation.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/SFMLOrthogonalLayer.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/font_manager.h
@@ -171,6 +219,16 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/r
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/splashScreen.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/spritemanager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/texturemanager.h
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/Config.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/Layer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/Map.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/Object.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/ObjectGroup.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/Property.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/TileLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/Tileset.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/Types.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/tmxlite/Types.inl
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/util.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: src/splashScreen.cpp
 

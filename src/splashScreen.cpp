@@ -21,7 +21,7 @@ void loadFonts() {
 }
 
 void loadTextures() {
-    TextureManager::loadTexture("heroTexture", "assets/NewHero.png");
+    TextureManager::loadTexture("heroTexture", "assets/maleHero.png");
     TextureManager::loadTexture("PokemonBattleBackgroundNormal", "assets/PokemonBattleBackground.jpeg");
 }
 
