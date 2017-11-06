@@ -190,6 +190,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
  ./include/game.h
  ./include/gui-components.h
  ./include/hero.h
+ ./include/mapManager.h
  ./include/menu.h
  ./include/move.h
  ./include/playing.h
@@ -227,6 +228,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o
  ./include/game.h
  ./include/gui-components.h
  ./include/hero.h
+ ./include/mapManager.h
  ./include/menu.h
  ./include/move.h
  ./include/playing.h

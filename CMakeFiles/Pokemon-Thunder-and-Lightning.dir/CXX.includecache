@@ -553,6 +553,8 @@ game.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.h
 texturemanager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.h
+mapManager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/mapManager.h
 tmxlite/Map.hpp
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Map.hpp
 SFMLOrthogonalLayer.hpp
@@ -589,6 +591,8 @@ texturemanager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.h
 spritemanager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.h
+mapManager.h
+/Users/StoneofHelp/Programming/Pokemon-Clone/src/mapManager.h
 font_manager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/font_manager.h
 game.h

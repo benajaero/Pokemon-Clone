@@ -44,9 +44,10 @@ void Game::GameLoop() {
             else if (_gameState == Game::PLAYING) {
                 pController.logic();
                 pController.handleEvents(event, _mainWindow);
-                pController.draw(_mainWindow);
             }
         }
+        if (_gameState == Game::PLAYING)
+            pController.draw(_mainWindow);
     }
 
 }

@@ -5,6 +5,7 @@
 #include "util.h"
 #include "game.h"
 #include "texturemanager.h"
+#include "mapManager.h"
 #include "tmxlite/Map.hpp" 
 #include "SFMLOrthogonalLayer.hpp"
 #include "spritemanager.h"
@@ -111,10 +112,8 @@ void PlayController::draw(sf::RenderWindow& window) {
     //circle.setPosition(0, 0);
     //circle.setFillColor(sf::Color::Black);
     
-    tmx::Map _map;
-    assert(_map.load("assets/testmap.tmx"));
-    MapLayer layerZero(_map, 0);
-    MapLayer layerOne(_map, 1);
+    MapLayer layerZero(MapManager::getMap("outer"), 0);
+    MapLayer layerOne(MapManager::getMap("outer"), 1);
     sf::CircleShape shape(50);
     shape.setFillColor(sf::Color(150, 50, 250));
 
@@ -134,4 +133,29 @@ void PlayController::draw(sf::RenderWindow& window) {
 void PlayController::setup(sf::RenderWindow& window) {
     view.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
     view.setCenter(WINDOW_WIDTH/2, WINDOW_HEIGHT/2);
+    setupActions();
+}
+
+void PlayController::setupActions() {
+   //define actions
+    thor::Action leftArrowHold(sf::Keyboard::Left, thor::Action::Hold);
+    thor::Action rightArrowHold(sf::Keyboard::Right, thor::Action::Hold);
+    thor::Action upArrowHold(sf::Keyboard::Up, thor::Action::Hold);
+    thor::Action downArrowHold(sf::Keyboard::Down, thor::Action::Hold);
+
+    thor::Action holdKeyA(sf::Keyboard::A, thor::Action::Hold);
+    thor::Action holdKeyD(sf::Keyboard::D, thor::Action::Hold);
+    thor::Action holdKeyW(sf::Keyboard::W, thor::Action::Hold);
+    thor::Action holdKeyS(sf::Keyboard::S, thor::Action::Hold);
+
+    thor::Action moveLeft = leftArrowHold || holdKeyA;
+    thor::Action moveRight = rightArrowHold || holdKeyD;
+    thor::Action moveUp = upArrowHold || holdKeyW;
+    thor::Action moveDown = downArrowHold || holdKeyS;
+   //bind actions 
+   _actionMap["moveLeft"] = moveLeft;
+   _actionMap["moveRight"] = moveRight;
+   _actionMap["moveUp"] = moveUp;
+   _actionMap["moveDown"] = moveDown;
+    
 }

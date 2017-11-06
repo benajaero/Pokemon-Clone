@@ -3,6 +3,7 @@
 #include "definitions.h"
 #include "texturemanager.h"
 #include "spritemanager.h"
+#include "mapManager.h"
 #include "font_manager.h"
 #include "game.h"
 #include <cassert>
@@ -37,7 +38,10 @@ void loadSprites() {
 void loadAnimations() {
     Game::hero.setupAnimations(TextureManager::getRef("heroTexture"));
     TextureManager::getRef("heroTexture").setSmooth(false);
+}
 
+void loadMaps() {
+    MapManager::loadMap("outer", "assets/testmap.tmx");
 }
 
 void Load() {
@@ -45,6 +49,7 @@ void Load() {
     loadTextures();
     loadSprites();
     loadAnimations();
+    loadMaps();
     Game::_gameState = Game::PLAYING;
     SplashScreen::loading = false;
 }

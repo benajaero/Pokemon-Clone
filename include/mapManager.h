@@ -16,6 +16,9 @@ class MapManager {
         static tmx::Map& loadMap(std::string name, std::string filePath);
         static void drawLayers(sf::RenderWindow& win);
         static void newLayer(std::string name, tmx::Map& _map, int layerNumber);
+        static tmx::Map& getMap(std::string name);
+        static MapLayer& getLayer(std::string name);
+        static void drawLayers(sf::RenderWindow& win, std::vector<std::string> layerNames);
 
         static void deleteMap(std::string name);
         static void deleteLayer(std::string name);

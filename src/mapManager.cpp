@@ -10,6 +10,9 @@ tmx::Map& MapManager::loadMap(std::string name, std::string filePath) {
     return MapManager::_maps.at(name);
 }
 
+tmx::Map& MapManager::getMap(std::string name) {
+    return MapManager::_maps.at(name);
+}
 void MapManager::drawLayers(sf::RenderWindow& win) {
     std::map<std::string, MapLayer>::iterator it = MapManager::_layers.begin(); 
     
@@ -19,7 +22,7 @@ void MapManager::drawLayers(sf::RenderWindow& win) {
 }
 
 void MapManager::newLayer(std::string name, tmx::Map& _map, int layerNumber) {
-
+    //MapManager::_layers[name] = MapLayer(_map, layerNumber);
 }
 
 void MapManager::deleteMap(std::string name) {
