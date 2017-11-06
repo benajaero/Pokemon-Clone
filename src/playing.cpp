@@ -18,56 +18,8 @@ void PlayController::logic() {
 }
 
 //reminder check for collisons, for water contact, for slowing down
-void PlayController::handleEvents(sf::Event& event, sf::RenderWindow& window) {
-    if (event.type == sf::Event::KeyPressed) {
-        if (event.key.code == sf::Keyboard::D || event.key.code == sf::Keyboard::Right) {
-            Game::hero.isMoving = true;
-            Game::hero.xvel = MOVE_VAL;
-            Game::hero.yvel = 0;
-            Game::hero.changeOrientation(EAST);
-        }
-        else if (event.key.code == sf::Keyboard::A || event.key.code == sf::Keyboard::Left) {
-            Game::hero.isMoving = true;
-            Game::hero.xvel = -MOVE_VAL;
-            Game::hero.yvel = 0;
-            Game::hero.changeOrientation(WEST);
-        }
-        else if (event.key.code == sf::Keyboard::W || event.key.code == sf::Keyboard::Up) {
-            Game::hero.isMoving = true;
-            Game::hero.yvel = -MOVE_VAL;
-            Game::hero.xvel = 0;
-            Game::hero.changeOrientation(NORTH);
-        }
-        else if (event.key.code == sf::Keyboard::S || event.key.code == sf::Keyboard::Down) {
-            Game::hero.isMoving = true;
-            Game::hero.yvel = MOVE_VAL;
-            Game::hero.xvel = 0;
-            Game::hero.changeOrientation(SOUTH);
-        } 
-        else {
-            Game::hero.isMoving = false;
-            Game::hero.xvel = 0;
-            Game::hero.yvel = 0;
-        }
-    }
-    if (event.type == sf::Event::KeyReleased) {
-        if (event.key.code == sf::Keyboard::D || event.key.code == sf::Keyboard::Right) {
-            Game::hero.isMoving = false;
-            Game::hero.xvel = 0;
-        }
-        else if (event.key.code == sf::Keyboard::A || event.key.code == sf::Keyboard::Left) {
-            Game::hero.isMoving = false;
-            Game::hero.xvel = 0;
-        }
-        else if (event.key.code == sf::Keyboard::W || event.key.code == sf::Keyboard::Up) {
-            Game::hero.isMoving = false;
-            Game::hero.yvel = 0;
-        }
-        else if (event.key.code == sf::Keyboard::S || event.key.code == sf::Keyboard::Down) {
-            Game::hero.isMoving = false;
-            Game::hero.yvel = 0;
-        } 
-    }
+void PlayController::handleEvents(sf::RenderWindow& window) {
+    _actionMap.update(window);
 }
 
 void PlayController::draw(sf::RenderWindow& window) {

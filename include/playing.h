@@ -17,7 +17,7 @@ class PlayController {
     public:
         sf::View view;
         void logic();
-        void handleEvents(sf::Event& event, sf::RenderWindow& window);
+        void handleEvents(sf::RenderWindow& window);
         void draw(sf::RenderWindow& window);
         void setup(sf::RenderWindow& window);
         void setupActions();

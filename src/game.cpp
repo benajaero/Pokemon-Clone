@@ -36,18 +36,18 @@ void Game::GameLoop() {
         bController.loop();
     }
     else {
-        sf::Event event;
-        while(_mainWindow.pollEvent(event)) {
-            computeFrameTime();
-            if (event.type == sf::Event::Closed)
-                _gameState = Game::EXITING;
-            else if (_gameState == Game::PLAYING) {
-                pController.logic();
-                pController.handleEvents(event, _mainWindow);
+        if (_gameState == Game::PLAYING) {
+            pController.handleEvents(_mainWindow);
+            pController.logic();
+            pController.draw(_mainWindow);
+        } else {
+            sf::Event event;
+            while(_mainWindow.pollEvent(event)) {
+                computeFrameTime();
+                if (event.type == sf::Event::Closed)
+                    _gameState = Game::EXITING;
             }
         }
-        if (_gameState == Game::PLAYING)
-            pController.draw(_mainWindow);
     }
 
 }
