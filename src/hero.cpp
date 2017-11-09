@@ -37,10 +37,10 @@ void Hero::setupAnimations(sf::Texture& texture) {
     walk.right.addFrame(sf::IntRect(34, 435, 20, 24));
 
     walk.down.setSpriteSheet(texture);
-    walk.down.addFrame(sf::IntRect(16, 350, 18, 26));
-    walk.down.addFrame(sf::IntRect(38, 350, 17, 24));
+    walk.down.addFrame(sf::IntRect(17, 350, 17, 26));
+    walk.down.addFrame(sf::IntRect(36, 350, 17, 24));
     walk.down.addFrame(sf::IntRect(55, 350, 17, 26));
-    walk.down.addFrame(sf::IntRect(38, 350, 17, 24));
+    walk.down.addFrame(sf::IntRect(36, 350, 17, 24));
     
 // ------------------------------ IDLE ANIMATIONS -----------------------------
 
@@ -50,7 +50,7 @@ void Hero::setupAnimations(sf::Texture& texture) {
     idle.left.setSpriteSheet(texture);
 
     idle.up.addFrame(sf::IntRect(36, 407, 17, 23));
-    idle.down.addFrame(sf::IntRect(38, 350, 17, 24));
+    idle.down.addFrame(sf::IntRect(36, 350, 17, 24));
     idle.right.addFrame(sf::IntRect(34, 435, 20, 24));
     idle.left.addFrame(sf::IntRect(34, 378, 20, 24));
 
