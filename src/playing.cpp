@@ -13,6 +13,7 @@
 
 
 void PlayController::logic() {
+    double modifier = 1;
     Game::hero.moveForward(0.75, view, Game::frameTime);
     //if(!sf::Event::KeyPressed)
 }
@@ -20,6 +21,35 @@ void PlayController::logic() {
 //reminder check for collisons, for water contact, for slowing down
 void PlayController::handleEvents(sf::RenderWindow& window) {
     _actionMap.update(window);
+    if (_actionMap.isActive("closeWindow"))
+        Game::_gameState = Game::EXITING;
+    else {
+        if (_actionMap.isActive("moveRight")) {
+            Game::hero.xvel += MOVE_VAL;
+            Game::hero.changeOrientation(EAST);
+            Game::hero.isMoving = true;
+        }
+        else if (_actionMap.isActive("moveLeft")) {
+            Game::hero.xvel -= MOVE_VAL;
+            Game::hero.changeOrientation(WEST);
+            Game::hero.isMoving = true;
+        }
+        else if (_actionMap.isActive("moveUp")) {
+            Game::hero.yvel += MOVE_VAL;
+            Game::hero.changeOrientation(NORTH);
+            Game::hero.isMoving = true;
+        }
+        else if (_actionMap.isActive("moveDown")) {
+            Game::hero.yvel -= MOVE_VAL;
+            Game::hero.changeOrientation(SOUTH);
+            Game::hero.isMoving = true;
+        }
+        else {
+            Game::hero.isMoving = false;
+        }
+           
+
+    }
 }
 
 void PlayController::draw(sf::RenderWindow& window) {
@@ -66,19 +96,14 @@ void PlayController::draw(sf::RenderWindow& window) {
     
     MapLayer layerZero(MapManager::getMap("outer"), 0);
     MapLayer layerOne(MapManager::getMap("outer"), 1);
-    sf::CircleShape shape(50);
-    shape.setFillColor(sf::Color(150, 50, 250));
 
     // set a 10-pixel wide orange outline
-    shape.setOutlineThickness(10);
-    shape.setOutlineColor(sf::Color(250, 150, 100));
 
     window.clear(sf::Color::White);
     window.setView(view);
     window.draw(layerZero, sf::Transform().scale(SCALE, SCALE));
     window.draw(layerOne, sf::Transform().scale(SCALE, SCALE));
     window.draw(heroSprite);
-    window.draw(shape);
     window.display();
 }
 
@@ -109,5 +134,6 @@ void PlayController::setupActions() {
    _actionMap["moveRight"] = moveRight;
    _actionMap["moveUp"] = moveUp;
    _actionMap["moveDown"] = moveDown;
+   _actionMap["closeWindow"] = thor::Action(sf::Event::Closed);
     
 }

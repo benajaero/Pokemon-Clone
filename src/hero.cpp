@@ -7,11 +7,11 @@ void Hero::changeOrientation(Orientation newDir) {
 void Hero::moveForward(double movementDamper, sf::View& view, sf::Time frameTime) {
     yvel *= movementDamper;
     xvel *= movementDamper;
-    //if ((xvel > 0.1f && xvel < -0.1f) || (yvel > 0.1f && yvel < -0.1f) )
-    //   isMoving = false;
+    //if ((xvel > 0.1f && xvel < -0.1f) && (yvel > 0.1f && yvel < -0.1f) )
+       //isMoving = false;
     x += xvel * frameTime.asSeconds();
     y += yvel * frameTime.asSeconds();
-    view.move(xvel * frameTime.asSeconds(), yvel * frameTime.asSeconds());
+    view.move(xvel * frameTime.asSeconds() , yvel * frameTime.asSeconds() * -1);
 }
 
 void Hero::setupAnimations(sf::Texture& texture) {
