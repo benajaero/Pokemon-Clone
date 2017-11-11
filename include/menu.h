@@ -63,6 +63,21 @@ class MainMenuController {
         void changeState(MenuState state);
 };
 
+class OverworldOverlay : public sf::Drawable {
+    private:
+        virtual void draw(sf::RenderTarget& target, sf::RenderStates states);
+    public:
+        enum MenuState {
+            SHOWING_POKEMON_LIST,
+            SHOWING_ONE_POKEMON,
+            SHOWING_BAG,
+            DISPLAY_OVERLAY_BUTTONS,
+            SHOWING_POKEDEX,
+        };
+
+
+};
+
 class ContextMenuController {
 
 };

@@ -5,8 +5,8 @@
 #define WINDOW_HEIGHT 1080
 
 const int TILE_HEIGHT = 16;
-const int BLOCK_SIZE = 48;
+const int BLOCK_SIZE = 24;
 const int SCALE = 4;
-const int MOVE_VAL = TILE_HEIGHT * SCALE;
+const int MOVE_VAL = BLOCK_SIZE * SCALE;
 
 #endif
