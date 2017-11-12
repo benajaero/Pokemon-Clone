@@ -47,7 +47,7 @@ class GuiButton {
         void textureInit();
         void newSprite(std::string textureName);
         bool isClicked() { return _isClicked; };
-        void setClicked(sf::Vector2i mousePos);
+        void setClicked(sf::Vector2f mousePos);
         sf::Sprite& getSprite();
         void draw(sf::RenderWindow& win);
 

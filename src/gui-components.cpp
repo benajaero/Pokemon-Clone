@@ -47,8 +47,8 @@ void GuiButton::newSprite(std::string textureName) {
     buttonSpriteName = textureName; 
 }
 
-void GuiButton::setClicked(sf::Vector2i mousePos) {
-    _isClicked = SpriteManager::getRef(buttonSpriteName).getGlobalBounds().contains(sf::Vector2f(mousePos.x, mousePos.y));
+void GuiButton::setClicked(sf::Vector2f mousePos) {
+    _isClicked = SpriteManager::getRef(buttonSpriteName).getGlobalBounds().contains(mousePos);
 }
 
 sf::Sprite& GuiButton::getSprite() {

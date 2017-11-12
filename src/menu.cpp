@@ -13,7 +13,10 @@ void MainMenuController::draw(sf::RenderWindow& window) {
 
 void OverviewMenu::handleEvents(sf::Event evt, sf::RenderWindow& win, MainMenuController& controller) {
     if (evt.type == sf::Event::MouseButtonPressed) {
-        for (int i = 0; i < 3; i++) { buttons[i].setClicked(sf::Mouse::getPosition(win)); }
+        for (int i = 0; i < 3; i++) { 
+            sf::Vector2i mousePos = sf::Mouse::getPosition(win);
+            buttons[i].setClicked(win.mapPixelToCoords(mousePos));
+        }
     }
     if (buttons[0].isClicked()) { controller.changeState(MainMenuController::TO_PLAYING); }
     
