@@ -5,6 +5,13 @@
 #include "definitions.h"
 #include <cassert>
 
+Game::GameState Game::_gameState = Game::UNINITIALIZED;
+sf::RenderWindow Game::_mainWindow;
+sf::Time Game::frameTime;
+sf::Clock Game::frameClock;
+Hero Game::hero("Tim", 55, 60, 0, 0, 0, EAST, 1);
+PlayController Game::pController = PlayController();
+
 void Game::Start(void) {
     if (_gameState != Game::UNINITIALIZED)
         return;
@@ -67,10 +74,4 @@ void Game::ShowSplash() {
     _gameState = Game::SHOWING_MENU;
 }
 
-Game::GameState Game::_gameState = Game::UNINITIALIZED;
-sf::RenderWindow Game::_mainWindow;
-sf::Time Game::frameTime;
-sf::Clock Game::frameClock;
-Hero Game::hero("Adam", 0, 0, 0, 0, 0, EAST, 1);
-PlayController Game::pController = PlayController();
 

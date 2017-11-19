@@ -101,15 +101,17 @@ void PlayController::draw(sf::RenderWindow& window) {
 
     window.clear(sf::Color::White);
     window.setView(view);
-    window.draw(layerZero, sf::Transform().scale(SCALE, SCALE));
-    window.draw(layerOne, sf::Transform().scale(SCALE, SCALE));
+    window.draw(layerZero);
+    window.draw(layerOne);
     window.draw(heroSprite);
     window.display();
 }
 
 void PlayController::setup(sf::RenderWindow& window) {
     view.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-    view.setCenter(WINDOW_WIDTH/2, WINDOW_HEIGHT/2);
+    Game::hero.setPos(sf::Vector2f(70, 70));
+    view.setCenter(Game::hero.x * TILE_HEIGHT, Game::hero.y * TILE_HEIGHT);
+    view.zoom(0.25f);
     setupActions();
 }
 
