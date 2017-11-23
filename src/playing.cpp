@@ -5,9 +5,6 @@
 #include "util.h"
 #include "game.h"
 #include "texturemanager.h"
-#include "mapManager.h"
-#include "tmxlite/Map.hpp" 
-#include "SFMLOrthogonalLayer.hpp"
 #include "spritemanager.h"
 #include <cassert>
 
@@ -94,16 +91,11 @@ void PlayController::draw(sf::RenderWindow& window) {
     //circle.setPosition(0, 0);
     //circle.setFillColor(sf::Color::Black);
     
-    MapLayer layerZero(MapManager::getMap("outer"), 0);
-    MapLayer layerOne(MapManager::getMap("outer"), 1);
 
     // set a 10-pixel wide orange outline
 
     window.clear(sf::Color::White);
     window.setView(view);
-    window.draw(layerZero);
-    window.draw(layerOne);
-    window.draw(heroSprite);
     window.display();
 }
 

@@ -3,7 +3,6 @@
 #include "definitions.h"
 #include "texturemanager.h"
 #include "spritemanager.h"
-#include "mapManager.h"
 #include "font_manager.h"
 #include "game.h"
 #include <cassert>
@@ -42,7 +41,6 @@ void loadAnimations() {
 }
 
 void loadMaps() {
-    MapManager::loadMap("outer", "assets/testmap.tmx");
 }
 
 void Load() {

@@ -24,3 +24,17 @@ void TextureManager::deleteAll() {
    TextureManager::_textures.erase(TextureManager::_textures.begin(), TextureManager::_textures.end()); 
 }
 
+std::map<std::string, tmx::MapLoader> MapManager::_maps;
+
+tmx::MapLoader& MapManager::getRef(std::string name) {
+    return MapManager::_maps.at(name);
+}
+
+void MapManager::deleteMap(std::string name) {
+    std::map<std::string, tmx::MapLoader>::iterator it = MapManager::_maps.find(name);
+    MapManager::_maps.erase(it);
+}
+
+void MapManager::deleteAll() {
+   MapManager::_maps.erase(MapManager::_maps.begin(), MapManager::_maps.end()); 
+}

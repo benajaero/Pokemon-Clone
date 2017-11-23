@@ -29,7 +29,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/gui-components.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/main.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/mapManager.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/menu.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/move.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o"
@@ -38,15 +37,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/FreeFuncs.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/FreeFuncs.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/ImageLayer.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ImageLayer.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Map.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Map.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Object.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Object.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/ObjectGroup.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ObjectGroup.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Property.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Property.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/TileLayer.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/TileLayer.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Tileset.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Tileset.cpp.o"
-  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/detail/pugixml.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/util.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

@@ -3,10 +3,9 @@
 
 #include "hero.h"
 #include "AnimatedSprite.hpp"
-#include "tmxlite/Map.hpp"
+#include <tmx/MapLoader.hpp>
 #include <Thor/Input.hpp>
 #include <Thor/Graphics/ToString.hpp>
-#include "SFMLOrthogonalLayer.hpp"
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 
@@ -22,6 +21,7 @@ class PlayController {
         void setup(sf::RenderWindow& window);
         void setupActions();
         //PlayController() : hero("Adam", 0, 0, 0, 0, 0, EAST, 1) {}
+        
     
 };
 

@@ -2,6 +2,7 @@
 #define TEXTURE_MANAGER_H
 
 #include <SFML/Graphics.hpp>
+#include <tmx/MapLoader.hpp>
 #include <string>
 #include <map>
 
@@ -18,5 +19,14 @@ class TextureManager {
         TextureManager() {}
 };
 
+class MapManager {
+    private:
+        static std::map<std::string, tmx::MapLoader> _maps;
+    public:
+        static tmx::MapLoader& loadMap(std::string name, std::string filename);
+        static tmx::MapLoader& getRef(std::string name);
+        static void deleteMap(std::string name);
+        static void deleteAll();
+};
 
 #endif

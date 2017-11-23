@@ -18,9 +18,7 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/SFMLOrthogonalLayer.hpp
  ./include/battle.h
- ./include/definitions.h
  ./include/enums.h
  ./include/font_manager.h
  ./include/game.h
@@ -33,16 +31,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o
  ./include/roundedRectangle.h
  ./include/spritemanager.h
  ./include/texturemanager.h
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Map.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/TileLayer.hpp
- ./include/tmxlite/Tileset.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/battle.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o
@@ -58,7 +46,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/SFMLOrthogonalLayer.hpp
  ./include/battle.h
  ./include/definitions.h
  ./include/enums.h
@@ -74,16 +61,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o
  ./include/splashScreen.h
  ./include/spritemanager.h
  ./include/texturemanager.h
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Map.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/TileLayer.hpp
- ./include/tmxlite/Tileset.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o
@@ -107,8 +84,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/SFMLOrthogonalLayer.hpp
- ./include/definitions.h
  ./include/enums.h
  ./include/game.h
  ./include/gui-components.h
@@ -120,38 +95,11 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o
  ./include/roundedRectangle.h
  ./include/spritemanager.h
  ./include/texturemanager.h
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Map.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/TileLayer.hpp
- ./include/tmxlite/Tileset.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/main.cpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/mapManager.cpp.o
- ./include/SFMLOrthogonalLayer.hpp
- ./include/definitions.h
- ./include/mapManager.h
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Map.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/TileLayer.hpp
- ./include/tmxlite/Tileset.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/mapManager.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/SFMLOrthogonalLayer.hpp
- ./include/definitions.h
  ./include/enums.h
  ./include/font_manager.h
  ./include/game.h
@@ -164,16 +112,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o
  ./include/roundedRectangle.h
  ./include/spritemanager.h
  ./include/texturemanager.h
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Map.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/TileLayer.hpp
- ./include/tmxlite/Tileset.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/menu.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o
@@ -184,13 +122,11 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/SFMLOrthogonalLayer.hpp
  ./include/definitions.h
  ./include/enums.h
  ./include/game.h
  ./include/gui-components.h
  ./include/hero.h
- ./include/mapManager.h
  ./include/menu.h
  ./include/move.h
  ./include/playing.h
@@ -198,16 +134,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
  ./include/roundedRectangle.h
  ./include/spritemanager.h
  ./include/texturemanager.h
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Map.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/TileLayer.hpp
- ./include/tmxlite/Tileset.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o
@@ -221,14 +147,12 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/SFMLOrthogonalLayer.hpp
  ./include/definitions.h
  ./include/enums.h
  ./include/font_manager.h
  ./include/game.h
  ./include/gui-components.h
  ./include/hero.h
- ./include/mapManager.h
  ./include/menu.h
  ./include/move.h
  ./include/playing.h
@@ -237,16 +161,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o
  ./include/splashScreen.h
  ./include/spritemanager.h
  ./include/texturemanager.h
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Map.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/TileLayer.hpp
- ./include/tmxlite/Tileset.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.cpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o
@@ -257,116 +171,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o
  ./include/texturemanager.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/texturemanager.cpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/FreeFuncs.cpp.o
- ./include/tmxlite/FreeFuncs.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
- ./include/tmxlite/detail/Android.hpp
- ./include/tmxlite/detail/Log.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/FreeFuncs.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/miniz.c
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/miniz.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ImageLayer.cpp.o
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/FreeFuncs.hpp
- ./include/tmxlite/ImageLayer.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
- ./include/tmxlite/detail/Android.hpp
- ./include/tmxlite/detail/Log.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/ImageLayer.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugiconfig.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Map.cpp.o
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/FreeFuncs.hpp
- ./include/tmxlite/ImageLayer.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Map.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/TileLayer.hpp
- ./include/tmxlite/Tileset.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
- ./include/tmxlite/detail/Android.hpp
- ./include/tmxlite/detail/Log.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Map.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugiconfig.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Object.cpp.o
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/FreeFuncs.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
- ./include/tmxlite/detail/Android.hpp
- ./include/tmxlite/detail/Log.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Object.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugiconfig.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/ObjectGroup.cpp.o
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/FreeFuncs.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
- ./include/tmxlite/detail/Android.hpp
- ./include/tmxlite/detail/Log.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/ObjectGroup.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugiconfig.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Property.cpp.o
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/FreeFuncs.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
- ./include/tmxlite/detail/Android.hpp
- ./include/tmxlite/detail/Log.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Property.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugiconfig.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/TileLayer.cpp.o
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/FreeFuncs.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/TileLayer.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
- ./include/tmxlite/detail/Android.hpp
- ./include/tmxlite/detail/Log.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/TileLayer.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugiconfig.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/Tileset.cpp.o
- ./include/tmxlite/Config.hpp
- ./include/tmxlite/FreeFuncs.hpp
- ./include/tmxlite/Layer.hpp
- ./include/tmxlite/Object.hpp
- ./include/tmxlite/ObjectGroup.hpp
- ./include/tmxlite/Property.hpp
- ./include/tmxlite/Tileset.hpp
- ./include/tmxlite/Types.hpp
- ./include/tmxlite/Types.inl
- ./include/tmxlite/detail/Android.hpp
- ./include/tmxlite/detail/Log.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/Tileset.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugiconfig.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmxlite/detail/pugixml.cpp.o
- ./include/tmxlite/detail/Android.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugiconfig.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmxlite/detail/pugixml.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
