@@ -245,6 +245,15 @@ OPENGL_gl_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 //GLU library for OS X (usually same as OpenGL library)
 OPENGL_glu_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 
+//Path to a library.
+PUGIXML:FILEPATH=PUGIXML-NOTFOUND
+
+//Path to a file.
+PUGIXML_INCLUDE_DIR:PATH=/usr/local/include
+
+//Path to a library.
+PUGIXML_LIBRARY:FILEPATH=/usr/local/lib/libpugixml.a
+
 //Value Computed by CMake
 Pokemon_Thunder_Lightning_BINARY_DIR:STATIC=/Users/StoneofHelp/Programming/Pokemon-Clone
 
@@ -355,6 +364,15 @@ THOR_LIBRARY_DEBUG:FILEPATH=THOR_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
 THOR_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libthor.dylib
+
+//Path to a file.
+ZLIB_INCLUDE_DIR:PATH=/usr/local/include
+
+//Path to a library.
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libz.dylib
 
 
 ########################
@@ -534,14 +552,22 @@ CPACK_SOURCE_TZ-ADVANCED:INTERNAL=1
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/System/Library/Frameworks/OpenGL.framework][/System/Library/Frameworks/OpenGL.framework][v()]
+//Details about finding PUGIXML
+FIND_PACKAGE_MESSAGE_DETAILS_PUGIXML:INTERNAL=[/usr/local/lib/libpugixml.a][/usr/local/include][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding ZLIB
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/local/lib/libz.dylib][/usr/local/include][v1.2.11()]
 //ADVANCED property for variable: OPENGL_INCLUDE_DIR
 OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PUGIXML_INCLUDE_DIR
+PUGIXML_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PUGIXML_LIBRARY
+PUGIXML_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SFGUI_LIBRARY_DYNAMIC_DEBUG
 SFGUI_LIBRARY_DYNAMIC_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SFGUI_LIBRARY_DYNAMIC_RELEASE
@@ -604,4 +630,10 @@ THOR_INCLUDE_DIR-ADVANCED:INTERNAL=1
 THOR_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: THOR_LIBRARY_RELEASE
 THOR_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
+ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
+ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 

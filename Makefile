@@ -245,6 +245,276 @@ src/Animation.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.s
 .PHONY : src/Animation.cpp.s
 
+src/STP/Core/Base64.o: src/STP/Core/Base64.cpp.o
+
+.PHONY : src/STP/Core/Base64.o
+
+# target to build an object file
+src/STP/Core/Base64.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Base64.cpp.o
+.PHONY : src/STP/Core/Base64.cpp.o
+
+src/STP/Core/Base64.i: src/STP/Core/Base64.cpp.i
+
+.PHONY : src/STP/Core/Base64.i
+
+# target to preprocess a source file
+src/STP/Core/Base64.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Base64.cpp.i
+.PHONY : src/STP/Core/Base64.cpp.i
+
+src/STP/Core/Base64.s: src/STP/Core/Base64.cpp.s
+
+.PHONY : src/STP/Core/Base64.s
+
+# target to generate assembly for a file
+src/STP/Core/Base64.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Base64.cpp.s
+.PHONY : src/STP/Core/Base64.cpp.s
+
+src/STP/Core/Image.o: src/STP/Core/Image.cpp.o
+
+.PHONY : src/STP/Core/Image.o
+
+# target to build an object file
+src/STP/Core/Image.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Image.cpp.o
+.PHONY : src/STP/Core/Image.cpp.o
+
+src/STP/Core/Image.i: src/STP/Core/Image.cpp.i
+
+.PHONY : src/STP/Core/Image.i
+
+# target to preprocess a source file
+src/STP/Core/Image.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Image.cpp.i
+.PHONY : src/STP/Core/Image.cpp.i
+
+src/STP/Core/Image.s: src/STP/Core/Image.cpp.s
+
+.PHONY : src/STP/Core/Image.s
+
+# target to generate assembly for a file
+src/STP/Core/Image.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Image.cpp.s
+.PHONY : src/STP/Core/Image.cpp.s
+
+src/STP/Core/ImageLayer.o: src/STP/Core/ImageLayer.cpp.o
+
+.PHONY : src/STP/Core/ImageLayer.o
+
+# target to build an object file
+src/STP/Core/ImageLayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ImageLayer.cpp.o
+.PHONY : src/STP/Core/ImageLayer.cpp.o
+
+src/STP/Core/ImageLayer.i: src/STP/Core/ImageLayer.cpp.i
+
+.PHONY : src/STP/Core/ImageLayer.i
+
+# target to preprocess a source file
+src/STP/Core/ImageLayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ImageLayer.cpp.i
+.PHONY : src/STP/Core/ImageLayer.cpp.i
+
+src/STP/Core/ImageLayer.s: src/STP/Core/ImageLayer.cpp.s
+
+.PHONY : src/STP/Core/ImageLayer.s
+
+# target to generate assembly for a file
+src/STP/Core/ImageLayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ImageLayer.cpp.s
+.PHONY : src/STP/Core/ImageLayer.cpp.s
+
+src/STP/Core/Layer.o: src/STP/Core/Layer.cpp.o
+
+.PHONY : src/STP/Core/Layer.o
+
+# target to build an object file
+src/STP/Core/Layer.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Layer.cpp.o
+.PHONY : src/STP/Core/Layer.cpp.o
+
+src/STP/Core/Layer.i: src/STP/Core/Layer.cpp.i
+
+.PHONY : src/STP/Core/Layer.i
+
+# target to preprocess a source file
+src/STP/Core/Layer.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Layer.cpp.i
+.PHONY : src/STP/Core/Layer.cpp.i
+
+src/STP/Core/Layer.s: src/STP/Core/Layer.cpp.s
+
+.PHONY : src/STP/Core/Layer.s
+
+# target to generate assembly for a file
+src/STP/Core/Layer.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Layer.cpp.s
+.PHONY : src/STP/Core/Layer.cpp.s
+
+src/STP/Core/MapObject.o: src/STP/Core/MapObject.cpp.o
+
+.PHONY : src/STP/Core/MapObject.o
+
+# target to build an object file
+src/STP/Core/MapObject.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/MapObject.cpp.o
+.PHONY : src/STP/Core/MapObject.cpp.o
+
+src/STP/Core/MapObject.i: src/STP/Core/MapObject.cpp.i
+
+.PHONY : src/STP/Core/MapObject.i
+
+# target to preprocess a source file
+src/STP/Core/MapObject.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/MapObject.cpp.i
+.PHONY : src/STP/Core/MapObject.cpp.i
+
+src/STP/Core/MapObject.s: src/STP/Core/MapObject.cpp.s
+
+.PHONY : src/STP/Core/MapObject.s
+
+# target to generate assembly for a file
+src/STP/Core/MapObject.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/MapObject.cpp.s
+.PHONY : src/STP/Core/MapObject.cpp.s
+
+src/STP/Core/ObjectGroup.o: src/STP/Core/ObjectGroup.cpp.o
+
+.PHONY : src/STP/Core/ObjectGroup.o
+
+# target to build an object file
+src/STP/Core/ObjectGroup.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ObjectGroup.cpp.o
+.PHONY : src/STP/Core/ObjectGroup.cpp.o
+
+src/STP/Core/ObjectGroup.i: src/STP/Core/ObjectGroup.cpp.i
+
+.PHONY : src/STP/Core/ObjectGroup.i
+
+# target to preprocess a source file
+src/STP/Core/ObjectGroup.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ObjectGroup.cpp.i
+.PHONY : src/STP/Core/ObjectGroup.cpp.i
+
+src/STP/Core/ObjectGroup.s: src/STP/Core/ObjectGroup.cpp.s
+
+.PHONY : src/STP/Core/ObjectGroup.s
+
+# target to generate assembly for a file
+src/STP/Core/ObjectGroup.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ObjectGroup.cpp.s
+.PHONY : src/STP/Core/ObjectGroup.cpp.s
+
+src/STP/Core/Parser.o: src/STP/Core/Parser.cpp.o
+
+.PHONY : src/STP/Core/Parser.o
+
+# target to build an object file
+src/STP/Core/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Parser.cpp.o
+.PHONY : src/STP/Core/Parser.cpp.o
+
+src/STP/Core/Parser.i: src/STP/Core/Parser.cpp.i
+
+.PHONY : src/STP/Core/Parser.i
+
+# target to preprocess a source file
+src/STP/Core/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Parser.cpp.i
+.PHONY : src/STP/Core/Parser.cpp.i
+
+src/STP/Core/Parser.s: src/STP/Core/Parser.cpp.s
+
+.PHONY : src/STP/Core/Parser.s
+
+# target to generate assembly for a file
+src/STP/Core/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Parser.cpp.s
+.PHONY : src/STP/Core/Parser.cpp.s
+
+src/STP/Core/Properties.o: src/STP/Core/Properties.cpp.o
+
+.PHONY : src/STP/Core/Properties.o
+
+# target to build an object file
+src/STP/Core/Properties.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Properties.cpp.o
+.PHONY : src/STP/Core/Properties.cpp.o
+
+src/STP/Core/Properties.i: src/STP/Core/Properties.cpp.i
+
+.PHONY : src/STP/Core/Properties.i
+
+# target to preprocess a source file
+src/STP/Core/Properties.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Properties.cpp.i
+.PHONY : src/STP/Core/Properties.cpp.i
+
+src/STP/Core/Properties.s: src/STP/Core/Properties.cpp.s
+
+.PHONY : src/STP/Core/Properties.s
+
+# target to generate assembly for a file
+src/STP/Core/Properties.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Properties.cpp.s
+.PHONY : src/STP/Core/Properties.cpp.s
+
+src/STP/Core/TileMap.o: src/STP/Core/TileMap.cpp.o
+
+.PHONY : src/STP/Core/TileMap.o
+
+# target to build an object file
+src/STP/Core/TileMap.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileMap.cpp.o
+.PHONY : src/STP/Core/TileMap.cpp.o
+
+src/STP/Core/TileMap.i: src/STP/Core/TileMap.cpp.i
+
+.PHONY : src/STP/Core/TileMap.i
+
+# target to preprocess a source file
+src/STP/Core/TileMap.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileMap.cpp.i
+.PHONY : src/STP/Core/TileMap.cpp.i
+
+src/STP/Core/TileMap.s: src/STP/Core/TileMap.cpp.s
+
+.PHONY : src/STP/Core/TileMap.s
+
+# target to generate assembly for a file
+src/STP/Core/TileMap.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileMap.cpp.s
+.PHONY : src/STP/Core/TileMap.cpp.s
+
+src/STP/Core/TileSet.o: src/STP/Core/TileSet.cpp.o
+
+.PHONY : src/STP/Core/TileSet.o
+
+# target to build an object file
+src/STP/Core/TileSet.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileSet.cpp.o
+.PHONY : src/STP/Core/TileSet.cpp.o
+
+src/STP/Core/TileSet.i: src/STP/Core/TileSet.cpp.i
+
+.PHONY : src/STP/Core/TileSet.i
+
+# target to preprocess a source file
+src/STP/Core/TileSet.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileSet.cpp.i
+.PHONY : src/STP/Core/TileSet.cpp.i
+
+src/STP/Core/TileSet.s: src/STP/Core/TileSet.cpp.s
+
+.PHONY : src/STP/Core/TileSet.s
+
+# target to generate assembly for a file
+src/STP/Core/TileSet.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileSet.cpp.s
+.PHONY : src/STP/Core/TileSet.cpp.s
+
 src/battle.o: src/battle.cpp.o
 
 .PHONY : src/battle.o
@@ -779,6 +1049,36 @@ help:
 	@echo "... src/Animation.o"
 	@echo "... src/Animation.i"
 	@echo "... src/Animation.s"
+	@echo "... src/STP/Core/Base64.o"
+	@echo "... src/STP/Core/Base64.i"
+	@echo "... src/STP/Core/Base64.s"
+	@echo "... src/STP/Core/Image.o"
+	@echo "... src/STP/Core/Image.i"
+	@echo "... src/STP/Core/Image.s"
+	@echo "... src/STP/Core/ImageLayer.o"
+	@echo "... src/STP/Core/ImageLayer.i"
+	@echo "... src/STP/Core/ImageLayer.s"
+	@echo "... src/STP/Core/Layer.o"
+	@echo "... src/STP/Core/Layer.i"
+	@echo "... src/STP/Core/Layer.s"
+	@echo "... src/STP/Core/MapObject.o"
+	@echo "... src/STP/Core/MapObject.i"
+	@echo "... src/STP/Core/MapObject.s"
+	@echo "... src/STP/Core/ObjectGroup.o"
+	@echo "... src/STP/Core/ObjectGroup.i"
+	@echo "... src/STP/Core/ObjectGroup.s"
+	@echo "... src/STP/Core/Parser.o"
+	@echo "... src/STP/Core/Parser.i"
+	@echo "... src/STP/Core/Parser.s"
+	@echo "... src/STP/Core/Properties.o"
+	@echo "... src/STP/Core/Properties.i"
+	@echo "... src/STP/Core/Properties.s"
+	@echo "... src/STP/Core/TileMap.o"
+	@echo "... src/STP/Core/TileMap.i"
+	@echo "... src/STP/Core/TileMap.s"
+	@echo "... src/STP/Core/TileSet.o"
+	@echo "... src/STP/Core/TileSet.i"
+	@echo "... src/STP/Core/TileSet.s"
 	@echo "... src/battle.o"
 	@echo "... src/battle.i"
 	@echo "... src/battle.s"

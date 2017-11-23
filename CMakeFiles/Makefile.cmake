@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.9.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.0/CMakeSystem.cmake"
   "CMakeLists.txt"
+  "cmake_modules/FindPUGIXML.cmake"
   "cmake_modules/FindSFML.cmake"
   "cmake_modules/FindThor.cmake"
   "config.h.in"
@@ -35,6 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FindPackageMessage.cmake"
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FindThreads.cmake"
+  "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/FindZLIB.cmake"
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/InstallRequiredSystemLibraries.cmake"
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/Platform/Darwin-AppleClang-C.cmake"
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/Platform/Darwin-AppleClang-CXX.cmake"
@@ -44,6 +46,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/Platform/Darwin.cmake"
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/Platform/UnixPaths.cmake"
+  "/usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/SelectLibraryConfigurations.cmake"
   "/usr/local/Cellar/cmake/3.9.0/share/cmake/Templates/CPackConfig.cmake.in"
   )
 

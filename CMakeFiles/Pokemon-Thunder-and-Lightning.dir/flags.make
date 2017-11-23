@@ -7,11 +7,11 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/StoneofHelp/Programming/Pokemon-Clone/./bin -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/tmxlite -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/tmxlite/detail -F/Library/Frameworks 
+C_INCLUDES = -I/Users/StoneofHelp/Programming/Pokemon-Clone/./bin -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/STP -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/STP/Core -F/Library/Frameworks -I/usr/local/include 
 
 CXX_FLAGS =  -std=c++14  
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/StoneofHelp/Programming/Pokemon-Clone/./bin -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/tmxlite -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/tmxlite/detail -F/Library/Frameworks 
+CXX_INCLUDES = -I/Users/StoneofHelp/Programming/Pokemon-Clone/./bin -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/STP -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/STP/Core -F/Library/Frameworks -I/usr/local/include 
 

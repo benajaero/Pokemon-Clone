@@ -13,16 +13,16 @@ configure_file(
 
 include_directories(${PROJECT_BINARY_DIR})
 include_directories("./include")
-include_directories("./include/tmxlite")
-include_directories("./include/tmxlite/detail")
+include_directories("./include/STP")
+include_directories("./include/STP/Core")
 
 file(GLOB CMAKE_SRCS
     "./src/*.h"
     "./src/*.cpp"
-    "./src/tmxlite/*.h"
-    "./src/tmxlite/*.cpp"
-    "./src/tmxlite/detail/*.h"
-    "./src/tmxlite/detail/*.cpp"
+    "./src/STP/*.h"
+    "./src/STP/*.cpp"
+    "./src/STP/Core/*.h"
+    "./src/STP/Core/*.cpp"
     "./src/*.c"
     )
 
@@ -34,16 +34,27 @@ add_executable(${EXECUTABLE_NAME} ${CMAKE_SRCS})
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 find_package(SFML 2 REQUIRED system window graphics network audio)
 find_package(Thor 2 REQUIRED)
+find_package(PUGIXML REQUIRED)
 find_package(Threads)
+
+find_package( ZLIB REQUIRED )
+if ( NOT ZLIB_FOUND )
+    message(FATAL_ERROR "Could not find zlib")
+endif()
 
 if(NOT SFML_FOUND)
     message(FATAL_ERROR "Could not find SFML")
 endif()
+if(NOT PUGIXML_FOUND)
+    message(FATAL_ERROR "Could not find pugixml")
+endif()
 
 
 include_directories(${SFML_INCLUDE_DIR})
+include_directories(${PUGIXML_INCLUDE_DIR})
+include_directories( ${ZLIB_INCLUDE_DIRS} )
 include_directories(${THOR})
-target_link_libraries(${EXECUTABLE_NAME} ${CMAKE_THREAD_LIBS_INIT} ${OPENGL_gl_LIBRARY} ${SFML_LIBRARIES} ${SFML_DEPENDENCIES} ${THOR_LIBRARY})
+target_link_libraries(${EXECUTABLE_NAME} ${CMAKE_THREAD_LIBS_INIT} ${OPENGL_gl_LIBRARY} ${SFML_LIBRARIES} ${SFML_DEPENDENCIES} ${THOR_LIBRARY} ${PUGIXML_LIBRARY} ${ZLIB_LIBRARIES})
 
 
 

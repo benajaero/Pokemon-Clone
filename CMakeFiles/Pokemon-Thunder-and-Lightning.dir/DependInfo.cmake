@@ -14,13 +14,24 @@ set(CMAKE_C_COMPILER_ID "Clang")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "./bin"
   "./include"
-  "./include/tmxlite"
-  "./include/tmxlite/detail"
+  "./include/STP"
+  "./include/STP/Core"
   "/Library/Frameworks/SFML.framework"
+  "/usr/local/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/AnimatedSprite.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/AnimatedSprite.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/Animation.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Base64.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Base64.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Image.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Image.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/ImageLayer.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ImageLayer.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Layer.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Layer.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/MapObject.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/MapObject.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/ObjectGroup.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ObjectGroup.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Parser.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Parser.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Properties.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Properties.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/TileMap.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileMap.cpp.o"
+  "/Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/TileSet.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileSet.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/battle.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/fader.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o"
   "/Users/StoneofHelp/Programming/Pokemon-Clone/src/file.cpp" "/Users/StoneofHelp/Programming/Pokemon-Clone/CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/file.cpp.o"
@@ -45,9 +56,10 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "./bin"
   "./include"
-  "./include/tmxlite"
-  "./include/tmxlite/detail"
+  "./include/STP"
+  "./include/STP/Core"
   "/Library/Frameworks/SFML.framework"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.

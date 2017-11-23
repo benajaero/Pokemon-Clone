@@ -19,14 +19,5 @@ class TextureManager {
         TextureManager() {}
 };
 
-class MapManager {
-    private:
-        static std::map<std::string, tmx::MapLoader> _maps;
-    public:
-        static tmx::MapLoader& loadMap(std::string name, std::string filename);
-        static tmx::MapLoader& getRef(std::string name);
-        static void deleteMap(std::string name);
-        static void deleteAll();
-};
 
 #endif
