@@ -9,7 +9,6 @@
 #include <cassert>
 
 
-
 void PlayController::logic() {
     double modifier = 1;
     Game::hero.moveForward(0.75, view, Game::frameTime);
@@ -97,13 +96,15 @@ void PlayController::draw(sf::RenderWindow& window) {
 
     window.clear(sf::Color::White);
     window.setView(view);
+    window.draw(heroSprite);
+    window.draw(Game::_map);
     window.display();
 }
 
 void PlayController::setup(sf::RenderWindow& window) {
     view.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
     Game::hero.setPos(sf::Vector2f(70, 70));
-    //ml.load("assets/testmap2.tmx");
+    Game::_map.ShowObjects();
     view.setCenter(Game::hero.x * TILE_HEIGHT, Game::hero.y * TILE_HEIGHT);
     view.zoom(0.25f);
     setupActions();

@@ -3,6 +3,7 @@
 
 #include "hero.h"
 #include "AnimatedSprite.hpp"
+#include "STP/TMXLoader.hpp"
 #include <Thor/Input.hpp>
 #include <Thor/Graphics/ToString.hpp>
 #include <SFML/Graphics.hpp>

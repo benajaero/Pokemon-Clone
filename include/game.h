@@ -4,7 +4,7 @@
 #include "menu.h"
 #include "playing.h"
 #include "hero.h"
-#include <tmx/MapLoader.hpp>
+#include "STP/TMXLoader.hpp"
 #include <cassert>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
@@ -34,7 +34,7 @@ class Game {
         static PlayController pController;
         static GameState _gameState;
         static sf::RenderWindow _mainWindow;
-        static tmx::MapLoader ml;
+        static tmx::TileMap _map;
 
         static void Start();
         static void computeFrameTime();

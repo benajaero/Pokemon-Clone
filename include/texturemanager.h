@@ -2,7 +2,6 @@
 #define TEXTURE_MANAGER_H
 
 #include <SFML/Graphics.hpp>
-#include <tmx/MapLoader.hpp>
 #include <string>
 #include <map>
 
