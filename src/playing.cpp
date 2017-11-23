@@ -94,17 +94,20 @@ void PlayController::draw(sf::RenderWindow& window) {
 
     // set a 10-pixel wide orange outline
 
+    tmx::TileMap _map("./assets/testmap2.tmx");
+    _map.ShowObjects();
     window.clear(sf::Color::White);
     window.setView(view);
+    window.draw(_map);
+    //window.draw(Game::_map);
     window.draw(heroSprite);
-    window.draw(Game::_map);
     window.display();
 }
 
 void PlayController::setup(sf::RenderWindow& window) {
     view.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
     Game::hero.setPos(sf::Vector2f(70, 70));
-    Game::_map.ShowObjects();
+    //Game::_map.ShowObjects();
     view.setCenter(Game::hero.x * TILE_HEIGHT, Game::hero.y * TILE_HEIGHT);
     view.zoom(0.25f);
     setupActions();

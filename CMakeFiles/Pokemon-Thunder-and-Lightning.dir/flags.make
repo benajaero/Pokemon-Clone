@@ -9,7 +9,7 @@ C_DEFINES =
 
 C_INCLUDES = -I/Users/StoneofHelp/Programming/Pokemon-Clone/./bin -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/STP -I/Users/StoneofHelp/Programming/Pokemon-Clone/./include/STP/Core -F/Library/Frameworks -I/usr/local/include 
 
-CXX_FLAGS =  -std=c++14  
+CXX_FLAGS =  -g -std=c++14  
 
 CXX_DEFINES = 
 

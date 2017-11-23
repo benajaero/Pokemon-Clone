@@ -10,7 +10,7 @@ sf::RenderWindow Game::_mainWindow;
 sf::Time Game::frameTime;
 sf::Clock Game::frameClock;
 Hero Game::hero("Tim", 55, 60, 0, 0, 0, EAST, 1);
-tmx::TileMap Game::_map("./assets/testmap2.tmx");
+//tmx::TileMap Game::_map("./assets/assets/desert.tmx");
 PlayController Game::pController = PlayController();
 
 void Game::Start(void) {

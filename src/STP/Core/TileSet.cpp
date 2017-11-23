@@ -88,7 +88,7 @@ tmx::TileSet::Tile& TileSet::GetTile(unsigned int id) {
         sprintf(error, "Error: tile local id %u out of range.\n", id);
         throw std::out_of_range(error);
     }
-    return tiles_[id];
+    return tiles_.at(id);
 }
 
 sf::IntRect TileSet::GetTextureRect(unsigned int id) const {
@@ -97,7 +97,7 @@ sf::IntRect TileSet::GetTextureRect(unsigned int id) const {
         sprintf(error, "Error: tile local id %u out of range.\n", id);
         throw std::out_of_range(error);
     }
-    return tiles_[id].GetTextureRect();
+    return tiles_.at(id).GetTextureRect();
 }
 
 const sf::Texture* TileSet::GetTexture() const {
