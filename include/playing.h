@@ -17,7 +17,7 @@ class PlayController {
         sf::View view;
         void logic();
         void handleEvents(sf::RenderWindow& window);
-        void draw(sf::RenderWindow& window);
+        void draw(sf::RenderWindow& window, tmx::TileMap& _map);
         void setup(sf::RenderWindow& window);
         void setupActions();
         //PlayController() : hero("Adam", 0, 0, 0, 0, 0, EAST, 1) {}

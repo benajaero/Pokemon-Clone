@@ -49,7 +49,7 @@ void PlayController::handleEvents(sf::RenderWindow& window) {
     }
 }
 
-void PlayController::draw(sf::RenderWindow& window) {
+void PlayController::draw(sf::RenderWindow& window, tmx::TileMap& _map) {
 
     AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
     Animation& currentAnimation = Game::hero.idle.down;
@@ -94,7 +94,7 @@ void PlayController::draw(sf::RenderWindow& window) {
 
     // set a 10-pixel wide orange outline
 
-    tmx::TileMap _map("./assets/testmap2.tmx");
+    //tmx::TileMap _map("./assets/testmap2.tmx");
     _map.ShowObjects();
     window.clear(sf::Color::White);
     window.setView(view);

@@ -30,7 +30,7 @@ void loadSprites() {
     AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
     heroSprite.setLooped(false);
     heroSprite.pause();
-    heroSprite.setFrameTime(sf::seconds(0.02));
+    heroSprite.setFrameTime(sf::seconds(0.2));
     //heroSprite.setScale(SCALE, SCALE);
     heroSprite.setPosition(Game::_mainWindow.getView().getCenter());
 }

@@ -13,7 +13,7 @@
 class Game {
     private:
         static bool IsExiting();
-        static void GameLoop();
+        static void GameLoop(tmx::TileMap& _map);
         static void ShowSplash();
         static void Menu();
 

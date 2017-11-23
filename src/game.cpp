@@ -24,15 +24,16 @@ void Game::Start(void) {
     TextureManager::loadTexture("splashScreenBackground", "assets/SplashScreen.png");
     pController.setup(_mainWindow);
     _gameState = Game::SHOWING_SPLASH;
-
+    tmx::TileMap _map("assets/testmap2.tmx");
+    
     while(!IsExiting())
-        GameLoop();
+        GameLoop(_map);
     _mainWindow.close();
 }
 
 bool Game::IsExiting() { return (_gameState == Game::EXITING); }
 
-void Game::GameLoop() {
+void Game::GameLoop(tmx::TileMap& _map) {
     if (_gameState == Game::SHOWING_SPLASH) 
         ShowSplash();
     if (_gameState == Game::SHOWING_MENU)
@@ -46,7 +47,7 @@ void Game::GameLoop() {
         if (_gameState == Game::PLAYING) {
             pController.handleEvents(_mainWindow);
             pController.logic();
-            pController.draw(_mainWindow);
+            pController.draw(_mainWindow, _map);
         } else {
             sf::Event event;
             while(_mainWindow.pollEvent(event)) {
