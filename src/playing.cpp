@@ -98,9 +98,12 @@ void PlayController::draw(sf::RenderWindow& window, tmx::TileMap& _map) {
     _map.ShowObjects();
     window.clear(sf::Color::White);
     window.setView(view);
-    window.draw(_map);
-    //window.draw(Game::_map);
+    //window.draw(_map);
+    window.draw(_map.GetLayer("Background"));
+    window.draw(_map.GetLayer("Collision"));
     window.draw(heroSprite);
+    window.draw(_map.GetLayer("Movement Affectors"));
+    window.draw(_map.GetLayer("Entities"));
     window.display();
 }
 
