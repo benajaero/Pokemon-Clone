@@ -7,6 +7,6 @@
 const int TILE_HEIGHT = 16;
 const int BLOCK_SIZE = 24;
 const int SCALE = 4;
-const int MOVE_VAL = BLOCK_SIZE * 0.75;
+const float MOVE_VAL = TILE_HEIGHT;
 
 #endif
