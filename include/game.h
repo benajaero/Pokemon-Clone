@@ -34,7 +34,6 @@ class Game {
         static PlayController pController;
         static GameState _gameState;
         static sf::RenderWindow _mainWindow;
-        static tmx::TileMap _map;
 
         static void Start();
         static void computeFrameTime();

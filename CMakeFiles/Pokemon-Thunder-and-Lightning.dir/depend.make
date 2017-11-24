@@ -278,16 +278,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileSet.cpp.o: /usr/lo
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/Animation.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/Config.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/Core/Image.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/Core/ImageLayer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/Core/Layer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/Core/MapObject.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/Core/ObjectGroup.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/Core/Properties.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/Core/TileMap.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/Core/TileSet.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/STP/TMXLoader.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/battle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: ./include/font_manager.h
@@ -402,6 +392,15 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/includ
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/Thor/Input/EventSystem.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/Thor/Input/InputNames.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/Thor/Input/Joystick.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/pugixml/pugiconfig.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/pugixml/pugixml.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/tmx/DebugShape.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/tmx/Export.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/tmx/Helpers.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/tmx/MapLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/tmx/MapLoader.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/tmx/MapObject.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o: /usr/local/include/tmx/QuadTreeNode.hpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o: ./include/fader.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/fader.cpp.o: src/fader.cpp
@@ -529,16 +528,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.o: /usr/local/
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/Animation.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/Config.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/Core/Image.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/Core/ImageLayer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/Core/Layer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/Core/MapObject.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/Core/ObjectGroup.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/Core/Properties.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/Core/TileMap.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/Core/TileSet.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/STP/TMXLoader.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/battle.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: ./include/enums.h
@@ -655,6 +644,15 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/Thor/Input/EventSystem.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/Thor/Input/InputNames.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/Thor/Input/Joystick.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/pugixml/pugiconfig.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/pugixml/pugixml.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/tmx/DebugShape.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/tmx/Export.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/tmx/Helpers.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/tmx/MapLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/tmx/MapLoader.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/tmx/MapObject.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o: /usr/local/include/tmx/QuadTreeNode.hpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/gui-components.cpp.o: ./include/Animation.hpp
@@ -818,16 +816,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o: /usr/local/include/
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/Animation.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/Config.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/Core/Image.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/Core/ImageLayer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/Core/Layer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/Core/MapObject.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/Core/ObjectGroup.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/Core/Properties.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/Core/TileMap.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/Core/TileSet.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/STP/TMXLoader.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/game.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: ./include/gui-components.h
@@ -940,19 +928,18 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/Thor/Input/EventSystem.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/Thor/Input/InputNames.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/Thor/Input/Joystick.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/pugixml/pugiconfig.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/pugixml/pugixml.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/tmx/DebugShape.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/tmx/Export.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/tmx/Helpers.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/tmx/MapLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/tmx/MapLoader.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/tmx/MapObject.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o: /usr/local/include/tmx/QuadTreeNode.hpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/Animation.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/Config.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/Core/Image.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/Core/ImageLayer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/Core/Layer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/Core/MapObject.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/Core/ObjectGroup.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/Core/Properties.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/Core/TileMap.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/Core/TileSet.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/STP/TMXLoader.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/font_manager.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: ./include/game.h
@@ -1066,6 +1053,15 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/Thor/Input/EventSystem.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/Thor/Input/InputNames.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/Thor/Input/Joystick.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/pugixml/pugiconfig.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/pugixml/pugixml.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/tmx/DebugShape.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/tmx/Export.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/tmx/Helpers.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/tmx/MapLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/tmx/MapLoader.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/tmx/MapObject.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o: /usr/local/include/tmx/QuadTreeNode.hpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: ./include/move.h
@@ -1074,16 +1070,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o: src/move.cpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/Animation.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/Config.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/Core/Image.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/Core/ImageLayer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/Core/Layer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/Core/MapObject.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/Core/ObjectGroup.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/Core/Properties.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/Core/TileMap.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/Core/TileSet.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/STP/TMXLoader.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: ./include/game.h
@@ -1197,6 +1183,15 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/inclu
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/Thor/Input/EventSystem.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/Thor/Input/InputNames.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/Thor/Input/Joystick.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/pugixml/pugiconfig.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/pugixml/pugixml.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/tmx/DebugShape.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/tmx/Export.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/tmx/Helpers.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/tmx/MapLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/tmx/MapLoader.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/tmx/MapObject.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o: /usr/local/include/tmx/QuadTreeNode.hpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/pokemon.cpp.o: ./include/move.h
@@ -1224,16 +1219,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.o: /usr/lo
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/Animation.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/Config.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/Core/Image.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/Core/ImageLayer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/Core/Layer.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/Core/MapObject.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/Core/ObjectGroup.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/Core/Properties.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/Core/TileMap.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/Core/TileSet.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/STP/TMXLoader.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/definitions.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/enums.h
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: ./include/font_manager.h
@@ -1349,6 +1334,15 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/Thor/Input/EventSystem.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/Thor/Input/InputNames.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/Thor/Input/Joystick.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/pugixml/pugiconfig.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/pugixml/pugixml.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/tmx/DebugShape.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/tmx/Export.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/tmx/Helpers.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/tmx/MapLayer.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/tmx/MapLoader.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/tmx/MapObject.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o: /usr/local/include/tmx/QuadTreeNode.hpp
 
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o: ./include/AnimatedSprite.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/spritemanager.cpp.o: ./include/Animation.hpp
