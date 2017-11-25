@@ -15,7 +15,7 @@ class PlayController {
         thor::ActionMap<std::string> _actionMap; 
     public:
         sf::View view;
-        void logic();
+        void logic(tmx::TileMap& _map);
         void handleEvents(sf::RenderWindow& window);
         void draw(sf::RenderWindow& window, tmx::TileMap& _map);
         void setup(sf::RenderWindow& window);

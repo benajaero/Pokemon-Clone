@@ -8,10 +8,21 @@
 #include "spritemanager.h"
 #include <cassert>
 
+bool checkCollision() {
+    return true;
+}
 
-void PlayController::logic() {
+void reactToCollision() {
+
+}
+
+double calculateModifier() {
+    return 0.0;
+}
+
+void PlayController::logic(tmx::TileMap& _map) {
     double modifier = 1;
-    Game::hero.moveForward(0.75, view, Game::frameTime);
+    Game::hero.moveForward(modifier, view, Game::frameTime);
     //if(!sf::Event::KeyPressed)
 }
 
@@ -21,30 +32,34 @@ void PlayController::handleEvents(sf::RenderWindow& window) {
     if (_actionMap.isActive("closeWindow"))
         Game::_gameState = Game::EXITING;
     else {
+
+        if (_actionMap.isActive("releaseLeft") || _actionMap.isActive("releaseRight"))
+            Game::hero.xvel = 0;
+        if (_actionMap.isActive("releaseUp") || _actionMap.isActive("releaseDown"))
+            Game::hero.yvel = 0;
         if (_actionMap.isActive("moveRight")) {
-            Game::hero.xvel += MOVE_VAL;
+            Game::hero.xvel = MOVE_VAL;
             Game::hero.changeOrientation(EAST);
             Game::hero.isMoving = true;
         }
         else if (_actionMap.isActive("moveLeft")) {
-            Game::hero.xvel -= MOVE_VAL;
+            Game::hero.xvel =  0 - MOVE_VAL;
             Game::hero.changeOrientation(WEST);
             Game::hero.isMoving = true;
         }
         else if (_actionMap.isActive("moveUp")) {
-            Game::hero.yvel += MOVE_VAL;
+            Game::hero.yvel = MOVE_VAL;
             Game::hero.changeOrientation(NORTH);
             Game::hero.isMoving = true;
         }
         else if (_actionMap.isActive("moveDown")) {
-            Game::hero.yvel -= MOVE_VAL;
+            Game::hero.yvel = 0 - MOVE_VAL;
             Game::hero.changeOrientation(SOUTH);
             Game::hero.isMoving = true;
         }
         else {
             Game::hero.isMoving = false;
         }
-           
 
     }
 }
@@ -101,6 +116,7 @@ void PlayController::draw(sf::RenderWindow& window, tmx::TileMap& _map) {
     //window.draw(_map);
     window.draw(_map.GetLayer("Background"));
     window.draw(_map.GetLayer("Collision"));
+    window.draw(_map.GetLayer("Collision2"));
     window.draw(heroSprite);
     window.draw(_map.GetLayer("Movement Affectors"));
     window.draw(_map.GetLayer("Entities"));
@@ -128,15 +144,35 @@ void PlayController::setupActions() {
     thor::Action holdKeyW(sf::Keyboard::W, thor::Action::Hold);
     thor::Action holdKeyS(sf::Keyboard::S, thor::Action::Hold);
 
+    thor::Action leftArrowRelease(sf::Keyboard::Left, thor::Action::ReleaseOnce);
+    thor::Action rightArrowRelease(sf::Keyboard::Right, thor::Action::ReleaseOnce);
+    thor::Action upArrowRelease(sf::Keyboard::Up, thor::Action::ReleaseOnce);
+    thor::Action downArrowRelease(sf::Keyboard::Down, thor::Action::ReleaseOnce);
+
+    thor::Action releaseKeyA(sf::Keyboard::A, thor::Action::ReleaseOnce);
+    thor::Action releaseKeyD(sf::Keyboard::D, thor::Action::ReleaseOnce);
+    thor::Action releaseKeyW(sf::Keyboard::W, thor::Action::ReleaseOnce);
+    thor::Action releaseKeyS(sf::Keyboard::S, thor::Action::ReleaseOnce);
+
     thor::Action moveLeft = leftArrowHold || holdKeyA;
     thor::Action moveRight = rightArrowHold || holdKeyD;
     thor::Action moveUp = upArrowHold || holdKeyW;
     thor::Action moveDown = downArrowHold || holdKeyS;
+
+    thor::Action releaseLeft = leftArrowRelease || releaseKeyA;
+    thor::Action releaseRight = rightArrowRelease || releaseKeyD;
+    thor::Action releaseUp = upArrowRelease || releaseKeyW;
+    thor::Action releaseDown = downArrowRelease || releaseKeyS;
+
    //bind actions 
    _actionMap["moveLeft"] = moveLeft;
    _actionMap["moveRight"] = moveRight;
    _actionMap["moveUp"] = moveUp;
    _actionMap["moveDown"] = moveDown;
    _actionMap["closeWindow"] = thor::Action(sf::Event::Closed);
+   _actionMap["releaseLeft"] = releaseLeft;
+   _actionMap["releaseRight"] = releaseRight;
+   _actionMap["releaseUp"] = releaseUp;
+   _actionMap["releaseDown"] = releaseDown;
     
 }

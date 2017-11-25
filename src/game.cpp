@@ -46,7 +46,7 @@ void Game::GameLoop(tmx::TileMap& _map) {
     else {
         if (_gameState == Game::PLAYING) {
             pController.handleEvents(_mainWindow);
-            pController.logic();
+            pController.logic(_map);
             pController.draw(_mainWindow, _map);
         } else {
             sf::Event event;
