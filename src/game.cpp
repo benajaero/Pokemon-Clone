@@ -22,7 +22,6 @@ void Game::Start(void) {
      
     //load initial textures
     TextureManager::loadTexture("splashScreenBackground", "assets/SplashScreen.png");
-    pController.setup(_mainWindow);
     _gameState = Game::SHOWING_SPLASH;
     tmx::TileMap _map("assets/testmap2.tmx");
     
@@ -74,6 +73,7 @@ void Game::ShowSplash() {
     splash.Show(_mainWindow);
     TextureManager::deleteTexture("splashScreenBackground");
     _gameState = Game::SHOWING_MENU;
+    pController.setup(_mainWindow);
 }
 
 

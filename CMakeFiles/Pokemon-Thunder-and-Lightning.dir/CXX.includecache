@@ -623,6 +623,8 @@ spritemanager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/spritemanager.h
 cassert
 -
+iostream
+-
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/pokemon.cpp
 pokemon.h

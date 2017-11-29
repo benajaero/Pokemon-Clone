@@ -7,9 +7,12 @@
 #include "texturemanager.h"
 #include "spritemanager.h"
 #include <cassert>
+#include <iostream>
 
-bool checkCollision() {
-    return true;
+bool AABBIntersection(sf::Vector2f objPos, sf::Vector2f objSize, sf::Vector2f objPos1, sf::Vector2f objSize1) {
+    bool x_overlaps = (objPos.x < objPos1.x + objSize1.x) && (objPos.x + objSize.x > objPos1.x);
+    bool y_overlaps = (objPos.y < objPos1.y + objSize1.y) && (objPos.y + objSize.y > objPos1.y);
+    return x_overlaps && y_overlaps;
 }
 
 void reactToCollision() {
@@ -20,10 +23,38 @@ double calculateModifier() {
     return 0.0;
 }
 
+void checkCollisionLayer(bool& boolVal, tmx::TileMap& _map, Hero& hero, std::string layerName, int* tileArray) {
+    for (int i = tileArray[0]; i <= tileArray[1]; i++) {
+        for (int j = tileArray[2]; j <= tileArray[3]; j++) {
+            tmx::Layer::Tile tile = _map.GetLayer(layerName).GetTile(unsigned(i), unsigned(j));
+            if (tile.empty() == false) {
+                //boolVal = AABBIntersection(sf::Vector2f(hero.x, hero.y), sf::Vector2f(BLOCK_SIZE, BLOCK_SIZE), sf::Vector2f(i, j), sf::Vector2f(TILE_HEIGHT, TILE_HEIGHT));
+            }
+        }
+    }
+}
+
 void PlayController::logic(tmx::TileMap& _map) {
-    double modifier = 1;
-    Game::hero.moveForward(modifier, view, Game::frameTime);
-    //if(!sf::Event::KeyPressed)
+    bool didCollide = false;
+    int collisionTiles[4];
+    //order: left, right, top, bottom
+    
+    collisionTiles[0] = Game::hero.x;
+    collisionTiles[1] = Game::hero.x + 1;
+    collisionTiles[2] = Game::hero.y;
+    collisionTiles[3] = Game::hero.y + 1;
+
+    for (int i = 0; i < 3; i++)
+        if (collisionTiles[i] < 0) collisionTiles[i] = 0;
+
+    checkCollisionLayer(didCollide, _map, Game::hero, "Collision", collisionTiles); 
+    checkCollisionLayer(didCollide, _map, Game::hero, "Collision2", collisionTiles); 
+    if (didCollide)
+        reactToCollision();
+    else {
+        double modifier = 1;
+        Game::hero.moveForward(modifier, view, Game::frameTime);
+    }
 }
 
 //reminder check for collisons, for water contact, for slowing down
@@ -48,12 +79,12 @@ void PlayController::handleEvents(sf::RenderWindow& window) {
             Game::hero.isMoving = true;
         }
         else if (_actionMap.isActive("moveUp")) {
-            Game::hero.yvel = MOVE_VAL;
+            Game::hero.yvel = 0 - MOVE_VAL;
             Game::hero.changeOrientation(NORTH);
             Game::hero.isMoving = true;
         }
         else if (_actionMap.isActive("moveDown")) {
-            Game::hero.yvel = 0 - MOVE_VAL;
+            Game::hero.yvel = MOVE_VAL;
             Game::hero.changeOrientation(SOUTH);
             Game::hero.isMoving = true;
         }
@@ -117,15 +148,16 @@ void PlayController::draw(sf::RenderWindow& window, tmx::TileMap& _map) {
     window.draw(_map.GetLayer("Background"));
     window.draw(_map.GetLayer("Collision"));
     window.draw(_map.GetLayer("Collision2"));
+    window.draw(_map.GetLayer("Entities"));
+    window.draw(_map.GetLayer("Background2"));
     window.draw(heroSprite);
     window.draw(_map.GetLayer("Movement Affectors"));
-    window.draw(_map.GetLayer("Entities"));
     window.display();
 }
 
 void PlayController::setup(sf::RenderWindow& window) {
     view.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-    Game::hero.setPos(sf::Vector2f(70, 70));
+    Game::hero.setPos(sf::Vector2f(42, 102));
     //Game::_map.ShowObjects();
     view.setCenter(Game::hero.x * TILE_HEIGHT, Game::hero.y * TILE_HEIGHT);
     view.zoom(0.25f);

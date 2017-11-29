@@ -11,7 +11,7 @@ void Hero::moveForward(double movementDamper, sf::View& view, sf::Time frameTime
        //isMoving = false;
     x += xvel * frameTime.asSeconds();
     y += yvel * frameTime.asSeconds();
-    view.move(xvel * frameTime.asSeconds() , yvel * frameTime.asSeconds() * -1);
+    view.move(xvel * frameTime.asSeconds() , yvel * frameTime.asSeconds());
 }
 
 void Hero::setupAnimations(sf::Texture& texture) {

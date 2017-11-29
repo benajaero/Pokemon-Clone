@@ -63,7 +63,8 @@ unsigned int Layer::GetHeight() const {
 tmx::Layer::Tile& Layer::GetTile(unsigned int x, unsigned int y) {
     if (x >= width_ || y >= height_) {
         char error[100];
-        sprintf(error, "Error: tile (%u, %u) out of range.\n", x, y);
+        sprintf(error, "Error: tile (%u, %u) out of range. Dimensions(%u, %u)\n", x, y, width_, height_);
+        
         throw std::out_of_range(error);
     }
 
