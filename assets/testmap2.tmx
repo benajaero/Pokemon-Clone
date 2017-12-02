@@ -2,6 +2,9 @@
 <map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="125" height="120" tilewidth="16" tileheight="16" nextobjectid="1">
  <tileset firstgid="1" source="TileSet.tsx"/>
  <layer name="Background" width="125" height="120">
+  <properties>
+   <property name="collision" value="false"/>
+  </properties>
   <data encoding="base64" compression="zlib">
    eJzt0rENwkAQRNGVA4I7iqICQ6E2NUJuyRGns5gXvHxHf5eqWgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCCHrffmr0HzdEczRNpnkfzPJrn0TyP5nk0z6N5Hs3zaM7ZX8y+A83RHM3RHM3RHM2TaZ5H8zya59E8j+Z5NM+jeR7N/8Paqp6DvNr8fRxt3y77IG/NL0nzPJrn0TyP5nk0z9N6VR/k3ufvAwAAAAAAAAAAAMb6APxvMqg=
   </data>
@@ -11,7 +14,7 @@
    <property name="collision" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt0bEJgEAMQNFcpauIg6qzqTtpLcg1JyfkFa9LAuGXiCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/tw8RR2Pn0P8v3k1j+5vzBzfRHM3RHM3RPDPN89E8H83z0TwfzfPRPB/N81nuPmvFc6c2v2kOAAAAAAAAAAAAAAAAAAAAAAAAAAB0cgHbvlut
+   eJzt0bEJgEAQRcHLzlbEQtXa1J40NvCSE4U/A5stC8srBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4P+2WsreeY769Vc8GYf+N6cXbtKP5nk0z6N5Hs3zaJ5H8zya59E8j+Z5NM+jeR7N88xXn6Uxd639VXMAAAAAAAAAAAAAAAAAAAAAAAAAAOAjJxtEIVc=
   </data>
  </layer>
  <layer name="Collision2" width="125" height="120">
@@ -19,20 +22,29 @@
    <property name="collision" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt1DEKwkAQhtEEQZKTCd5CsFYvJXgLwVo9k9tlm6RLVvhf8WCahYXhm77ruh4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgL9yKa7FbWFe4y3tvItP8V2Y13hLOzrPo/M8Os+j8zw6z6PzPDrPo/M8Os+jc+Ychmk+Du3+wXZ24zQ/7DzCqdr5fmz3D7Zzr9o+23kEtz2P257Hbc/jtudx2/M8qz2/7BwAAAAAAAAAAIAZP3IExwQ=
+   eJzt1DEKwkAQBdCAEJKTCbmFYK1eSvAWgrV6JrfLNpsuRPLfg4Epdqvh/64DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODfXMpcy9wW9jX+sp13mU+Z78K+xl+2I+d55DyPnOeR8zxynkfO88h5HjnPI+d55JyW4zDv09B+x34cxnl/uHmEU3Xzfmy/Yz/uVbbPbh5Bt+fR7Xl0ex7dnke353lWd365OQAAAAAAAAAAAA0/nguNWA==
   </data>
  </layer>
  <layer name="Movement Affectors" width="125" height="120">
+  <properties>
+   <property name="collision" value="false"/>
+  </properties>
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvgzqYAAB
   </data>
  </layer>
  <layer name="Entities" width="125" height="120">
+  <properties>
+   <property name="collision" value="false"/>
+  </properties>
   <data encoding="base64" compression="zlib">
    eJzt1klOw0AQhtFm3gKb2PchTLkDMxcjYboYCRDuwH8CJCMl6tjvSZ/kRXnVKqlKAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgHp9jEqZp0X6TF/pOy3Tz6j7HPU7aUoZp9N0ls7TRbpMk6b7HPV7yntN0yw9p5f0mt7Se9N9jg3QlrKVttNO2k17aT8dtP+Yo3pXea/rdJNu0126Tw/pse0+B9TH3T487vbhcbcPkLt9cNztAACb4TAdpeM/vlfxL7A+9hz6z55D/9lz6D97Dv1nzwEAAAAAAAAAAAAAAAAAAOryC7ojXb0=
   </data>
  </layer>
  <layer name="Background2" width="125" height="120">
+  <properties>
+   <property name="collision" value="false"/>
+  </properties>
   <data encoding="base64" compression="zlib">
    eJzt0TENADAMwLCe4w9iOHvsG4XYUhBkBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWu550eF5j+c9nvd43uN5j+c9ngMAAAAAAAAAAAC/BV1+CuE=
   </data>

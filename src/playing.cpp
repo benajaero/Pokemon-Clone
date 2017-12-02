@@ -12,11 +12,12 @@
 bool AABBIntersection(sf::Vector2f objPos, sf::Vector2f objSize, sf::Vector2f objPos1, sf::Vector2f objSize1) {
     bool x_overlaps = (objPos.x < objPos1.x + objSize1.x) && (objPos.x + objSize.x > objPos1.x);
     bool y_overlaps = (objPos.y < objPos1.y + objSize1.y) && (objPos.y + objSize.y > objPos1.y);
+    //std::cout << x_overlaps << "- " << y_overlaps << "\n";
     return x_overlaps && y_overlaps;
 }
 
 void reactToCollision() {
-
+    //std::cout << "Did colide\n";
 }
 
 double calculateModifier() {
@@ -28,12 +29,13 @@ void checkCollisionLayer(bool& boolVal, tmx::TileMap& _map, Hero& hero, std::str
         for (int j = tileArray[2]; j <= tileArray[3]; j++) {
             tmx::Layer::Tile tile = _map.GetLayer(layerName).GetTile(unsigned(i), unsigned(j));
             if (tile.empty() == false) {
-                //boolVal = AABBIntersection(sf::Vector2f(hero.x, hero.y), sf::Vector2f(BLOCK_SIZE, BLOCK_SIZE), sf::Vector2f(i, j), sf::Vector2f(TILE_HEIGHT, TILE_HEIGHT));
+                //std::cout << tile.GetPropertyValue("collision") << "\n";
+                std::cout << "Not empty\n";
+                //boolVal = AABBIntersection(sf::Vector2f(hero.x, hero.y), sf::Vector2f(2,2), sf::Vector2f(i, j), sf::Vector2f(1,1));
             }
         }
     }
-}
-
+} 
 void PlayController::logic(tmx::TileMap& _map) {
     bool didCollide = false;
     int collisionTiles[4];
@@ -44,8 +46,9 @@ void PlayController::logic(tmx::TileMap& _map) {
     collisionTiles[2] = Game::hero.y;
     collisionTiles[3] = Game::hero.y + 1;
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 3; i++) {
         if (collisionTiles[i] < 0) collisionTiles[i] = 0;
+    }
 
     checkCollisionLayer(didCollide, _map, Game::hero, "Collision", collisionTiles); 
     checkCollisionLayer(didCollide, _map, Game::hero, "Collision2", collisionTiles); 
