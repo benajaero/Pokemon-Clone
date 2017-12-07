@@ -3,6 +3,7 @@
 #include "splashScreen.h"
 #include "battle.h"
 #include "definitions.h"
+#include "tmx/MapLoader.hpp"
 #include <cassert>
 
 Game::GameState Game::_gameState = Game::UNINITIALIZED;
@@ -23,7 +24,8 @@ void Game::Start(void) {
     //load initial textures
     TextureManager::loadTexture("splashScreenBackground", "assets/SplashScreen.png");
     _gameState = Game::SHOWING_SPLASH;
-    tmx::TileMap _map("assets/testmap2.tmx");
+    tmx::MapLoader _map("./assets/");
+    _map.load("testmap2.tmx");
     
     while(!IsExiting())
         GameLoop(_map);
@@ -32,7 +34,7 @@ void Game::Start(void) {
 
 bool Game::IsExiting() { return (_gameState == Game::EXITING); }
 
-void Game::GameLoop(tmx::TileMap& _map) {
+void Game::GameLoop(tmx::MapLoader& _map) {
     if (_gameState == Game::SHOWING_SPLASH) 
         ShowSplash();
     if (_gameState == Game::SHOWING_MENU)

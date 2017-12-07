@@ -1,4 +1,5 @@
 #include "util.h"
+#include <tmx/MapLoader.hpp>
 
 void Person::add(Pokemon pokemon) {
     pokemonArr.push_back(pokemon);
@@ -15,3 +16,4 @@ void Person::removePokemon(int index) {
 void Person::removeItem(int index) {
     items.erase(items.begin() + index);
 }
+

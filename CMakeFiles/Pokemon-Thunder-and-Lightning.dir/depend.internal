@@ -51,244 +51,9 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/Animation.cpp.o
  /usr/local/include/SFML/System/Vector2.inl
  /usr/local/include/SFML/Window/Export.hpp
  /usr/local/include/SFML/Window/GlResource.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Base64.cpp.o
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Base64.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Base64.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Image.cpp.o
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Image.cpp
- /usr/local/include/SFML/Config.hpp
- /usr/local/include/SFML/Graphics/Color.hpp
- /usr/local/include/SFML/Graphics/Export.hpp
- /usr/local/include/SFML/Graphics/Image.hpp
- /usr/local/include/SFML/Graphics/Rect.hpp
- /usr/local/include/SFML/Graphics/Rect.inl
- /usr/local/include/SFML/Graphics/Texture.hpp
- /usr/local/include/SFML/System/Export.hpp
- /usr/local/include/SFML/System/NonCopyable.hpp
- /usr/local/include/SFML/System/Vector2.hpp
- /usr/local/include/SFML/System/Vector2.inl
- /usr/local/include/SFML/Window/Export.hpp
- /usr/local/include/SFML/Window/GlResource.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ImageLayer.cpp.o
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/ImageLayer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/Properties.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/ImageLayer.cpp
- /usr/local/include/SFML/Config.hpp
- /usr/local/include/SFML/Graphics/BlendMode.hpp
- /usr/local/include/SFML/Graphics/Color.hpp
- /usr/local/include/SFML/Graphics/Drawable.hpp
- /usr/local/include/SFML/Graphics/Export.hpp
- /usr/local/include/SFML/Graphics/Image.hpp
- /usr/local/include/SFML/Graphics/PrimitiveType.hpp
- /usr/local/include/SFML/Graphics/Rect.hpp
- /usr/local/include/SFML/Graphics/Rect.inl
- /usr/local/include/SFML/Graphics/RenderStates.hpp
- /usr/local/include/SFML/Graphics/RenderTarget.hpp
- /usr/local/include/SFML/Graphics/Texture.hpp
- /usr/local/include/SFML/Graphics/Transform.hpp
- /usr/local/include/SFML/Graphics/Vertex.hpp
- /usr/local/include/SFML/Graphics/View.hpp
- /usr/local/include/SFML/System/Export.hpp
- /usr/local/include/SFML/System/NonCopyable.hpp
- /usr/local/include/SFML/System/Vector2.hpp
- /usr/local/include/SFML/System/Vector2.inl
- /usr/local/include/SFML/Window/Export.hpp
- /usr/local/include/SFML/Window/GlResource.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Layer.cpp.o
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/Layer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileSet.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Layer.cpp
- /usr/local/include/SFML/Config.hpp
- /usr/local/include/SFML/Graphics/BlendMode.hpp
- /usr/local/include/SFML/Graphics/Color.hpp
- /usr/local/include/SFML/Graphics/Drawable.hpp
- /usr/local/include/SFML/Graphics/Export.hpp
- /usr/local/include/SFML/Graphics/Image.hpp
- /usr/local/include/SFML/Graphics/PrimitiveType.hpp
- /usr/local/include/SFML/Graphics/Rect.hpp
- /usr/local/include/SFML/Graphics/Rect.inl
- /usr/local/include/SFML/Graphics/RenderStates.hpp
- /usr/local/include/SFML/Graphics/RenderTarget.hpp
- /usr/local/include/SFML/Graphics/Texture.hpp
- /usr/local/include/SFML/Graphics/Transform.hpp
- /usr/local/include/SFML/Graphics/Vertex.hpp
- /usr/local/include/SFML/Graphics/View.hpp
- /usr/local/include/SFML/System/Export.hpp
- /usr/local/include/SFML/System/NonCopyable.hpp
- /usr/local/include/SFML/System/Vector2.hpp
- /usr/local/include/SFML/System/Vector2.inl
- /usr/local/include/SFML/Window/Export.hpp
- /usr/local/include/SFML/Window/GlResource.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/MapObject.cpp.o
- ./include/STP/Config.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/Properties.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/MapObject.cpp
- /usr/local/include/SFML/Config.hpp
- /usr/local/include/SFML/Graphics/BlendMode.hpp
- /usr/local/include/SFML/Graphics/Color.hpp
- /usr/local/include/SFML/Graphics/Drawable.hpp
- /usr/local/include/SFML/Graphics/Export.hpp
- /usr/local/include/SFML/Graphics/PrimitiveType.hpp
- /usr/local/include/SFML/Graphics/Rect.hpp
- /usr/local/include/SFML/Graphics/Rect.inl
- /usr/local/include/SFML/Graphics/RenderStates.hpp
- /usr/local/include/SFML/Graphics/RenderTarget.hpp
- /usr/local/include/SFML/Graphics/Transform.hpp
- /usr/local/include/SFML/Graphics/Vertex.hpp
- /usr/local/include/SFML/Graphics/View.hpp
- /usr/local/include/SFML/System/Export.hpp
- /usr/local/include/SFML/System/NonCopyable.hpp
- /usr/local/include/SFML/System/Vector2.hpp
- /usr/local/include/SFML/System/Vector2.inl
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/ObjectGroup.cpp.o
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/ObjectGroup.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileSet.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/ObjectGroup.cpp
- /usr/local/include/SFML/Config.hpp
- /usr/local/include/SFML/Graphics/BlendMode.hpp
- /usr/local/include/SFML/Graphics/Color.hpp
- /usr/local/include/SFML/Graphics/Drawable.hpp
- /usr/local/include/SFML/Graphics/Export.hpp
- /usr/local/include/SFML/Graphics/Image.hpp
- /usr/local/include/SFML/Graphics/PrimitiveType.hpp
- /usr/local/include/SFML/Graphics/Rect.hpp
- /usr/local/include/SFML/Graphics/Rect.inl
- /usr/local/include/SFML/Graphics/RenderStates.hpp
- /usr/local/include/SFML/Graphics/RenderTarget.hpp
- /usr/local/include/SFML/Graphics/Texture.hpp
- /usr/local/include/SFML/Graphics/Transform.hpp
- /usr/local/include/SFML/Graphics/Vertex.hpp
- /usr/local/include/SFML/Graphics/VertexArray.hpp
- /usr/local/include/SFML/Graphics/View.hpp
- /usr/local/include/SFML/System/Export.hpp
- /usr/local/include/SFML/System/NonCopyable.hpp
- /usr/local/include/SFML/System/Vector2.hpp
- /usr/local/include/SFML/System/Vector2.inl
- /usr/local/include/SFML/Window/Export.hpp
- /usr/local/include/SFML/Window/GlResource.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Parser.cpp.o
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/ImageLayer.hpp
- ./include/STP/Core/Layer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/ObjectGroup.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileMap.hpp
- ./include/STP/Core/TileSet.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Base64.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Parser.cpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Parser.hpp
- /usr/local/include/SFML/Config.hpp
- /usr/local/include/SFML/Graphics/BlendMode.hpp
- /usr/local/include/SFML/Graphics/Color.hpp
- /usr/local/include/SFML/Graphics/Drawable.hpp
- /usr/local/include/SFML/Graphics/Export.hpp
- /usr/local/include/SFML/Graphics/Image.hpp
- /usr/local/include/SFML/Graphics/PrimitiveType.hpp
- /usr/local/include/SFML/Graphics/Rect.hpp
- /usr/local/include/SFML/Graphics/Rect.inl
- /usr/local/include/SFML/Graphics/RenderStates.hpp
- /usr/local/include/SFML/Graphics/Texture.hpp
- /usr/local/include/SFML/Graphics/Transform.hpp
- /usr/local/include/SFML/Graphics/Vertex.hpp
- /usr/local/include/SFML/Graphics/VertexArray.hpp
- /usr/local/include/SFML/System/Export.hpp
- /usr/local/include/SFML/System/NonCopyable.hpp
- /usr/local/include/SFML/System/Vector2.hpp
- /usr/local/include/SFML/System/Vector2.inl
- /usr/local/include/SFML/Window/Export.hpp
- /usr/local/include/SFML/Window/GlResource.hpp
- /usr/local/include/pugiconfig.hpp
- /usr/local/include/pugixml.hpp
- /usr/local/include/zconf.h
- /usr/local/include/zlib.h
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/Properties.cpp.o
- ./include/STP/Config.hpp
- ./include/STP/Core/Properties.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Properties.cpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileMap.cpp.o
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/ImageLayer.hpp
- ./include/STP/Core/Layer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/ObjectGroup.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileMap.hpp
- ./include/STP/Core/TileSet.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/Parser.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/TileMap.cpp
- /usr/local/include/SFML/Config.hpp
- /usr/local/include/SFML/Graphics/BlendMode.hpp
- /usr/local/include/SFML/Graphics/Color.hpp
- /usr/local/include/SFML/Graphics/Drawable.hpp
- /usr/local/include/SFML/Graphics/Export.hpp
- /usr/local/include/SFML/Graphics/Image.hpp
- /usr/local/include/SFML/Graphics/PrimitiveType.hpp
- /usr/local/include/SFML/Graphics/Rect.hpp
- /usr/local/include/SFML/Graphics/Rect.inl
- /usr/local/include/SFML/Graphics/RenderStates.hpp
- /usr/local/include/SFML/Graphics/RenderTarget.hpp
- /usr/local/include/SFML/Graphics/Texture.hpp
- /usr/local/include/SFML/Graphics/Transform.hpp
- /usr/local/include/SFML/Graphics/Vertex.hpp
- /usr/local/include/SFML/Graphics/VertexArray.hpp
- /usr/local/include/SFML/Graphics/View.hpp
- /usr/local/include/SFML/System/Export.hpp
- /usr/local/include/SFML/System/NonCopyable.hpp
- /usr/local/include/SFML/System/Vector2.hpp
- /usr/local/include/SFML/System/Vector2.inl
- /usr/local/include/SFML/Window/Export.hpp
- /usr/local/include/SFML/Window/GlResource.hpp
- /usr/local/include/pugiconfig.hpp
- /usr/local/include/pugixml.hpp
-CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/STP/Core/TileSet.cpp.o
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileSet.hpp
- /Users/StoneofHelp/Programming/Pokemon-Clone/src/STP/Core/TileSet.cpp
- /usr/local/include/SFML/Config.hpp
- /usr/local/include/SFML/Graphics/Color.hpp
- /usr/local/include/SFML/Graphics/Export.hpp
- /usr/local/include/SFML/Graphics/Image.hpp
- /usr/local/include/SFML/Graphics/Rect.hpp
- /usr/local/include/SFML/Graphics/Rect.inl
- /usr/local/include/SFML/Graphics/Texture.hpp
- /usr/local/include/SFML/System/Export.hpp
- /usr/local/include/SFML/System/NonCopyable.hpp
- /usr/local/include/SFML/System/Vector2.hpp
- /usr/local/include/SFML/System/Vector2.inl
- /usr/local/include/SFML/Window/Export.hpp
- /usr/local/include/SFML/Window/GlResource.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/ImageLayer.hpp
- ./include/STP/Core/Layer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/ObjectGroup.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileMap.hpp
- ./include/STP/Core/TileSet.hpp
- ./include/STP/TMXLoader.hpp
  ./include/battle.h
  ./include/enums.h
  ./include/font_manager.h
@@ -299,9 +64,18 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/battle.cpp.o
  ./include/move.h
  ./include/playing.h
  ./include/pokemon.h
+ ./include/pugixml/pugiconfig.hpp
+ ./include/pugixml/pugixml.hpp
  ./include/roundedRectangle.h
  ./include/spritemanager.h
  ./include/texturemanager.h
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapLoader.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/battle.cpp
  /usr/local/include/Aurora/Config.hpp
@@ -530,16 +304,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/font_manager.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/ImageLayer.hpp
- ./include/STP/Core/Layer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/ObjectGroup.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileMap.hpp
- ./include/STP/Core/TileSet.hpp
- ./include/STP/TMXLoader.hpp
  ./include/battle.h
  ./include/definitions.h
  ./include/enums.h
@@ -551,10 +315,19 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.o
  ./include/move.h
  ./include/playing.h
  ./include/pokemon.h
+ ./include/pugixml/pugiconfig.hpp
+ ./include/pugixml/pugixml.hpp
  ./include/roundedRectangle.h
  ./include/splashScreen.h
  ./include/spritemanager.h
  ./include/texturemanager.h
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapLoader.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/game.cpp
  /usr/local/include/Aurora/Config.hpp
@@ -819,16 +592,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/hero.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/ImageLayer.hpp
- ./include/STP/Core/Layer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/ObjectGroup.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileMap.hpp
- ./include/STP/Core/TileSet.hpp
- ./include/STP/TMXLoader.hpp
  ./include/enums.h
  ./include/game.h
  ./include/gui-components.h
@@ -837,9 +600,18 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o
  ./include/move.h
  ./include/playing.h
  ./include/pokemon.h
+ ./include/pugixml/pugiconfig.hpp
+ ./include/pugixml/pugixml.hpp
  ./include/roundedRectangle.h
  ./include/spritemanager.h
  ./include/texturemanager.h
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapLoader.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/main.cpp
  /usr/local/include/Aurora/Config.hpp
@@ -944,16 +716,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/main.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/ImageLayer.hpp
- ./include/STP/Core/Layer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/ObjectGroup.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileMap.hpp
- ./include/STP/Core/TileSet.hpp
- ./include/STP/TMXLoader.hpp
  ./include/enums.h
  ./include/font_manager.h
  ./include/game.h
@@ -963,9 +725,18 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/menu.cpp.o
  ./include/move.h
  ./include/playing.h
  ./include/pokemon.h
+ ./include/pugixml/pugiconfig.hpp
+ ./include/pugixml/pugixml.hpp
  ./include/roundedRectangle.h
  ./include/spritemanager.h
  ./include/texturemanager.h
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapLoader.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/menu.cpp
  /usr/local/include/Aurora/Config.hpp
@@ -1075,16 +846,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/move.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/ImageLayer.hpp
- ./include/STP/Core/Layer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/ObjectGroup.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileMap.hpp
- ./include/STP/Core/TileSet.hpp
- ./include/STP/TMXLoader.hpp
  ./include/definitions.h
  ./include/enums.h
  ./include/game.h
@@ -1094,9 +855,18 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/playing.cpp.o
  ./include/move.h
  ./include/playing.h
  ./include/pokemon.h
+ ./include/pugixml/pugiconfig.hpp
+ ./include/pugixml/pugixml.hpp
  ./include/roundedRectangle.h
  ./include/spritemanager.h
  ./include/texturemanager.h
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapLoader.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/playing.cpp
  /usr/local/include/Aurora/Config.hpp
@@ -1225,16 +995,6 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/roundedRectangle.cpp.o
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
- ./include/STP/Config.hpp
- ./include/STP/Core/Image.hpp
- ./include/STP/Core/ImageLayer.hpp
- ./include/STP/Core/Layer.hpp
- ./include/STP/Core/MapObject.hpp
- ./include/STP/Core/ObjectGroup.hpp
- ./include/STP/Core/Properties.hpp
- ./include/STP/Core/TileMap.hpp
- ./include/STP/Core/TileSet.hpp
- ./include/STP/TMXLoader.hpp
  ./include/definitions.h
  ./include/enums.h
  ./include/font_manager.h
@@ -1245,10 +1005,19 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/splashScreen.cpp.o
  ./include/move.h
  ./include/playing.h
  ./include/pokemon.h
+ ./include/pugixml/pugiconfig.hpp
+ ./include/pugixml/pugixml.hpp
  ./include/roundedRectangle.h
  ./include/splashScreen.h
  ./include/spritemanager.h
  ./include/texturemanager.h
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapLoader.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/splashScreen.cpp
  /usr/local/include/Aurora/Config.hpp
@@ -1500,12 +1269,323 @@ CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/texturemanager.cpp.o
  /usr/local/include/SFML/Window/Window.hpp
  /usr/local/include/SFML/Window/WindowHandle.hpp
  /usr/local/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmx/DebugShape.cpp.o
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/DebugShape.cpp
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/Graphics/BlendMode.hpp
+ /usr/local/include/SFML/Graphics/Color.hpp
+ /usr/local/include/SFML/Graphics/Drawable.hpp
+ /usr/local/include/SFML/Graphics/Export.hpp
+ /usr/local/include/SFML/Graphics/PrimitiveType.hpp
+ /usr/local/include/SFML/Graphics/Rect.hpp
+ /usr/local/include/SFML/Graphics/Rect.inl
+ /usr/local/include/SFML/Graphics/RenderStates.hpp
+ /usr/local/include/SFML/Graphics/RenderTarget.hpp
+ /usr/local/include/SFML/Graphics/Transform.hpp
+ /usr/local/include/SFML/Graphics/Transformable.hpp
+ /usr/local/include/SFML/Graphics/Vertex.hpp
+ /usr/local/include/SFML/Graphics/VertexArray.hpp
+ /usr/local/include/SFML/Graphics/View.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+ /usr/local/include/SFML/System/Vector2.hpp
+ /usr/local/include/SFML/System/Vector2.inl
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmx/Log.cpp.o
+ ./include/tmx/Export.hpp
+ ./include/tmx/Log.hpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/Log.cpp
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmx/MapLayer.cpp.o
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapObject.hpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/MapLayer.cpp
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/Graphics/BlendMode.hpp
+ /usr/local/include/SFML/Graphics/Color.hpp
+ /usr/local/include/SFML/Graphics/Drawable.hpp
+ /usr/local/include/SFML/Graphics/Export.hpp
+ /usr/local/include/SFML/Graphics/Font.hpp
+ /usr/local/include/SFML/Graphics/Glyph.hpp
+ /usr/local/include/SFML/Graphics/Image.hpp
+ /usr/local/include/SFML/Graphics/PrimitiveType.hpp
+ /usr/local/include/SFML/Graphics/Rect.hpp
+ /usr/local/include/SFML/Graphics/Rect.inl
+ /usr/local/include/SFML/Graphics/RectangleShape.hpp
+ /usr/local/include/SFML/Graphics/RenderStates.hpp
+ /usr/local/include/SFML/Graphics/RenderTarget.hpp
+ /usr/local/include/SFML/Graphics/Shape.hpp
+ /usr/local/include/SFML/Graphics/Sprite.hpp
+ /usr/local/include/SFML/Graphics/Text.hpp
+ /usr/local/include/SFML/Graphics/Texture.hpp
+ /usr/local/include/SFML/Graphics/Transform.hpp
+ /usr/local/include/SFML/Graphics/Transformable.hpp
+ /usr/local/include/SFML/Graphics/Vertex.hpp
+ /usr/local/include/SFML/Graphics/VertexArray.hpp
+ /usr/local/include/SFML/Graphics/View.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+ /usr/local/include/SFML/System/String.hpp
+ /usr/local/include/SFML/System/String.inl
+ /usr/local/include/SFML/System/Utf.hpp
+ /usr/local/include/SFML/System/Utf.inl
+ /usr/local/include/SFML/System/Vector2.hpp
+ /usr/local/include/SFML/System/Vector2.inl
+ /usr/local/include/SFML/Window/Export.hpp
+ /usr/local/include/SFML/Window/GlResource.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmx/MapLoaderPrivate.cpp.o
+ ./include/pugixml/pugiconfig.hpp
+ ./include/pugixml/pugixml.hpp
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/Log.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapLoader.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/MapLoaderPrivate.cpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/miniz.c
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/miniz.h
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/Graphics/BlendMode.hpp
+ /usr/local/include/SFML/Graphics/Color.hpp
+ /usr/local/include/SFML/Graphics/Drawable.hpp
+ /usr/local/include/SFML/Graphics/Export.hpp
+ /usr/local/include/SFML/Graphics/Font.hpp
+ /usr/local/include/SFML/Graphics/Glyph.hpp
+ /usr/local/include/SFML/Graphics/Image.hpp
+ /usr/local/include/SFML/Graphics/PrimitiveType.hpp
+ /usr/local/include/SFML/Graphics/Rect.hpp
+ /usr/local/include/SFML/Graphics/Rect.inl
+ /usr/local/include/SFML/Graphics/RectangleShape.hpp
+ /usr/local/include/SFML/Graphics/RenderStates.hpp
+ /usr/local/include/SFML/Graphics/RenderTarget.hpp
+ /usr/local/include/SFML/Graphics/Shape.hpp
+ /usr/local/include/SFML/Graphics/Sprite.hpp
+ /usr/local/include/SFML/Graphics/Text.hpp
+ /usr/local/include/SFML/Graphics/Texture.hpp
+ /usr/local/include/SFML/Graphics/Transform.hpp
+ /usr/local/include/SFML/Graphics/Transformable.hpp
+ /usr/local/include/SFML/Graphics/Vertex.hpp
+ /usr/local/include/SFML/Graphics/VertexArray.hpp
+ /usr/local/include/SFML/Graphics/View.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+ /usr/local/include/SFML/System/String.hpp
+ /usr/local/include/SFML/System/String.inl
+ /usr/local/include/SFML/System/Utf.hpp
+ /usr/local/include/SFML/System/Utf.inl
+ /usr/local/include/SFML/System/Vector2.hpp
+ /usr/local/include/SFML/System/Vector2.inl
+ /usr/local/include/SFML/Window/Export.hpp
+ /usr/local/include/SFML/Window/GlResource.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmx/MapLoaderPublic.cpp.o
+ ./include/pugixml/pugiconfig.hpp
+ ./include/pugixml/pugixml.hpp
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/Log.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapLoader.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/MapLoaderPublic.cpp
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/Graphics/BlendMode.hpp
+ /usr/local/include/SFML/Graphics/Color.hpp
+ /usr/local/include/SFML/Graphics/Drawable.hpp
+ /usr/local/include/SFML/Graphics/Export.hpp
+ /usr/local/include/SFML/Graphics/Font.hpp
+ /usr/local/include/SFML/Graphics/Glyph.hpp
+ /usr/local/include/SFML/Graphics/Image.hpp
+ /usr/local/include/SFML/Graphics/PrimitiveType.hpp
+ /usr/local/include/SFML/Graphics/Rect.hpp
+ /usr/local/include/SFML/Graphics/Rect.inl
+ /usr/local/include/SFML/Graphics/RectangleShape.hpp
+ /usr/local/include/SFML/Graphics/RenderStates.hpp
+ /usr/local/include/SFML/Graphics/RenderTarget.hpp
+ /usr/local/include/SFML/Graphics/Shape.hpp
+ /usr/local/include/SFML/Graphics/Sprite.hpp
+ /usr/local/include/SFML/Graphics/Text.hpp
+ /usr/local/include/SFML/Graphics/Texture.hpp
+ /usr/local/include/SFML/Graphics/Transform.hpp
+ /usr/local/include/SFML/Graphics/Transformable.hpp
+ /usr/local/include/SFML/Graphics/Vertex.hpp
+ /usr/local/include/SFML/Graphics/VertexArray.hpp
+ /usr/local/include/SFML/Graphics/View.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+ /usr/local/include/SFML/System/String.hpp
+ /usr/local/include/SFML/System/String.inl
+ /usr/local/include/SFML/System/Utf.hpp
+ /usr/local/include/SFML/System/Utf.inl
+ /usr/local/include/SFML/System/Vector2.hpp
+ /usr/local/include/SFML/System/Vector2.inl
+ /usr/local/include/SFML/Window/Export.hpp
+ /usr/local/include/SFML/Window/GlResource.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmx/MapObject.cpp.o
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/Log.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapObject.hpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/MapObject.cpp
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/Graphics/BlendMode.hpp
+ /usr/local/include/SFML/Graphics/Color.hpp
+ /usr/local/include/SFML/Graphics/Drawable.hpp
+ /usr/local/include/SFML/Graphics/Export.hpp
+ /usr/local/include/SFML/Graphics/Font.hpp
+ /usr/local/include/SFML/Graphics/Glyph.hpp
+ /usr/local/include/SFML/Graphics/Image.hpp
+ /usr/local/include/SFML/Graphics/PrimitiveType.hpp
+ /usr/local/include/SFML/Graphics/Rect.hpp
+ /usr/local/include/SFML/Graphics/Rect.inl
+ /usr/local/include/SFML/Graphics/RectangleShape.hpp
+ /usr/local/include/SFML/Graphics/RenderStates.hpp
+ /usr/local/include/SFML/Graphics/RenderTarget.hpp
+ /usr/local/include/SFML/Graphics/Shape.hpp
+ /usr/local/include/SFML/Graphics/Sprite.hpp
+ /usr/local/include/SFML/Graphics/Text.hpp
+ /usr/local/include/SFML/Graphics/Texture.hpp
+ /usr/local/include/SFML/Graphics/Transform.hpp
+ /usr/local/include/SFML/Graphics/Transformable.hpp
+ /usr/local/include/SFML/Graphics/Vertex.hpp
+ /usr/local/include/SFML/Graphics/VertexArray.hpp
+ /usr/local/include/SFML/Graphics/View.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+ /usr/local/include/SFML/System/String.hpp
+ /usr/local/include/SFML/System/String.inl
+ /usr/local/include/SFML/System/Utf.hpp
+ /usr/local/include/SFML/System/Utf.inl
+ /usr/local/include/SFML/System/Vector2.hpp
+ /usr/local/include/SFML/System/Vector2.inl
+ /usr/local/include/SFML/Window/Export.hpp
+ /usr/local/include/SFML/Window/GlResource.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmx/QuadTreeNode.cpp.o
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/QuadTreeNode.cpp
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/Graphics/BlendMode.hpp
+ /usr/local/include/SFML/Graphics/Color.hpp
+ /usr/local/include/SFML/Graphics/Drawable.hpp
+ /usr/local/include/SFML/Graphics/Export.hpp
+ /usr/local/include/SFML/Graphics/Font.hpp
+ /usr/local/include/SFML/Graphics/Glyph.hpp
+ /usr/local/include/SFML/Graphics/Image.hpp
+ /usr/local/include/SFML/Graphics/PrimitiveType.hpp
+ /usr/local/include/SFML/Graphics/Rect.hpp
+ /usr/local/include/SFML/Graphics/Rect.inl
+ /usr/local/include/SFML/Graphics/RectangleShape.hpp
+ /usr/local/include/SFML/Graphics/RenderStates.hpp
+ /usr/local/include/SFML/Graphics/RenderTarget.hpp
+ /usr/local/include/SFML/Graphics/Shape.hpp
+ /usr/local/include/SFML/Graphics/Sprite.hpp
+ /usr/local/include/SFML/Graphics/Text.hpp
+ /usr/local/include/SFML/Graphics/Texture.hpp
+ /usr/local/include/SFML/Graphics/Transform.hpp
+ /usr/local/include/SFML/Graphics/Transformable.hpp
+ /usr/local/include/SFML/Graphics/Vertex.hpp
+ /usr/local/include/SFML/Graphics/VertexArray.hpp
+ /usr/local/include/SFML/Graphics/View.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+ /usr/local/include/SFML/System/String.hpp
+ /usr/local/include/SFML/System/String.inl
+ /usr/local/include/SFML/System/Utf.hpp
+ /usr/local/include/SFML/System/Utf.inl
+ /usr/local/include/SFML/System/Vector2.hpp
+ /usr/local/include/SFML/System/Vector2.inl
+ /usr/local/include/SFML/Window/Export.hpp
+ /usr/local/include/SFML/Window/GlResource.hpp
+CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/tmx/tmx2box2d.cpp.o
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/tmx2box2d.hpp
+ /Users/StoneofHelp/Programming/Pokemon-Clone/src/tmx/tmx2box2d.cpp
+ /usr/local/include/Box2D/Collision/Shapes/b2ChainShape.h
+ /usr/local/include/Box2D/Collision/Shapes/b2CircleShape.h
+ /usr/local/include/Box2D/Collision/Shapes/b2EdgeShape.h
+ /usr/local/include/Box2D/Collision/Shapes/b2PolygonShape.h
+ /usr/local/include/Box2D/Collision/Shapes/b2Shape.h
+ /usr/local/include/Box2D/Collision/b2BroadPhase.h
+ /usr/local/include/Box2D/Collision/b2Collision.h
+ /usr/local/include/Box2D/Collision/b2DynamicTree.h
+ /usr/local/include/Box2D/Common/b2BlockAllocator.h
+ /usr/local/include/Box2D/Common/b2GrowableStack.h
+ /usr/local/include/Box2D/Common/b2Math.h
+ /usr/local/include/Box2D/Common/b2Settings.h
+ /usr/local/include/Box2D/Common/b2StackAllocator.h
+ /usr/local/include/Box2D/Dynamics/b2Body.h
+ /usr/local/include/Box2D/Dynamics/b2ContactManager.h
+ /usr/local/include/Box2D/Dynamics/b2Fixture.h
+ /usr/local/include/Box2D/Dynamics/b2TimeStep.h
+ /usr/local/include/Box2D/Dynamics/b2World.h
+ /usr/local/include/Box2D/Dynamics/b2WorldCallbacks.h
+ /usr/local/include/SFML/Config.hpp
+ /usr/local/include/SFML/Graphics/BlendMode.hpp
+ /usr/local/include/SFML/Graphics/Color.hpp
+ /usr/local/include/SFML/Graphics/Drawable.hpp
+ /usr/local/include/SFML/Graphics/Export.hpp
+ /usr/local/include/SFML/Graphics/Font.hpp
+ /usr/local/include/SFML/Graphics/Glyph.hpp
+ /usr/local/include/SFML/Graphics/Image.hpp
+ /usr/local/include/SFML/Graphics/PrimitiveType.hpp
+ /usr/local/include/SFML/Graphics/Rect.hpp
+ /usr/local/include/SFML/Graphics/Rect.inl
+ /usr/local/include/SFML/Graphics/RectangleShape.hpp
+ /usr/local/include/SFML/Graphics/RenderStates.hpp
+ /usr/local/include/SFML/Graphics/RenderTarget.hpp
+ /usr/local/include/SFML/Graphics/Shape.hpp
+ /usr/local/include/SFML/Graphics/Sprite.hpp
+ /usr/local/include/SFML/Graphics/Text.hpp
+ /usr/local/include/SFML/Graphics/Texture.hpp
+ /usr/local/include/SFML/Graphics/Transform.hpp
+ /usr/local/include/SFML/Graphics/Transformable.hpp
+ /usr/local/include/SFML/Graphics/Vertex.hpp
+ /usr/local/include/SFML/Graphics/VertexArray.hpp
+ /usr/local/include/SFML/Graphics/View.hpp
+ /usr/local/include/SFML/System/Export.hpp
+ /usr/local/include/SFML/System/NonCopyable.hpp
+ /usr/local/include/SFML/System/String.hpp
+ /usr/local/include/SFML/System/String.inl
+ /usr/local/include/SFML/System/Utf.hpp
+ /usr/local/include/SFML/System/Utf.inl
+ /usr/local/include/SFML/System/Vector2.hpp
+ /usr/local/include/SFML/System/Vector2.inl
+ /usr/local/include/SFML/Window/Export.hpp
+ /usr/local/include/SFML/Window/GlResource.hpp
 CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/util.cpp.o
  ./include/AnimatedSprite.hpp
  ./include/Animation.hpp
  ./include/enums.h
  ./include/move.h
  ./include/pokemon.h
+ ./include/pugixml/pugiconfig.hpp
+ ./include/pugixml/pugixml.hpp
+ ./include/tmx/DebugShape.hpp
+ ./include/tmx/Export.hpp
+ ./include/tmx/Helpers.hpp
+ ./include/tmx/MapLayer.hpp
+ ./include/tmx/MapLoader.hpp
+ ./include/tmx/MapObject.hpp
+ ./include/tmx/QuadTreeNode.hpp
  ./include/util.h
  /Users/StoneofHelp/Programming/Pokemon-Clone/src/util.cpp
  /usr/local/include/SFML/Config.hpp

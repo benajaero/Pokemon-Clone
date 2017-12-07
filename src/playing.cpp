@@ -24,8 +24,8 @@ double calculateModifier() {
     return 0.0;
 }
 
-void checkCollisionLayer(bool& boolVal, tmx::TileMap& _map, Hero& hero, std::string layerName, int* tileArray) {
-    for (int i = tileArray[0]; i <= tileArray[1]; i++) {
+void checkCollisionLayer(bool& boolVal, tmx::MapLoader& _map, Hero& hero, std::string layerName, int* tileArray) {
+/*    for (int i = tileArray[0]; i <= tileArray[1]; i++) {
         for (int j = tileArray[2]; j <= tileArray[3]; j++) {
             tmx::Layer::Tile tile = _map.GetLayer(layerName).GetTile(unsigned(i), unsigned(j));
             if (tile.empty() == false) {
@@ -34,9 +34,10 @@ void checkCollisionLayer(bool& boolVal, tmx::TileMap& _map, Hero& hero, std::str
                 //boolVal = AABBIntersection(sf::Vector2f(hero.x, hero.y), sf::Vector2f(2,2), sf::Vector2f(i, j), sf::Vector2f(1,1));
             }
         }
-    }
+    }*/
 } 
-void PlayController::logic(tmx::TileMap& _map) {
+void PlayController::logic(tmx::MapLoader& _map) {
+    _map.updateQuadTree(view.getViewport());
     bool didCollide = false;
     int collisionTiles[4];
     //order: left, right, top, bottom
@@ -98,7 +99,7 @@ void PlayController::handleEvents(sf::RenderWindow& window) {
     }
 }
 
-void PlayController::draw(sf::RenderWindow& window, tmx::TileMap& _map) {
+void PlayController::draw(sf::RenderWindow& window, tmx::MapLoader& _map) {
 
     AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
     Animation& currentAnimation = Game::hero.idle.down;
@@ -141,20 +142,11 @@ void PlayController::draw(sf::RenderWindow& window, tmx::TileMap& _map) {
     //circle.setFillColor(sf::Color::Black);
     
 
-    // set a 10-pixel wide orange outline
 
-    //tmx::TileMap _map("./assets/testmap2.tmx");
-    _map.ShowObjects();
     window.clear(sf::Color::White);
     window.setView(view);
-    //window.draw(_map);
-    window.draw(_map.GetLayer("Background"));
-    window.draw(_map.GetLayer("Collision"));
-    window.draw(_map.GetLayer("Collision2"));
-    window.draw(_map.GetLayer("Entities"));
-    window.draw(_map.GetLayer("Background2"));
+    window.draw(_map);
     window.draw(heroSprite);
-    window.draw(_map.GetLayer("Movement Affectors"));
     window.display();
 }
 

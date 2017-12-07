@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a file.
+BOX2D_INCLUDE_DIR:PATH=/usr/local/include
+
+//Path to a library.
+BOX2D_LIBRARY:FILEPATH=/usr/local/lib/libBox2D.a
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
 
@@ -379,6 +385,10 @@ ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libz.dylib
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: BOX2D_INCLUDE_DIR
+BOX2D_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BOX2D_LIBRARY
+BOX2D_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -550,6 +560,8 @@ CPACK_SOURCE_TXZ-ADVANCED:INTERNAL=1
 CPACK_SOURCE_TZ-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CPACK_SOURCE_ZIP
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
+//Details about finding Box2D
+FIND_PACKAGE_MESSAGE_DETAILS_Box2D:INTERNAL=[/usr/local/lib/libBox2D.a][/usr/local/include][v()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/System/Library/Frameworks/OpenGL.framework][/System/Library/Frameworks/OpenGL.framework][v()]
 //Details about finding PUGIXML

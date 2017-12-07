@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.9.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.0/CMakeSystem.cmake"
   "CMakeLists.txt"
+  "cmake_modules/FindBox2D.cmake"
   "cmake_modules/FindPUGIXML.cmake"
   "cmake_modules/FindSFML.cmake"
   "cmake_modules/FindThor.cmake"

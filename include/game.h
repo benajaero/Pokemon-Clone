@@ -4,7 +4,7 @@
 #include "menu.h"
 #include "playing.h"
 #include "hero.h"
-#include "STP/TMXLoader.hpp"
+#include <tmx/MapLoader.hpp>
 #include <cassert>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
@@ -13,7 +13,7 @@
 class Game {
     private:
         static bool IsExiting();
-        static void GameLoop(tmx::TileMap& _map);
+        static void GameLoop(tmx::MapLoader& _map);
         static void ShowSplash();
         static void Menu();
 
