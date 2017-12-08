@@ -1,5 +1,12 @@
 # Pokemon-Clone
 
+### REQUIREMENTS
+* SFML 2.4^
+* ZLIB
+* BOX2D
+* SFML-TMXLOADER
+
+
 ### Development Instructions
 
 Clone repository
