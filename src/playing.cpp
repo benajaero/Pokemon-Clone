@@ -17,42 +17,31 @@ bool AABBIntersection(sf::Vector2f objPos, sf::Vector2f objSize, sf::Vector2f ob
 }
 
 void reactToCollision() {
-    //std::cout << "Did colide\n";
 }
 
 double calculateModifier() {
     return 0.0;
 }
 
-void checkCollisionLayer(bool& boolVal, tmx::MapLoader& _map, Hero& hero, std::string layerName, int* tileArray) {
-/*    for (int i = tileArray[0]; i <= tileArray[1]; i++) {
-        for (int j = tileArray[2]; j <= tileArray[3]; j++) {
-            tmx::Layer::Tile tile = _map.GetLayer(layerName).GetTile(unsigned(i), unsigned(j));
-            if (tile.empty() == false) {
-                //std::cout << tile.GetPropertyValue("collision") << "\n";
-                std::cout << "Not empty\n";
-                //boolVal = AABBIntersection(sf::Vector2f(hero.x, hero.y), sf::Vector2f(2,2), sf::Vector2f(i, j), sf::Vector2f(1,1));
-            }
+void checkCollisionLayer(bool& boolVal, tmx::MapLoader& _map, Hero& hero, std::string layerName) {
+    AnimatedSprite heroSprite = SpriteManager::getAnimRef("hero");
+    sf::FloatRect heroRect = heroSprite.getGlobalBounds();
+    std::vector<tmx::MapObject*> objects = _map.queryQuadTree(heroRect);
+    
+    for (const auto& object : objects) {
+        std::cout << "Did colide\n" << std::endl;
+        if (object->getParent() == "Collision3" || object->getParent() == "Collision2") {
+            boolVal = true;
         }
-    }*/
+    }
 } 
+
 void PlayController::logic(tmx::MapLoader& _map) {
     _map.updateQuadTree(view.getViewport());
     bool didCollide = false;
-    int collisionTiles[4];
-    //order: left, right, top, bottom
-    
-    collisionTiles[0] = Game::hero.x;
-    collisionTiles[1] = Game::hero.x + 1;
-    collisionTiles[2] = Game::hero.y;
-    collisionTiles[3] = Game::hero.y + 1;
 
-    for (int i = 0; i < 3; i++) {
-        if (collisionTiles[i] < 0) collisionTiles[i] = 0;
-    }
-
-    checkCollisionLayer(didCollide, _map, Game::hero, "Collision", collisionTiles); 
-    checkCollisionLayer(didCollide, _map, Game::hero, "Collision2", collisionTiles); 
+    checkCollisionLayer(didCollide, _map, Game::hero, "Collision"); 
+    //checkCollisionLayer(didCollide, _map, Game::hero, "Collision2"); 
     if (didCollide)
         reactToCollision();
     else {
@@ -146,6 +135,7 @@ void PlayController::draw(sf::RenderWindow& window, tmx::MapLoader& _map) {
     window.clear(sf::Color::White);
     window.setView(view);
     window.draw(_map);
+    _map.drawLayer(window, tmx::MapLayer::Debug);
     window.draw(heroSprite);
     window.display();
 }

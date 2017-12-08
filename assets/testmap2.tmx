@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="125" height="120" tilewidth="16" tileheight="16" nextobjectid="1">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="125" height="120" tilewidth="16" tileheight="16" nextobjectid="5">
  <tileset firstgid="1" source="TileSet.tsx"/>
  <layer name="Background" width="125" height="120">
   <properties>
@@ -17,6 +17,10 @@
    eJzt0bEJgEAQRcHLzlbEQtXa1J40NvCSE4U/A5stC8srBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4P+2WsreeY769Vc8GYf+N6cXbtKP5nk0z6N5Hs3zaJ5H8zya59E8j+Z5NM+jeR7N88xXn6Uxd639VXMAAAAAAAAAAAAAAAAAAAAAAAAAAOAjJxtEIVc=
   </data>
  </layer>
+ <objectgroup name="Collision3">
+  <object id="1" x="480" y="1472" width="384" height="128"/>
+  <object id="3" x="864" y="1472" height="16"/>
+ </objectgroup>
  <layer name="Collision2" width="125" height="120">
   <properties>
    <property name="collision" value="true"/>

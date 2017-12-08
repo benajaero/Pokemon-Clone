@@ -46,9 +46,9 @@ void Game::GameLoop(tmx::MapLoader& _map) {
     }
     else {
         if (_gameState == Game::PLAYING) {
+            pController.draw(_mainWindow, _map);
             pController.handleEvents(_mainWindow);
             pController.logic(_map);
-            pController.draw(_mainWindow, _map);
         } else {
             sf::Event event;
             while(_mainWindow.pollEvent(event)) {
