@@ -91,36 +91,36 @@ void PlayController::handleEvents(sf::RenderWindow& window) {
 void PlayController::draw(sf::RenderWindow& window, tmx::MapLoader& _map) {
 
     AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
-    Animation& currentAnimation = Game::hero.idle.down;
+    Animation& currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.down;
 
     if (!Game::hero.isMoving) {
         heroSprite.stop();
     }
     if (Game::hero.direction == NORTH) {
         if (Game::hero.isMoving)
-            currentAnimation = Game::hero.walk.up;
+            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).walk.up;
         else
-            currentAnimation = Game::hero.idle.up;
+            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.up;
     }
     else if (Game::hero.direction == EAST) {
         if (Game::hero.isMoving)
-            currentAnimation = Game::hero.walk.right;
+            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).walk.right;
         else
-            currentAnimation = Game::hero.idle.right;
+            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.right;
     }
 
     else if (Game::hero.direction == WEST) {
         if (Game::hero.isMoving)
-            currentAnimation = Game::hero.walk.left;
+            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).walk.left;
         else
-            currentAnimation = Game::hero.idle.left;
+            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.left;
     }
 
     else if (Game::hero.direction == SOUTH) {
         if (Game::hero.isMoving)
-            currentAnimation = Game::hero.walk.down;
+            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).walk.down;
         else
-            currentAnimation = Game::hero.idle.down;
+            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.down;
     }
     
     heroSprite.play(currentAnimation);

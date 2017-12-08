@@ -18,40 +18,46 @@ void Hero::setupAnimations(sf::Texture& texture) {
 
 // ------------------------------ WALK ANIMATIONS -----------------------------
 
-    walk.up.setSpriteSheet(texture);
-    walk.up.addFrame(sf::IntRect(16, 407, 17, 26));
-    walk.up.addFrame(sf::IntRect(36, 407, 17, 23));
-    walk.up.addFrame(sf::IntRect(56, 407, 17, 26));
-    walk.up.addFrame(sf::IntRect(36, 407, 17, 23));
+    CostumeSet rocket;
+    rocket.walk.up.setSpriteSheet(texture);
+    rocket.walk.up.addFrame(sf::IntRect(16, 407, 17, 26));
+    rocket.walk.up.addFrame(sf::IntRect(36, 407, 17, 23));
+    rocket.walk.up.addFrame(sf::IntRect(56, 407, 17, 26));
+    rocket.walk.up.addFrame(sf::IntRect(36, 407, 17, 23));
 
-    walk.left.setSpriteSheet(texture);
-    walk.left.addFrame(sf::IntRect(11, 378, 20, 24));
-    walk.left.addFrame(sf::IntRect(34, 378, 20, 24));
-    walk.left.addFrame(sf::IntRect(57, 378, 20, 25));
-    walk.left.addFrame(sf::IntRect(34, 378, 20, 24));
+    rocket.walk.left.setSpriteSheet(texture);
+    rocket.walk.left.addFrame(sf::IntRect(11, 378, 20, 24));
+    rocket.walk.left.addFrame(sf::IntRect(34, 378, 20, 24));
+    rocket.walk.left.addFrame(sf::IntRect(57, 378, 20, 25));
+    rocket.walk.left.addFrame(sf::IntRect(34, 378, 20, 24));
 
-    walk.right.setSpriteSheet(texture);
-    walk.right.addFrame(sf::IntRect(57, 435, 20, 25));
-    walk.right.addFrame(sf::IntRect(34, 435, 20, 24));
-    walk.right.addFrame(sf::IntRect(11, 435, 20, 24));
-    walk.right.addFrame(sf::IntRect(34, 435, 20, 24));
+    rocket.walk.right.setSpriteSheet(texture);
+    rocket.walk.right.addFrame(sf::IntRect(57, 435, 20, 25));
+    rocket.walk.right.addFrame(sf::IntRect(34, 435, 20, 24));
+    rocket.walk.right.addFrame(sf::IntRect(11, 435, 20, 24));
+    rocket.walk.right.addFrame(sf::IntRect(34, 435, 20, 24));
 
-    walk.down.setSpriteSheet(texture);
-    walk.down.addFrame(sf::IntRect(17, 350, 17, 26));
-    walk.down.addFrame(sf::IntRect(36, 350, 17, 24));
-    walk.down.addFrame(sf::IntRect(55, 350, 17, 26));
-    walk.down.addFrame(sf::IntRect(36, 350, 17, 24));
+    rocket.walk.down.setSpriteSheet(texture);
+    rocket.walk.down.addFrame(sf::IntRect(36, 350, 17, 24));
+    rocket.walk.down.addFrame(sf::IntRect(17, 350, 17, 26));
+    rocket.walk.down.addFrame(sf::IntRect(36, 350, 17, 24));
+    rocket.walk.down.addFrame(sf::IntRect(55, 350, 17, 26));
+    rocket.walk.down.addFrame(sf::IntRect(36, 350, 17, 24));
+    rocket.walk.down.addFrame(sf::IntRect(17, 350, 17, 26));
     
 // ------------------------------ IDLE ANIMATIONS -----------------------------
 
-    idle.up.setSpriteSheet(texture);
-    idle.down.setSpriteSheet(texture);
-    idle.right.setSpriteSheet(texture);
-    idle.left.setSpriteSheet(texture);
+    rocket.idle.up.setSpriteSheet(texture);
+    rocket.idle.down.setSpriteSheet(texture);
+    rocket.idle.right.setSpriteSheet(texture);
+    rocket.idle.left.setSpriteSheet(texture);
 
-    idle.up.addFrame(sf::IntRect(36, 407, 17, 23));
-    idle.down.addFrame(sf::IntRect(36, 350, 17, 24));
-    idle.right.addFrame(sf::IntRect(34, 435, 20, 24));
-    idle.left.addFrame(sf::IntRect(34, 378, 20, 24));
+    rocket.idle.up.addFrame(sf::IntRect(36, 407, 17, 23));
+    rocket.idle.down.addFrame(sf::IntRect(36, 350, 17, 24));
+    rocket.idle.right.addFrame(sf::IntRect(34, 435, 20, 24));
+    rocket.idle.left.addFrame(sf::IntRect(34, 378, 20, 24));
+
+    costumeSet.push_back(rocket);
+    costumeIndex = 0;
 
 }

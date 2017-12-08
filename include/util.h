@@ -85,6 +85,13 @@ class PhysicalEntity {
         PhysicalEntity(double px, double py, double pz, double pxvel, double pyvel, Orientation dir, int layerr) : x(px), y(py), z(pz), xvel(pxvel), yvel(pyvel), direction(dir), layer(layerr) {}
 };
 
+typedef struct CostumeSet {
+    AnimationSet idle;
+    AnimationSet walk;
+    AnimationSet run;
+    AnimationSet bicycle;
+} CostumeSet;
+
 class Person : public PhysicalEntity {
     private:
 
@@ -93,10 +100,8 @@ class Person : public PhysicalEntity {
         std::vector<Pokemon> pokemonArr;
         std::vector<Item> items;
         AnimatedSprite sprite;
-        AnimationSet idle;
-        AnimationSet walk;
-        AnimationSet run;
-        AnimationSet bicycle;
+        std::size_t costumeIndex;
+        std::vector<CostumeSet> costumeSet;
 
         Person(std::string pname, double px, double py, double pz, double pxvel, double pyvel, Orientation dir, int layerr) : PhysicalEntity(px, py, pz, pxvel, pyvel, dir, layerr), name(pname) {
             pokemonArr.empty();
