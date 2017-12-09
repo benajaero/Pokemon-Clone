@@ -85,9 +85,11 @@ void PlayController::handleEvents(sf::RenderWindow& window) {
         }
         else {
             Game::hero.isMoving = false;
+            if (Game::hero.personState == Hero::RUNNING)
+                Game::hero.personState = Hero::NORMAL;
         }
 
-        if (_actionMap.isActive("holdCycle") && Game::hero.personState == Hero::NORMAL && Game::hero.isMoving == true) {
+        if (_actionMap.isActive("holdCycle") && (Game::hero.personState == Hero::NORMAL || Game::hero.personState == Hero::RUNNING) && Game::hero.isMoving == true) {
             Game::hero.personState = Hero::RUNNING; 
             Game::hero.xvel *= 1.5;
             Game::hero.yvel *= 1.5;
@@ -106,40 +108,12 @@ void PlayController::handleEvents(sf::RenderWindow& window) {
 void PlayController::draw(sf::RenderWindow& window, tmx::MapLoader& _map) {
 
     AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
-    Animation& currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.down;
+    Game::hero.handleAnimations(heroSprite);
+    heroSprite.update(Game::frameTime);
 
     if (!Game::hero.isMoving) {
         heroSprite.stop();
     }
-    if (Game::hero.direction == NORTH) {
-        if (Game::hero.isMoving)
-            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).walk.up;
-        else
-            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.up;
-    }
-    else if (Game::hero.direction == EAST) {
-        if (Game::hero.isMoving)
-            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).walk.right;
-        else
-            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.right;
-    }
-
-    else if (Game::hero.direction == WEST) {
-        if (Game::hero.isMoving)
-            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).walk.left;
-        else
-            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.left;
-    }
-
-    else if (Game::hero.direction == SOUTH) {
-        if (Game::hero.isMoving)
-            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).walk.down;
-        else
-            currentAnimation = Game::hero.costumeSet.at(Game::hero.costumeIndex).idle.down;
-    }
-    
-    heroSprite.play(currentAnimation);
-    heroSprite.update(Game::frameTime);
     heroSprite.setPosition(view.getCenter());
     //sf::CircleShape circle(50);
     //circle.setPosition(0, 0);

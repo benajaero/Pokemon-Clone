@@ -15,7 +15,41 @@ void Hero::moveForward(double movementDamper, sf::View& view, sf::Time frameTime
 }
 
 void Hero::handleAnimations(AnimatedSprite& sprite) {
+    Animation& currentAnimation = costumeSet.at(costumeIndex).idle.down;
+    if (personState == NORMAL) {
+        if (direction == NORTH) {
+            if (isMoving)
+                currentAnimation = costumeSet.at(costumeIndex).walk.up;
+            else
+                currentAnimation = costumeSet.at(costumeIndex).idle.up;
+        }
+        else if (direction == SOUTH) {
+            if (isMoving)
+                currentAnimation = costumeSet.at(costumeIndex).walk.down;
+            else
+                currentAnimation = costumeSet.at(costumeIndex).idle.down;
+        }
+        else if (direction == EAST) {
+            if (isMoving)
+                currentAnimation = costumeSet.at(costumeIndex).walk.right;
+            else
+                currentAnimation = costumeSet.at(costumeIndex).idle.right;
+        }
+        else if (direction == WEST) {
+            if (isMoving)
+                currentAnimation = costumeSet.at(costumeIndex).walk.left;
+            else
+                currentAnimation = costumeSet.at(costumeIndex).idle.left;
+        }
+    } 
+    else if (personState == RUNNING) {
+    }
+    else if (personState == CYCLING) {
 
+    }
+    
+    sprite.play(currentAnimation);
+    
 }
 
 void setSpriteSheet(AnimationSet& animSet, sf::Texture& tex) {
