@@ -149,9 +149,16 @@ void PlayController::draw(sf::RenderWindow& window, tmx::MapLoader& _map) {
 
     window.clear(sf::Color::White);
     window.setView(view);
-    window.draw(_map);
-    _map.drawLayer(window, tmx::MapLayer::Debug);
+    //window.draw(_map);
+    _map.drawLayer(window, 0, true);
+    _map.drawLayer(window, 1, true);
+    _map.drawLayer(window, 2, true);
+    _map.drawLayer(window, tmx::MapLayer::Debug, true);
+    _map.drawLayer(window, 3, true);
     window.draw(heroSprite);
+    _map.drawLayer(window, 4, true);
+    _map.drawLayer(window, 5, true);
+    _map.drawLayer(window, 6, true);
     window.display();
 }
 
