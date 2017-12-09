@@ -102,6 +102,16 @@ class Person : public PhysicalEntity {
         AnimatedSprite sprite;
         std::size_t costumeIndex;
         std::vector<CostumeSet> costumeSet;
+        
+        enum PersonState {
+            NORMAL,
+            RUNNING,
+            CYCLING,
+            CLIMBING,
+            FISHING
+        };
+
+        PersonState personState = NORMAL;
 
         Person(std::string pname, double px, double py, double pz, double pxvel, double pyvel, Orientation dir, int layerr) : PhysicalEntity(px, py, pz, pxvel, pyvel, dir, layerr), name(pname) {
             pokemonArr.empty();

@@ -5,6 +5,7 @@
 * ZLIB
 * BOX2D
 * SFML-TMXLOADER
+* Thor 2
 
 
 ### Development Instructions
@@ -20,3 +21,5 @@ Enter the repo directory then build the cmake build files for your operating sys
 Then depending on your operating system, type the following command to compile the files
 
     make
+
+

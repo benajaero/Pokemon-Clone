@@ -61,6 +61,8 @@ void PlayController::handleEvents(sf::RenderWindow& window) {
             Game::hero.xvel = 0;
         if (_actionMap.isActive("releaseUp") || _actionMap.isActive("releaseDown"))
             Game::hero.yvel = 0;
+        if (_actionMap.isActive("releaseRun"))
+            Game::hero.personState = Hero::NORMAL;
         if (_actionMap.isActive("moveRight")) {
             Game::hero.xvel = MOVE_VAL;
             Game::hero.changeOrientation(EAST);
@@ -84,6 +86,19 @@ void PlayController::handleEvents(sf::RenderWindow& window) {
         else {
             Game::hero.isMoving = false;
         }
+
+        if (_actionMap.isActive("holdCycle") && Game::hero.personState == Hero::NORMAL && Game::hero.isMoving == true) {
+            Game::hero.personState = Hero::RUNNING; 
+            Game::hero.xvel *= 1.5;
+            Game::hero.yvel *= 1.5;
+        }
+        else if (_actionMap.isActive("pressCycle")) {
+            if (Game::hero.personState == Hero::CYCLING)
+                Game::hero.personState = Hero::NORMAL;
+            else if (Game::hero.personState == Hero::NORMAL)
+                Game::hero.personState = Hero::CYCLING;
+        }
+
 
     }
 }
@@ -171,6 +186,10 @@ void PlayController::setupActions() {
     thor::Action releaseKeyW(sf::Keyboard::W, thor::Action::ReleaseOnce);
     thor::Action releaseKeyS(sf::Keyboard::S, thor::Action::ReleaseOnce);
 
+    thor::Action holdRunKey(sf::Keyboard::R, thor::Action::Hold);
+    thor::Action releaseRunKey(sf::Keyboard::R, thor::Action::ReleaseOnce);
+    thor::Action pressCycleKey(sf::Keyboard::C, thor::Action::PressOnce);
+
     thor::Action moveLeft = leftArrowHold || holdKeyA;
     thor::Action moveRight = rightArrowHold || holdKeyD;
     thor::Action moveUp = upArrowHold || holdKeyW;
@@ -191,5 +210,8 @@ void PlayController::setupActions() {
    _actionMap["releaseRight"] = releaseRight;
    _actionMap["releaseUp"] = releaseUp;
    _actionMap["releaseDown"] = releaseDown;
+   _actionMap["holdRun"] = holdRunKey;
+   _actionMap["releaseRun"] = releaseRunKey;
+   _actionMap["pressCycle"] = pressCycleKey;
     
 }

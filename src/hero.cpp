@@ -14,6 +14,10 @@ void Hero::moveForward(double movementDamper, sf::View& view, sf::Time frameTime
     view.move(xvel * frameTime.asSeconds() , yvel * frameTime.asSeconds());
 }
 
+void Hero::handleAnimations(AnimatedSprite& sprite) {
+
+}
+
 void Hero::setupAnimations(sf::Texture& texture) {
 
 // ------------------------------ WALK ANIMATIONS -----------------------------
@@ -57,7 +61,14 @@ void Hero::setupAnimations(sf::Texture& texture) {
     rocket.idle.right.addFrame(sf::IntRect(34, 435, 20, 24));
     rocket.idle.left.addFrame(sf::IntRect(34, 378, 20, 24));
 
+// ---------------------------- BICYCLE ANIMATIONS ----------------------------
+
+// ---------------------------- RUNNING ANIMATIONS ----------------------------
+
     costumeSet.push_back(rocket);
+
+    
+
     costumeIndex = 0;
 
 }

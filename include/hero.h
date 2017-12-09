@@ -19,6 +19,7 @@ class Hero : public Person {
         void changeOrientation(Orientation newDir);
         void moveForward(double movementDamper, sf::View& view, sf::Time frameTime);
         void setupAnimations(sf::Texture& texture);
+        void handleAnimations(AnimatedSprite& sprite);
         void setPos(sf::Vector2f pos) {
             x = pos.x;
             y = pos.y;
