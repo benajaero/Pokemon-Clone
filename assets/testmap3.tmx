@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="125" height="120" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tileset-pokemon_dawn" tilewidth="16" tileheight="16">
+  <image source="tileset-pokemon_dawn.png" width="1504" height="2519"/>
+ </tileset>
+ <layer name="Background" width="125" height="120">
+  <data encoding="base64" compression="zlib">
+   eJztw8EJAAAMA6Ej+w/dNfpQcNVUVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVHz3ip3Ux
+  </data>
+ </layer>
+ <layer name="Collision" width="125" height="120">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENwCAUQ8HfwSrZf4zAThSZIIkEhe8k95ZeFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDjblXj5WY7/Zo/rn76AbtpnkfzPJrn0TyP5nk0z6N5Hs3zaJ5HcwAAAAAAAAAAAAAAAAAAAPhmAauVDaY=
+  </data>
+ </layer>
+ <objectgroup name="Collision2" width="125" height="120">
+  <object x="768" y="1216" width="16" height="192"/>
+  <object x="784" y="1216" width="208" height="16"/>
+ </objectgroup>
+</map>

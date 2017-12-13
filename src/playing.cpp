@@ -23,24 +23,26 @@ double calculateModifier() {
     return 0.0;
 }
 
-void checkCollisionLayer(bool& boolVal, tmx::MapLoader& _map, Hero& hero, std::string layerName) {
+void checkCollisionLayer(bool& boolVal, tmx::MapLoader& _map, Hero& hero, std::string layerName, sf::RenderWindow& window) {
     AnimatedSprite heroSprite = SpriteManager::getAnimRef("hero");
     sf::FloatRect heroRect = heroSprite.getGlobalBounds();
     std::vector<tmx::MapObject*> objects = _map.queryQuadTree(heroRect);
-    
+    std::stringstream stream;
+    stream << "Query object count: " << objects.size();
+    window.setTitle(stream.str()); 
     for (const auto& object : objects) {
         std::cout << "Did colide\n" << std::endl;
-        if (object->getParent() == "Collision3" || object->getParent() == "Collision2") {
+        if (object->getParent() == "Collision2") {
             boolVal = true;
         }
     }
 } 
 
 void PlayController::logic(tmx::MapLoader& _map) {
-    _map.updateQuadTree(view.getViewport());
+    _map.updateQuadTree(sf::FloatRect(view.getCenter().x, view.getCenter().y, view.getSize().x, view.getSize().y));
     bool didCollide = false;
 
-    checkCollisionLayer(didCollide, _map, Game::hero, "Collision"); 
+    checkCollisionLayer(didCollide, _map, Game::hero, "Collision", Game::_mainWindow); 
     //checkCollisionLayer(didCollide, _map, Game::hero, "Collision2"); 
     if (didCollide)
         reactToCollision();
@@ -123,22 +125,15 @@ void PlayController::draw(sf::RenderWindow& window, tmx::MapLoader& _map) {
 
     window.clear(sf::Color::White);
     window.setView(view);
-    //window.draw(_map);
-    _map.drawLayer(window, 0, true);
-    _map.drawLayer(window, 1, true);
-    _map.drawLayer(window, 2, true);
-    _map.drawLayer(window, tmx::MapLayer::Debug, true);
-    _map.drawLayer(window, 3, true);
+    window.draw(_map);
+    _map.drawLayer(window, tmx::MapLayer::Debug);
     window.draw(heroSprite);
-    _map.drawLayer(window, 4, true);
-    _map.drawLayer(window, 5, true);
-    _map.drawLayer(window, 6, true);
     window.display();
 }
 
 void PlayController::setup(sf::RenderWindow& window) {
     view.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-    Game::hero.setPos(sf::Vector2f(42, 102));
+    Game::hero.setPos(sf::Vector2f(55, 82));
     //Game::_map.ShowObjects();
     view.setCenter(Game::hero.x * TILE_HEIGHT, Game::hero.y * TILE_HEIGHT);
     view.zoom(0.25f);

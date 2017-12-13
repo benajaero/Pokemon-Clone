@@ -25,8 +25,9 @@ void Game::Start(void) {
     TextureManager::loadTexture("splashScreenBackground", "assets/SplashScreen.png");
     _gameState = Game::SHOWING_SPLASH;
     tmx::MapLoader _map("./assets/");
-    _map.load("testmap2.tmx");
+    _map.load("testmap3.tmx");
     
+    _map.updateQuadTree(sf::FloatRect(0,0,WINDOW_WIDTH,WINDOW_HEIGHT));
     while(!IsExiting())
         GameLoop(_map);
     _mainWindow.close();
