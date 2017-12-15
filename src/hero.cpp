@@ -1,4 +1,5 @@
 #include "hero.h"
+#include <iostream>
 
 void Hero::changeOrientation(Orientation newDir) {
     direction = newDir;
@@ -9,6 +10,8 @@ void Hero::moveForward(double movementDamper, sf::View& view, sf::Time frameTime
     xvel *= movementDamper;
     //if ((xvel > 0.1f && xvel < -0.1f) && (yvel > 0.1f && yvel < -0.1f) )
        //isMoving = false;
+    oldPos.x = x;
+    oldPos.y = y;
     x += xvel * frameTime.asSeconds();
     y += yvel * frameTime.asSeconds();
     view.move(xvel * frameTime.asSeconds() , yvel * frameTime.asSeconds());
@@ -132,5 +135,29 @@ void Hero::setupAnimations(sf::Texture& texture) {
     costumeSet.push_back(rocket);
 
     costumeIndex = 0;
+
+}
+
+void Hero::moveBack(sf::Vector2f diff, sf::Vector2f didCollide) {
+    sf::Vector2f change(0,0);
+    if (didCollide.x == 1) {
+        change.x = -diff.x;
+        xvel = 0;
+    }
+    else if (didCollide.x == 2) {
+        change.x = diff.x;
+        xvel = 0;
+    }
+    if (didCollide.y == 1) {
+        change.y = -diff.y;
+        yvel = 0;
+    }
+    else if (didCollide.y == 2) {
+        change.y = diff.y;
+        yvel = 0;
+    }
+    xvel += change.x;
+    yvel += change.y;
+
 
 }

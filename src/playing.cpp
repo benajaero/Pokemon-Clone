@@ -16,39 +16,78 @@ bool AABBIntersection(sf::Vector2f objPos, sf::Vector2f objSize, sf::Vector2f ob
     return x_overlaps && y_overlaps;
 }
 
-void reactToCollision() {
+void reactToCollision(sf::Vector2f diff, sf::Vector2f didCollide) {
+    diff.x += 1;
+    diff.y += 1;
+    Game::hero.moveBack(diff, didCollide);
 }
 
 double calculateModifier() {
     return 0.0;
 }
 
-void checkCollisionLayer(bool& boolVal, tmx::MapLoader& _map, Hero& hero, std::string layerName, sf::RenderWindow& window) {
+sf::Vector2f checkCollisionLayer(sf::Vector2f& boolVal, tmx::MapLoader& _map, Hero& hero, std::string layerName, sf::RenderWindow& window) {
     AnimatedSprite heroSprite = SpriteManager::getAnimRef("hero");
     sf::FloatRect heroRect = heroSprite.getGlobalBounds();
     std::vector<tmx::MapObject*> objects = _map.queryQuadTree(heroRect);
-    std::stringstream stream;
-    stream << "Query object count: " << objects.size();
-    window.setTitle(stream.str()); 
+    //std::stringstream stream;
+    //stream << "Query object count: " << objects.size();
+    //window.setTitle(stream.str()); 
     for (const auto& object : objects) {
-        std::cout << "Did colide\n" << std::endl;
+        //std::cout << "Did colide\n" << std::endl;
         if (object->getParent() == "Collision2") {
-            boolVal = true;
+            //sf::Vector2f points[4] = {sf::Vector2f(heroRect.left, heroRect.top), sf::Vector2f(heroRect.left + heroRect.width, heroRect.top), sf::Vector2f(heroRect.left, heroRect.top + heroRect.height), sf::Vector2f(heroRect.left + heroRect.width, heroRect.top + heroRect.height) };
+            if (object->getAABB().intersects(heroRect)) {
+                sf::FloatRect objAABB = object->getAABB();
+                float heroRight = heroRect.left + heroRect.width;
+                float heroBottom = heroRect.top + heroRect.height;
+                float objRight = objAABB.left + objAABB.width;
+                float objBottom = objAABB.top + heroRect.height;
+
+                sf::Vector2f diff(0,0);
+                //hit left
+                if (heroRight > objAABB.left && heroRect.left < objAABB.left) {
+                    diff.x = heroRight - objAABB.left;
+                    boolVal.x = 1;
+                }
+                //hit right
+                else if (heroRect.left < objRight && heroRight > objRight) {
+                    diff.x = objRight - heroRect.left;
+                    boolVal.x = 2;
+                }
+                //hit top
+                if (heroBottom > objAABB.top && heroRect.top < objAABB.top) {
+                    diff.y = heroBottom - objAABB.top;
+                    boolVal.y = 1;
+                }
+                //hit bottom
+                else if (heroRect.top < objBottom && heroBottom > objBottom) {
+                    diff.y = objBottom - heroRect.top;
+                    boolVal.y = 2;
+                }
+
+                return diff;
+
+
+            }
         }
     }
+    return sf::Vector2f(0,0);
 } 
 
 void PlayController::logic(tmx::MapLoader& _map) {
     _map.updateQuadTree(sf::FloatRect(view.getCenter().x, view.getCenter().y, view.getSize().x, view.getSize().y));
-    bool didCollide = false;
+    sf::Vector2f didCollide(0,0);
 
-    checkCollisionLayer(didCollide, _map, Game::hero, "Collision", Game::_mainWindow); 
+    sf::Vector2f diff = checkCollisionLayer(didCollide, _map, Game::hero, "Collision", Game::_mainWindow); 
     //checkCollisionLayer(didCollide, _map, Game::hero, "Collision2"); 
-    if (didCollide)
-        reactToCollision();
-    else {
-        double modifier = 1;
-        Game::hero.moveForward(modifier, view, Game::frameTime);
+    if (didCollide.x || didCollide.y)
+        reactToCollision(diff, didCollide);
+    double modifier = 1;
+    Game::hero.moveForward(modifier, view, Game::frameTime);
+    if (didCollide.x || didCollide.y) {
+        Game::hero.xvel = 0;
+        Game::hero.yvel = 0;
     }
 }
 
@@ -121,12 +160,20 @@ void PlayController::draw(sf::RenderWindow& window, tmx::MapLoader& _map) {
     //circle.setPosition(0, 0);
     //circle.setFillColor(sf::Color::Black);
     
+    bool debug = true;
 
 
     window.clear(sf::Color::White);
     window.setView(view);
     window.draw(_map);
-    _map.drawLayer(window, tmx::MapLayer::Debug);
+
+    if (debug) {
+        _map.drawLayer(window, tmx::MapLayer::Debug);
+        sf::RectangleShape rectangle(sf::Vector2f(heroSprite.getGlobalBounds().width, heroSprite.getGlobalBounds().height));
+        rectangle.setPosition(heroSprite.getPosition());
+        window.draw(rectangle);
+    }
+
     window.draw(heroSprite);
     window.display();
 }

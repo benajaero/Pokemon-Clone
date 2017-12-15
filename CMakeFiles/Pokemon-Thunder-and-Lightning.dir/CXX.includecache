@@ -455,6 +455,8 @@ texturemanager.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.cpp
 hero.h
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/hero.h
+iostream
+-
 
 /Users/StoneofHelp/Programming/Pokemon-Clone/src/main.cpp
 game.h

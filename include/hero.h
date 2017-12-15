@@ -13,6 +13,7 @@ class Hero : public Person {
         bool upgraded;
         bool isMoving;
         Gender gender;
+        sf::Vector2f oldPos;
 
         Hero(std::string pname, double px, double py, double pz, double pxvel, double pyvel, Orientation dir, int layerr) : Person(pname, px, py, pz, pxvel, pyvel, dir, layerr) {}
 
@@ -27,6 +28,7 @@ class Hero : public Person {
         sf::Vector2f getPos() {
             return sf::Vector2f(x, y);
         }
+        void moveBack(sf::Vector2f diff, sf::Vector2f didCollide);
 };
 
 #endif
