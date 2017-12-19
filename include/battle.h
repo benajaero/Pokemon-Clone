@@ -2,11 +2,13 @@
 #define BATTLE_H
 
 #include "enums.h"
+#include "definitions.h"
 #include "pokemon.h"
 #include "hero.h"
 #include "util.h"
 #include "spritemanager.h"
 #include "texturemanager.h"
+#include "generalManager.h"
 #include "font_manager.h"
 #include <SFML/Graphics.hpp>
 #include <vector>
@@ -39,8 +41,13 @@ class BattleController {
         bool isExiting = false;
         Hero* _hero = NULL;
         Person* _person = NULL;
-
+        sf::Sprite homePlatform;
+        sf::Sprite awayPlatform;
+        sf::RectangleShape bottomBackground;
+        AnimatedSprite homeSprite;
+        AnimatedSprite awaySprite;
         
+
     public:
         enum BattleState {
             PRETURN,
@@ -80,6 +87,7 @@ class BattleController {
         void drawOverlay();
         void drawBackground();
         void drawPokemon();
+        void changeWeather(std::string newWeather);
         void SpriteInit();
 };
 

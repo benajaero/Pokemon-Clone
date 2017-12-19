@@ -34,13 +34,14 @@ class OverviewMenu {
         void draw(sf::RenderWindow& window);
 };
 
-class NewMenu {
+class OrientationMenu {
 
 };
 
 class MainMenuController {
     private:
         OverviewMenu overviewMenu;
+        OrientationMenu orientationMenu;
     public:
         enum MenuState {
             OVERVIEW,

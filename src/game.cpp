@@ -7,6 +7,7 @@
 #include <cassert>
 
 Game::GameState Game::_gameState = Game::UNINITIALIZED;
+std::string Game::biome = "Grassy";
 sf::RenderWindow Game::_mainWindow;
 sf::Time Game::frameTime;
 sf::Clock Game::frameClock;
@@ -19,14 +20,16 @@ void Game::Start(void) {
         return;
 
     _mainWindow.create(sf::VideoMode(WINDOW_WIDTH,WINDOW_HEIGHT), "Pokemon: Thunder and Lightning", sf::Style::Default);
-    _mainWindow.setFramerateLimit(60);
+    //_mainWindow.setFramerateLimit(60);
+    _mainWindow.setVerticalSyncEnabled(true);
+    _mainWindow.setActive(true);
      
     //load initial textures
     TextureManager::loadTexture("splashScreenBackground", "assets/SplashScreen.png");
     _gameState = Game::SHOWING_SPLASH;
     tmx::MapLoader _map("./assets/");
     _map.load("testmap3.tmx");
-    
+
     _map.updateQuadTree(sf::FloatRect(0,0,WINDOW_WIDTH,WINDOW_HEIGHT));
     while(!IsExiting())
         GameLoop(_map);

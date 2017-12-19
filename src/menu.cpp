@@ -18,7 +18,9 @@ void OverviewMenu::handleEvents(sf::Event evt, sf::RenderWindow& win, MainMenuCo
             buttons[i].setClicked(win.mapPixelToCoords(mousePos));
         }
     }
-    if (buttons[0].isClicked()) { controller.changeState(MainMenuController::TO_PLAYING); }
+    if (buttons[0].isClicked()) { 
+        controller.changeState(MainMenuController::TO_ORIENTATION);
+    }
     
 }
 
@@ -41,41 +43,6 @@ void OverviewMenu::buttonSetup() {
     buttons[0].getSprite().setPosition(710, 445);
     buttons[1].getSprite().setPosition(710, 620);
     buttons[2].getSprite().setPosition(710, 810);
-    //old code please ignore
-    /*for (int i = 0; i < 3; i++) {
-        //looks
-        buttons[i].setBackgroundSize(sf::Vector2f(500, 132));
-        buttons[i].setButtonFont(FontManager::getFont("Generica"));
-        buttons[i].setTextSize(64);
-        buttons[i].setRadius(27);
-        sf::RoundedRectangleShape& background = buttons[i].getBackground(); 
-        background.setFillColor(sf::Color(46, 111, 182));
-        std::cout << "set color";
-        background.setOutlineThickness(5);
-        background.setOutlineColor(sf::Color(33, 56, 112));
-
-        switch (i) {
-            case 0:
-                buttons[i].setText("New");
-                buttons[i].setPosition(sf::Vector2f(710, 445));
-                break;
-            case 1:
-                buttons[i].setText("Load");
-                buttons[i].setPosition(sf::Vector2f(710, 620));
-                break;
-            case 2:
-                buttons[i].setText("Options");
-                buttons[i].setPosition(sf::Vector2f(710, 810));
-                break;
-            default:
-                buttons[i].setText("New");
-                buttons[i].setPosition(sf::Vector2f(710, 445));
-                break;
-        }
-        //position
-        //function states and that 
-    }*/
-
 }
 
 void MainMenuController::loop(sf::RenderWindow& window) {
@@ -93,7 +60,7 @@ void MainMenuController::loop(sf::RenderWindow& window) {
                 return;
             }
             else if (menuState == TO_ORIENTATION) {
-                Game::_gameState = Game::PLAYING;
+                Game::_gameState = Game::BATTLING;
                 return;
             }
             handleEvents(event, window);

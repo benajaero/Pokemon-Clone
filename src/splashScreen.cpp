@@ -3,6 +3,7 @@
 #include "definitions.h"
 #include "texturemanager.h"
 #include "spritemanager.h"
+#include "generalManager.h"
 #include "font_manager.h"
 #include "game.h"
 #include <cassert>
@@ -23,8 +24,13 @@ void loadFonts() {
 void loadTextures() {
     TextureManager::loadTexture("heroTexture", "assets/maleHero.png");
     TextureManager::loadTexture("PokemonBattleBackgroundNormal", "assets/PokemonBattleBackground.jpeg");
+    TextureManager::loadTexture("PokemonBattlePlatformsOriginal", "assets/battlePlatforms.png");
 }
 
+void loadIntRects() {
+    GeneralManager::newIntRect("PokemonBattlePlatformHomeGrassy", sf::IntRect(29, 18, 205, 30));
+    GeneralManager::newIntRect("PokemonBattlePlatformAwayGrassy", sf::IntRect(273, 23, 126, 34));
+}
 void loadSprites() {
     SpriteManager::newAnimatedSprite("hero");
     AnimatedSprite& heroSprite = SpriteManager::getAnimRef("hero");
@@ -46,6 +52,7 @@ void loadMaps() {
 void Load() {
     loadFonts();
     loadTextures();
+    loadIntRects();
     loadSprites();
     loadAnimations();
     loadMaps();

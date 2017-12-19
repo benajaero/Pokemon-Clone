@@ -1,7 +1,4 @@
 #include "texturemanager.h"
-#include <SFML/Graphics.hpp>
-#include <map>
-#include <string>
 
 std::map<std::string, sf::Texture> TextureManager::_textures;
 sf::Texture& TextureManager::loadTexture(std::string name, std::string filename) {

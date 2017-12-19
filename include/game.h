@@ -5,9 +5,9 @@
 #include "playing.h"
 #include "hero.h"
 #include <tmx/MapLoader.hpp>
-#include <cassert>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
+#include <cassert>
 
 
 class Game {
@@ -34,6 +34,7 @@ class Game {
         static PlayController pController;
         static GameState _gameState;
         static sf::RenderWindow _mainWindow;
+        static std::string biome;
 
         static void Start();
         static void computeFrameTime();

@@ -380,6 +380,33 @@ src/game.cpp.s:
 	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
 
+src/generalManager.o: src/generalManager.cpp.o
+
+.PHONY : src/generalManager.o
+
+# target to build an object file
+src/generalManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/generalManager.cpp.o
+.PHONY : src/generalManager.cpp.o
+
+src/generalManager.i: src/generalManager.cpp.i
+
+.PHONY : src/generalManager.i
+
+# target to preprocess a source file
+src/generalManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/generalManager.cpp.i
+.PHONY : src/generalManager.cpp.i
+
+src/generalManager.s: src/generalManager.cpp.s
+
+.PHONY : src/generalManager.s
+
+# target to generate assembly for a file
+src/generalManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Pokemon-Thunder-and-Lightning.dir/build.make CMakeFiles/Pokemon-Thunder-and-Lightning.dir/src/generalManager.cpp.s
+.PHONY : src/generalManager.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
@@ -1010,6 +1037,9 @@ help:
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
+	@echo "... src/generalManager.o"
+	@echo "... src/generalManager.i"
+	@echo "... src/generalManager.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

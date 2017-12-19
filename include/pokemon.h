@@ -43,6 +43,14 @@ typedef struct PokemonMetaData {
     std::vector<std::string> possibleAbilities;
 } PokemonMetaData;
 
+typedef struct PokemonImageData {
+    bool newFile;
+    std::string frontBattle;
+    std::string backBattle;
+    std::string pokedex;
+    std::string preview;
+} PokemonImageData;
+
 typedef struct PokemonType {
     std::string name;
     std::vector<std::string> superEffective;
@@ -65,6 +73,8 @@ class Pokemon {
         PokemonValues individualValues;
         PokemonValues currentValues;
         PokemonValues battleValues;
+
+        PokemonImageData imageData;
         
         PokemonNature _nature;
         float expPoints;

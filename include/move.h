@@ -16,7 +16,7 @@ class BattleMove {
         float accuracy; // from 0 - 1
         unsigned int power;
         unsigned int powerPointsTotal, powerPointsLeft;
-        
+        bool enabled; 
         std::function<void(Pokemon, Pokemon, BattleMove)> execute;
 };
 
